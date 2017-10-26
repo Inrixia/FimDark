@@ -7612,9 +7612,9 @@ li.chapter_publishing span.chapter_publish {
     max-width: 100%;
     margin: 5px 0;
     border: 1px solid #ddd;
-    background-color: #f8f8f8;
+    background-color: #2d2d2d;
     padding: 0 8px;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 .collapsed-image-container .user_image_link {
@@ -7627,9 +7627,9 @@ li.chapter_publishing span.chapter_publish {
 .collapsed-image-container .user_image_link:before {
     font-family: "FontAwesome";
     content: "\f03e";
-    color: #333;
+    color: #8a8a8a;
     margin-right: 0.5em;
-    font-size: .875rem
+    font-size: .875rem;
 }
 
 .comment {
@@ -7860,7 +7860,7 @@ li.chapter_publishing span.chapter_publish {
 
 .comment .comment_quote_link {
     font-weight: bold;
-    color: #333
+    color: #b3b3b3;
 }
 
 .comment .comment_quote_link:before {
@@ -18543,7 +18543,7 @@ table.properties .bbcode-editor:not([data-fullscreen]) textarea {
 
 .content_box .content_box_header h2,.user-cp-content-box .content_box_header h2 {
     font-weight: 700;
-    color: #333;
+    color: #e8e8e8;
     line-height: 60px;
     font-size: 1.4em;
     vertical-align: middle;
@@ -20559,14 +20559,14 @@ div.list_boxes ul.list .character_icon:hover {
 }
 
 .search_options label.focus>span:first-child,.search_options label.focus>span:last-child {
-    background: #FFEB89;
-    color: #60551e;
-    border-right: 1px solid #C5B151
+    background: #2f2f2f;
+    color: #c3c3c3;
+    border-right: 1px solid #383218;
 }
 
 .search_options label.focus>div {
-    background: #FFF7CF;
-    color: #60551e
+    background: #3e3e3e;
+    color: #dedede;
 }
 
 .search_options input,.search_options select {
