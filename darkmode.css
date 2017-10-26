@@ -25,6 +25,36 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     font-family: inherit;
 }
 
+.writing_guide .contents li.h1 a {
+    color: #cccccc !important;
+}
+
+.writing_guide .golden {
+    background-color: #191919 !important;
+}
+
+.writing_guide blockquote.good {
+    color: #6c8e51 !important;
+    background: #131312 !important;
+    border: 1px solid #0d0e0d !important;
+    border-left: 4px solid #131313 !important;
+}
+
+.writing_guide blockquote.bad {
+    color: #8e5151 !important;
+    background: #131212 !important;
+    border: 1px solid #0e0d0d !important;
+    border-left: 4px solid #131313 !important;
+}
+
+.writing_guide table.solid tr.odd {
+    background-color: #2b2b2b !important;
+}
+
+.writing_guide table.solid tr.even {
+    background-color: #404040 !important;
+}
+
 table {
     border-collapse: collapse
 }
@@ -4202,12 +4232,12 @@ code {
 .bbcode blockquote,.article blockquote {
     padding: 1rem;
     margin: 0.6em 0;
-    background: #f5f5f5;
+    background: #1d1d1d;
     border-radius: 5px;
     position: relative;
     display: table;
     table-layout: fixed;
-    width: 100%
+    width: 100%;
 }
 
 .bbcode blockquote[data-who]:before,.article blockquote[data-who]:before {
@@ -4217,10 +4247,10 @@ code {
     position: absolute;
     top: -20px;
     left: 0;
-    background: #f5f5f5;
+    background: #2f2f2f;
     padding: 0.5em 1.0rem;
     line-height: 1;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 .bbcode p,.bbcode .bbcode-center,.bbcode .bbcode-embed,.bbcode .embed-container,.bbcode blockquote,.bbcode hr,.bbcode ul,.bbcode ol,.bbcode h1,.bbcode h2,.bbcode h3,.bbcode h4,.bbcode h5,.bbcode h6,.bbcode pre,.bbcode .imgur-embed-iframe-pub,.bbcode .oembed,.bbcode .story-embed,.bbcode .bbcode__block,.bbcode .bbcode-right,.bbcode .excerpt,.bbcode .plaque,.bbcode figure,.bbcode .bbcode-pre-line,.bbcode .bbcode-indent-1,.bbcode .bbcode-indent-2,.bbcode .bbcode-indent-3,.bbcode .bbcode-indent-4,.article p,.article .bbcode-center,.article .bbcode-embed,.article .embed-container,.article blockquote,.article hr,.article ul,.article ol,.article h1,.article h2,.article h3,.article h4,.article h5,.article h6,.article pre,.article .imgur-embed-iframe-pub,.article .oembed,.article .story-embed,.article .bbcode__block,.article .bbcode-right,.article .excerpt,.article .plaque,.article figure,.article .bbcode-pre-line,.article .bbcode-indent-1,.article .bbcode-indent-2,.article .bbcode-indent-3,.article .bbcode-indent-4 {
@@ -4364,9 +4394,9 @@ code {
 
 .bbcode code,.article code {
     font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-    background: #fdf6e3;
+    background: #1d1d1d;
     padding: .1875rem;
-    border-radius: .3125rem
+    border-radius: .3125rem;
 }
 
 .bbcode pre,.article pre {
@@ -4377,15 +4407,15 @@ code {
 }
 
 .bbcode pre code,.article pre code {
-    background: #fdf6e3;
+    background: #191919;
     padding: 1rem;
     tab-size: 4;
-    color: #555;
+    color: #c1c1c1;
     display: block;
     position: relative;
     word-wrap: break-word;
     word-break: break-word;
-    white-space: pre-wrap
+    white-space: pre-wrap;
 }
 
 .bbcode pre code:before,.article pre code:before {
@@ -4395,11 +4425,11 @@ code {
     top: -12px;
     right: 0;
     font-size: .75rem;
-    background: #fdf6e3;
+    background: #252525;
     padding: 0.5em 1.0em;
     line-height: 1;
     border-radius: 5px;
-    content: "Code"
+    content: "Code";
 }
 
 .bbcode pre code.language-bbcode:before,.article pre code.language-bbcode:before {
@@ -4461,7 +4491,7 @@ code {
 .bbcode h1,.bbcode h2,.bbcode h3,.article h1,.article h2,.article h3 {
     font-family: "Open Sans Condensed",Arial,Sans-serif;
     font-weight: 700;
-    color: #333
+    color: #ccc9c9;
 }
 
 .bbcode h1 .fa,.bbcode h2 .fa,.bbcode h3 .fa,.article h1 .fa,.article h2 .fa,.article h3 .fa {
@@ -17436,7 +17466,7 @@ pre[class*="language-"] {
 }
 
 :not(pre)>code[class*="language-"],pre[class*="language-"] {
-    background-color: #fdf6e3
+    background-color: #1b1b1b;
 }
 
 :not(pre)>code[class*="language-"] {
@@ -21594,14 +21624,14 @@ div.list_boxes ul.list .character_icon:hover {
     font-weight: 700;
     margin-bottom: 0.5em;
     margin-top: 1.0em;
-    color: #333;
+    color: #a9a9a9;
     border-left: 4px solid #3180e6;
     padding-left: 0.5em;
-    line-height: 1.4em
+    line-height: 1.4em;
 }
 
 .faq .content_box,.faq .user-cp-content-box,.tags_information .content_box,.tags_information .user-cp-content-box,.rules .content_box,.rules .user-cp-content-box {
-    color: #555
+    color: #989898;
 }
 
 @media all and (max-width: 700px) {
