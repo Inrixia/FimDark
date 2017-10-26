@@ -3043,11 +3043,11 @@ code {
     font-size: 1.75rem;
     font-family: "Open Sans Condensed",Arial,Sans-serif;
     font-weight: 700;
-    color: #444;
+    color: #a9a7a7;
     border-bottom: 1px solid #ddd;
     position: relative;
     margin: 0 1rem;
-    padding: .8125rem 0
+    padding: .8125rem 0;
 }
 
 .content_box>h1.wide,.user-cp-content-box>h1.wide {
@@ -3118,9 +3118,9 @@ code {
     transform-origin: left top;
     border-radius: 5px;
     padding: 1px;
-    color: #555;
+    color: #dcdcdc;
     font-size: .875rem;
-    line-height: 1.5em
+    line-height: 1.5em;
 }
 
 @media all and (max-width: 1000px) {
@@ -3138,7 +3138,7 @@ code {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     border-bottom: 1px solid rgba(0,0,0,0.1);
-    background-color: #444
+    background-color: #444;
 }
 
 .bookshelf-card .top-info .button-group,.user-card .top-info .button-group {
@@ -3153,18 +3153,18 @@ code {
 .bookshelf-card .top-info .button,.user-card .top-info .button {
     box-shadow: none;
     font-weight: 600;
-    text-shadow: 1px 1px rgba(255,255,255,0.15);
+    /* text-shadow: 1px 1px rgba(255,255,255,0.15); */
     background: rgba(0,0,0,0.5);
-    border-color: rgba(0,0,0,0.1);
+    /* border-color: rgba(64, 63, 63, 0.1); */
     font-size: .875rem;
     padding: .4375rem .625rem;
-    background-color: #fff;
+    background-color: #3e3e3e;
     background-clip: padding-box;
     border-bottom: 1px solid rgba(0,0,0,0.2);
     display: inline-block;
-    color: #555;
+    color: #ccc;
     position: relative;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .bookshelf-card .top-info .button:after,.user-card .top-info .button:after {
@@ -3179,14 +3179,14 @@ code {
 }
 
 .bookshelf-card .top-info .button:hover,.user-card .top-info .button:hover {
-    background-color: #eee;
-    color: #333
+    background-color: #292929;
+    color: #e0e0e0;
 }
 
 .bookshelf-card .top-info .button:first-child,.user-card .top-info .button:first-child {
-    border-left: 1px solid rgba(0,0,0,0.2);
+    border-left: 1px solid rgba(62, 60, 60, 0.2);
     border-bottom-left-radius: 5px;
-    position: relative
+    position: relative;
 }
 
 .bookshelf-card .top-info .button:first-child:after,.user-card .top-info .button:first-child:after {
@@ -3270,7 +3270,7 @@ code {
 
 .story-page-header,.user-page-header {
     background-color: #151515;
-    color: #000000;
+    color: #d4d4d4;
     line-height: 1.8em;
     box-shadow: 0px -1px 0 #696969 inset;
     /* text-shadow:1px 1px rgba(255,255,255,0.3); */
@@ -3326,7 +3326,7 @@ code {
     border: 1px solid rgba(0,0,0,0.3);
     border-top-color: rgba(0,0,0,0.2);
     border-left-color: rgba(0,0,0,0.2);
-    background: #faf5ed;
+    background: #313131;
     font-size: 12px;
     line-height: 1.3em;
     padding: 8px;
@@ -3334,7 +3334,7 @@ code {
     display: inline-block;
     position: absolute;
     right: 0;
-    top: 0
+    top: 0;
 }
 
 .story-page-header>.inner,.user-page-header>.inner {
@@ -3355,9 +3355,9 @@ code {
 .story-page-header>.inner hr,.user-page-header>.inner hr {
     height: 0;
     border: none;
-    border-bottom: 1px solid #fef8eb;
+    border-bottom: 1px solid #8a8989;
     border-top: 1px solid #a29e96;
-    margin: 10px 0
+    margin: 10px 0;
 }
 
 .story-page-header>.inner h1,.user-page-header>.inner h1 {
@@ -9124,10 +9124,10 @@ li.chapter_publishing span.chapter_publish {
 
 .amcharts-axis-label {
     font-weight: bold;
-    fill: #000;
+    fill: #dadada;
     font-size: 14px;
     font-family: "open sans";
-    text-shadow: 0px 1px #fff, 0px -1px #fff, 1px 0px #fff, -1px 0px #fff
+    /* text-shadow: 0px 1px #fff, 0px -1px #fff, 1px 0px #fff, -1px 0px #fff */
 }
 
 .amcharts-graph-label {
@@ -12588,9 +12588,9 @@ div.staff_page h1 {
     border-radius: 5px;
     position: relative;
     padding: 5px;
-    background: #f8f8f8;
+    background: #2b2b2b;
     border: 1px solid #ccc;
-    box-shadow: 0 0 0 1px #fff inset
+    /* box-shadow: 0 0 0 1px #fff inset; */
 }
 
 .story-stats h1 .button-group {
@@ -13856,14 +13856,14 @@ div.staff_page h1 {
 
 .user-card h2 {
     text-align: left;
-    color: #444;
+    color: #cecece;
     font-family: "Open Sans Condensed",Arial,Sans-serif;
     font-weight: 700;
     font-size: 1.5em;
     border-bottom: 1px solid #ddd;
     display: block;
     padding-bottom: 10px;
-    padding-left: 5px
+    padding-left: 5px;
 }
 
 .user-card h2 a {
@@ -13871,7 +13871,7 @@ div.staff_page h1 {
 }
 
 .user-card h2 .level {
-    color: #999
+    color: #bdbdbd;
 }
 
 .user-card h2 .level.online {
@@ -13941,12 +13941,12 @@ div.staff_page h1 {
 .user-card .info {
     line-height: 1.7em;
     padding: 5px;
-    color: #555;
+    color: #afafaf;
     display: block;
     border-radius: 2px;
     box-sizing: content-box;
     overflow: hidden;
-    margin-top: 5px
+    margin-top: 5px;
 }
 
 .user-card .info p {
