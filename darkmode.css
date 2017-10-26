@@ -8441,16 +8441,16 @@ li.chapter_publishing span.chapter_publish {
 }
 
 .feed>li .comment_count {
-    background-color: #eee;
+    background-color: #1b1b1b;
     padding: .625rem;
     font-size: 0.9em;
-    color: #888;
+    color: #908e8e;
     border-radius: 4px;
-    margin-top: .625rem
+    margin-top: .625rem;
 }
 
 .feed>li .comment_count a {
-    color: #333
+    color: #a7a7a7;
 }
 
 .feed>li .story-tags {
@@ -17200,7 +17200,7 @@ body.pin_nav_bar div.page-nav-bars .pin_link {
     border-radius: 4px;
     display: inline-block;
     height: 34px;
-    background: #e8e8e8;
+    background: #2b2b2b;
     position: relative;
     box-shadow: 1px 1px 1px rgba(0,0,0,0.1) inset;
     vertical-align: middle;
@@ -17210,7 +17210,7 @@ body.pin_nav_bar div.page-nav-bars .pin_link {
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none
+    user-select: none;
 }
 
 .toggleable-radio input {
@@ -17254,7 +17254,7 @@ body.pin_nav_bar div.page-nav-bars .pin_link {
     color: #333;
     cursor: pointer;
     text-shadow: 1px 1px rgba(255,255,255,0.5);
-    border-right: 1px solid rgba(0,0,0,0.2)
+    border-right: 1px solid rgba(0,0,0,0.2);
 }
 
 .toggleable-radio label:hover {
