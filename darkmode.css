@@ -10882,9 +10882,9 @@ img.group_member_modify_level.group_member_level_selected {
 
 .private-message-list tbody td.sender a {
     font-weight: 600;
-    color: #444;
+    color: #c3c3c3;
     margin-top: 8px;
-    display: inline-block
+    display: inline-block;
 }
 
 .private-message-list tbody td.checkbox {
@@ -10901,7 +10901,7 @@ img.group_member_modify_level.group_member_level_selected {
 }
 
 .private-message-list tr {
-    background: #eee
+    background: #212121;
 }
 
 .private-message-list tr td {
@@ -10939,7 +10939,7 @@ img.group_member_modify_level.group_member_level_selected {
 
 .private-message-list .date {
     font-size: 0.9em;
-    color: #666
+    color: #a2a2a2;
 }
 
 .private-message-list .title {
@@ -10949,7 +10949,7 @@ img.group_member_modify_level.group_member_level_selected {
 }
 
 .private-message-list .short_message {
-    color: #888
+    color: #ababab;
 }
 
 .private-message-list .sender_name {
@@ -13030,9 +13030,9 @@ div.staff_page h1 {
 
 .properties input.invalid,.properties input:invalid:not(.empty) {
     padding-left: 32px !important;
-    background-color: #f3dbdb;
-    border-color: #cd9f9f;
-    background-image: url("../images/icons/error.png") !important
+    background-color: #4a4242;
+    border-color: #8e3338;
+    background-image: url("../images/icons/error.png") !important;
 }
 
 .properties .error {
@@ -13051,9 +13051,9 @@ div.staff_page h1 {
 
 .properties input.valid,.properties input:required:valid {
     padding-left: 32px !important;
-    background-color: #eef5e8;
-    border-color: #b5cd9f;
-    background-image: url("../images/icons/tick.png") !important
+    background-color: #3c3c3c;
+    border-color: #2d2d2d;
+    background-image: url("../images/icons/tick.png") !important;
 }
 
 .properties input:disabled {
@@ -13190,13 +13190,13 @@ div.staff_page h1 {
     display: block;
     border-radius: 5px;
     border: 1px solid rgba(0,0,0,0.2);
-    background: #fff;
+    background: #3c3b3b;
     background-clip: padding-box;
     padding: 2px;
     position: absolute;
     right: 8px;
     top: 7px;
-    width: 100px
+    width: 100px;
 }
 
 .properties .password-quality-meter {
@@ -14822,7 +14822,7 @@ ul.user-card-header-selection-list label {
 }
 
 ul.user-card-header-selection-list label:hover .user-card {
-    box-shadow: 0 0 0 8px #fcfbf9
+    box-shadow: 0 0 0 8px #404040;
 }
 
 ul.user-card-header-selection-list input {
@@ -14830,7 +14830,7 @@ ul.user-card-header-selection-list input {
 }
 
 ul.user-card-header-selection-list input:checked+.user-card {
-    box-shadow: 0 0 0 8px #eee9e2
+    box-shadow: 0 0 0 8px #191919;
 }
 
 ul.user-card-header-selection-list .user-card {
@@ -15021,11 +15021,11 @@ div.user_cp .message_table img.unread {
 }
 
 .user-cp-page-tabs {
-    background-color: #EEE;
+    background-color: #404040;
     border-bottom: 1px solid #ccc;
     padding-bottom: 0;
     display: table;
-    width: 100%
+    width: 100%;
 }
 
 .user-cp-page-tabs>.left {
@@ -15038,10 +15038,10 @@ div.user_cp .message_table img.unread {
     display: table-cell;
     vertical-align: top;
     padding: 10px;
-    background: #DDD;
+    background: #2b2b2b;
     border-left: 1px solid #bbb;
     width: 225px;
-    text-align: right
+    text-align: right;
 }
 
 .user-cp-page-tabs>.right i {
@@ -15074,19 +15074,19 @@ div.user_cp .message_table img.unread {
 }
 
 .user-cp-page-tabs ul li {
-    border-right: 1px solid #bbb;
-    border-top: 1px solid #bbb;
-    background-color: #DDD;
+    border-right: 1px solid #353535;
+    border-top: 1px solid #2d2d2d;
+    background-color: #232323;
     display: inline-block;
-    color: #444;
+    color: #969696;
     background: #eee;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, #eee), color-stop(100%, #ccc));
     background: -webkit-linear-gradient(top, #eee 70%, #ccc 100%);
-    background: linear-gradient(to bottom, #eee 70%, #ccc 100%)
+    background: linear-gradient(to bottom, #191919 70%, #212121 100%);
 }
 
 .user-cp-page-tabs ul li:first-child {
-    border-left: 1px solid #bbb
+    border-left: 1px solid #3c3b3b;
 }
 
 .user-cp-page-tabs ul li a {
@@ -15111,7 +15111,7 @@ div.user_cp .message_table img.unread {
 }
 
 .user-cp-page-tabs ul li a.pm_tab_selected {
-    background-color: #FFF
+    background-color: #212121;
 }
 
 .user-cp-page-tabs ul li a.pm_tab_selected:hover {
@@ -19230,13 +19230,13 @@ div.add_comment_toolbar {
 }
 
 .message,.error-message,.success-message {
-    background-color: #fffddf;
+    background-color: #191919;
     border: 1px solid rgba(0,0,0,0.2);
     margin-bottom: 5px;
     margin-top: 5px;
     padding: 10px 15px;
     color: #696415;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 .error-message {
