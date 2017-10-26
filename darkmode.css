@@ -3044,7 +3044,7 @@ code {
     font-size: 1.75rem;
     font-family: "Open Sans Condensed",Arial,Sans-serif;
     font-weight: 700;
-    color: #a9a7a7;
+    color: #cacaca;
     border-bottom: 1px solid #ddd;
     position: relative;
     margin: 0 1rem;
@@ -14263,13 +14263,13 @@ div.content div.user_page div.external_account {
 
 .bio_followers h3 {
     padding: 12px 15px;
-    background-color: #eee;
+    background-color: #1d1d1d;
     border-top: 1px solid #d6d6d6;
     border-bottom: 1px solid #d6d6d6;
     line-height: 1.0em;
-    color: #555;
+    color: #bfbfbf;
     text-shadow: 1px 1px #fafafa;
-    font-size: .875rem
+    font-size: .875rem;
 }
 
 div.user_page div.right_column div.bio_followers ul {
@@ -16802,7 +16802,7 @@ body.pin_nav_bar div.page-nav-bars .pin_link {
     font-size: .9375rem
 }
 
-@media all and (min-width: 701px) {
+@media (min-width: 701px) {
     .user-page-header .tabs li {
         display:inline-block;
     }
@@ -16855,7 +16855,7 @@ body.pin_nav_bar div.page-nav-bars .pin_link {
     }
 
     .user-page-header .tabs li a:hover {
-        background: #fff
+        background: #1f1f1f;
     }
 }
 
@@ -19797,7 +19797,7 @@ div.footer-push {
 
 div.user_page_content_box {
     margin-top: 0;
-    background-color: #FFF
+    background-color: #2d2d2d;
 }
 
 div.user_page_content_box div.content_box_header {
