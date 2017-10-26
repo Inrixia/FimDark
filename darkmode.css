@@ -15303,28 +15303,28 @@ div.user_cp .message_table img.unread {
 
 .user_toolbar>ul>li ul {
     display: none;
-    background: #fff;
+    background: #2b2b2b;
     background-clip: padding-box;
     border: 1px solid rgba(0,0,0,0.3);
-    color: #444;
+    color: #d6d6d6;
     text-shadow: none;
     font-size: .8125rem;
-    box-shadow: 3px 3px 5px rgba(0,0,0,0.2)
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
 }
 
 .user_toolbar>ul>li ul i,.user_toolbar>ul>li ul .bookshelf-icon-element {
     margin-right: .5rem;
     text-align: center;
-    color: #666;
+    color: #d4d4d4;
     font-size: .875rem;
     position: absolute;
     left: 0;
     top: 0;
     bottom: 0;
-    background: #f8f8f8;
+    background: #1f1f1f;
     line-height: 2rem;
     width: 2.1875rem;
-    border-right: 1px solid rgba(0,0,0,0.15)
+    border-right: 1px solid rgba(0,0,0,0.15);
 }
 
 .user_toolbar>ul>li ul li {
@@ -15349,14 +15349,14 @@ div.user_cp .message_table img.unread {
 
 @media all and (min-width: 701px) {
     .user_toolbar>ul>li ul li:hover>a {
-        background:#ededed;
-        color: rgba(0,0,0,0.8)
+        background: #232323;
+        color: rgba(255, 255, 255, 0.8);
     }
 
     .user_toolbar>ul>li ul li:hover>a i,.user_toolbar>ul>li ul li:hover>a .bookshelf-icon-element {
-        background: #474644;
+        background: #151313;
         color: #fff;
-        border: 1px solid rgba(0,0,0,0.15)
+        border: 1px solid rgba(0,0,0,0.15);
     }
 
     .user_toolbar>ul>li ul li:hover>a .bookshelf-icon-element:before {
@@ -15378,7 +15378,7 @@ div.user_cp .message_table img.unread {
 
 .user_toolbar>ul>li ul li.divider {
     height: 1px;
-    background: #ccc
+    background: #7d7d7d;
 }
 
 .user_toolbar>ul>li ul li ul {
@@ -16084,14 +16084,14 @@ body.pin_nav_bar div.page-nav-bars .pin_link {
     left: 0px;
     z-index: 15;
     width: 31.25rem;
-    background: #fff;
+    background: #232323;
     background-clip: padding-box;
     border: 1px solid rgba(0,0,0,0.2);
     border-top: none;
     color: #555;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
     border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px
+    border-bottom-right-radius: 5px;
 }
 
 .nav_bar .nav-bar-list>li>ul.browse-pane,.nav_bar .nav-bar-list>li .nav-bar-drop-down.browse-pane {
@@ -16102,7 +16102,7 @@ body.pin_nav_bar div.page-nav-bars .pin_link {
 }
 
 .nav_bar .nav-bar-list>li>ul.browse-pane .header,.nav_bar .nav-bar-list>li .nav-bar-drop-down.browse-pane .header {
-    color: #333;
+    color: #c7c7c7;
     font-weight: 700;
     display: block;
     margin: 0;
@@ -16111,7 +16111,7 @@ body.pin_nav_bar div.page-nav-bars .pin_link {
     font-size: 1.4em;
     border-bottom: 1px solid #ddd;
     text-shadow: none;
-    font-family: "Open Sans Condensed",Arial,Sans-serif
+    font-family: "Open Sans Condensed",Arial,Sans-serif;
 }
 
 .nav_bar .nav-bar-list>li>ul.browse-pane .section,.nav_bar .nav-bar-list>li .nav-bar-drop-down.browse-pane .section {
@@ -16164,13 +16164,13 @@ body.pin_nav_bar div.page-nav-bars .pin_link {
 }
 
 .nav_bar .nav-bar-list>li>ul.browse-pane ul li a,.nav_bar .nav-bar-list>li .nav-bar-drop-down.browse-pane ul li a {
-    color: #555;
-    text-decoration: none
+    color: #bbb;
+    text-decoration: none;
 }
 
 .nav_bar .nav-bar-list>li>ul.browse-pane ul li a:HOVER,.nav_bar .nav-bar-list>li .nav-bar-drop-down.browse-pane ul li a:HOVER {
-    color: #333;
-    text-decoration: underline
+    color: #f3f3f3;
+    text-decoration: underline;
 }
 
 @media all and (max-width: 700px) {
@@ -16212,13 +16212,13 @@ body.pin_nav_bar div.page-nav-bars .pin_link {
 
 .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li,.nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li {
     display: block;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #6b6b6b;
     padding: 8px;
     line-height: 1.5em;
     overflow: hidden;
     position: relative;
     padding-right: 80px;
-    background: #eee
+    background: #272727;
 }
 
 .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li.new,.nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li.new {
@@ -16242,7 +16242,7 @@ body.pin_nav_bar div.page-nav-bars .pin_link {
     right: 10px;
     margin-top: -7px;
     font-size: 0.9em;
-    color: #777
+    color: #bbb;
 }
 
 .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li:last-child,.nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li:last-child {
@@ -16250,8 +16250,8 @@ body.pin_nav_bar div.page-nav-bars .pin_link {
 }
 
 .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li a,.nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li a {
-    color: #333;
-    font-size: 1.1em
+    color: #d6d6d6;
+    font-size: 1.1em;
 }
 
 .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar,.nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar {
@@ -16266,7 +16266,7 @@ body.pin_nav_bar div.page-nav-bars .pin_link {
 }
 
 .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .message-content,.nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .message-content {
-    color: #aaa
+    color: #bfbfbf;
 }
 
 .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .message-content:after,.nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .message-content:after {
@@ -16374,7 +16374,7 @@ body.pin_nav_bar div.page-nav-bars .pin_link {
     white-space: nowrap;
     font-size: .8125rem;
     text-transform: uppercase;
-    font-weight: 600
+    font-weight: 600;
 }
 
 .nav_bar .nav-bar-list>li>a i {
@@ -16382,9 +16382,9 @@ body.pin_nav_bar div.page-nav-bars .pin_link {
 }
 
 .nav_bar .nav-bar-list .drop-down-footer,.nav_bar .nav-bar-list .drop-down-header {
-    background: #eee;
+    background: #232323;
     padding: 3px 8px;
-    line-height: 1
+    line-height: 1;
 }
 
 .nav_bar .nav-bar-list .drop-down-footer .styled_button,.nav_bar .nav-bar-list .drop-down-header .styled_button {
@@ -19133,8 +19133,8 @@ div.add_comment_toolbar {
 
 .button-group .drop-down ul li a:hover,.button-group-vertical .drop-down ul li a:hover,.drop-down-button .drop-down ul li a:hover {
     color: inherit;
-    background: #eee;
-    text-decoration: none
+    background: rgba(0, 0, 0, 0.28);
+    text-decoration: none;
 }
 
 .button-group .drop-down ul li.selected a,.button-group-vertical .drop-down ul li.selected a,.drop-down-button .drop-down ul li.selected a {
@@ -20554,7 +20554,9 @@ div.list_boxes ul.list .character_icon:hover {
 }
 
 .search_options select option {
-    color: #333
+    color: #c7c7c7;
+    border: none !important;
+    background-color: #353535 !important;
 }
 
 @media all and (max-width: 700px) {
