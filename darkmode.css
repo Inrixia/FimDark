@@ -3583,7 +3583,7 @@ code {
     padding: 0.5em 1.0em;
     background: #292b2d;
     color: #e4e4e4;
-    box-shadow: 0 1px 0 #79838c inset;
+    box-shadow: 0 1px 0 #191b1d inset;
     text-shadow: -1px -1px rgba(0,0,0,0.2);
     border-radius: .25rem;
     line-height: 1.3em;
@@ -7202,12 +7202,12 @@ select[name=colour_scheme] option[value=solarized_dark] {
 
 .chapter_footer {
     padding: 10px;
-    color: #333;
+    color: #b5b3b3;
     font-weight: 600;
     font-size: 0.8em;
-    border-top: 1px solid #ccc;
-    background-color: #eee;
-    text-align: center
+    border-top: 1px solid #383838;
+    background-color: #272727;
+    text-align: center;
 }
 
 .content .content_box .main .chapter textarea,.content .user-cp-content-box .main .chapter textarea {
@@ -12142,14 +12142,14 @@ div.staff_page h1 {
 }
 
 .story-card .story-card__info {
-    background: #EEE8E2;
+    background: #292929;
     line-height: 1.0em;
     font-size: 0.8em;
     padding: 0.7em 0.8em;
-    color: #5A5551;
+    color: #bbb9b6;
     margin-top: 7px;
     display: block;
-    border-radius: 2px
+    border-radius: 2px;
 }
 
 .story-card .story-card__info .story-card__author {
@@ -12848,7 +12848,7 @@ div.staff_page h1 {
 }
 
 .properties>tr:nth-child(odd) td.label,.properties>tbody>tr:nth-child(odd) td.label {
-    background-color: #e8e8e8
+    background-color: #252525;
 }
 
 .properties>tr:last-child td,.properties>tbody>tr:last-child td {
@@ -12864,7 +12864,7 @@ div.staff_page h1 {
     margin: 0;
     border-bottom: 1px solid #e8e8e8;
     line-height: 2.0em;
-    background-color: #fdfdfd
+    background-color: #1f1f1f;
 }
 
 .properties td .small {
@@ -12876,13 +12876,13 @@ div.staff_page h1 {
 
 .properties td.label {
     width: 25%;
-    background-color: #eee;
-    color: #555;
+    background-color: #2f2f2f;
+    color: #d0cfcf;
     line-height: 1.7em;
     border-right: 1px solid #ccc;
     text-align: right;
     padding-right: 1.25rem;
-    border-bottom: 1px solid #ddd
+    border-bottom: 1px solid #ddd;
 }
 
 .properties td.label img {
@@ -13540,7 +13540,7 @@ div.staff_page h1 {
 
 .toolbar {
     display: table;
-    background: #eee;
+    background: #2f2f2f;
     width: 100%;
     font-size: .875rem;
     padding: 0.5em;
@@ -13548,7 +13548,7 @@ div.staff_page h1 {
     border-top: 1px solid rgba(0,0,0,0.15);
     margin-top: -1px;
     position: relative;
-    background-clip: padding-box
+    background-clip: padding-box;
 }
 
 .toolbar .cell {
@@ -13590,11 +13590,11 @@ div.staff_page h1 {
 .toolbar .cell>ul>li>a {
     display: block;
     color: inherit;
-    background: #fff;
+    background: #1b1b1b;
     line-height: 1;
     padding: 0.6em 1em;
     text-decoration: none;
-    border: 1px solid rgba(0,0,0,0.2)
+    border: 1px solid rgba(0,0,0,0.2);
 }
 
 @media all and (max-width: 400px) {
@@ -13608,7 +13608,7 @@ div.staff_page h1 {
 }
 
 .toolbar .cell>ul>li>a:hover {
-    background: #ddd
+    background: #292929;
 }
 
 @media all and (min-width: 701px) {
@@ -17648,7 +17648,7 @@ body.loading {
 }
 
 a {
-    color: #507e2c;
+    color: #59902e;
     text-decoration: none;
     cursor: pointer;
 }
@@ -17721,12 +17721,12 @@ body.pin_nav_bar div.pin_nav_bar_spacer {
 }
 
 .bbcode-editor {
-    background: #eee;
-    font-size: 1.0rem
+    background: #191919;
+    font-size: 1.0rem;
 }
 
 .bbcode-editor .format-toolbar {
-    background: #fff
+    background: #292929;
 }
 
 .bbcode-editor textarea {
@@ -17793,7 +17793,7 @@ body.pin_nav_bar div.pin_nav_bar_spacer {
 }
 
 .bbcode-editor[data-fullscreen] {
-    background: #eee9e2;
+    background: #333333;
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -17801,7 +17801,7 @@ body.pin_nav_bar div.pin_nav_bar_spacer {
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0
+    right: 0;
 }
 
 .bbcode-editor[data-fullscreen] .format-toolbar {
@@ -17822,9 +17822,9 @@ body.pin_nav_bar div.pin_nav_bar_spacer {
     margin: auto;
     flex-grow: 1;
     max-width: 62.5rem;
-    border-left: 1px solid #cac6c0;
-    border-right: 1px solid #cac6c0;
-    background: #fff
+    border-left: 1px solid #313131;
+    border-right: 1px solid #313131;
+    background: #212121;
 }
 
 @media all and (min-width: 701px) {
@@ -18619,20 +18619,20 @@ div.content_box_header div.right img {
 }
 
 div.add_comment_toolbar {
-    background: #f8f8f8;
+    background: #2f2f2f;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f8f8f8), color-stop(100%, #f2f2f2));
     background: -webkit-linear-gradient(top, #f8f8f8 0%, #f2f2f2 100%);
-    background: linear-gradient(to bottom, #f8f8f8 0%, #f2f2f2 100%);
+    background: linear-gradient(to bottom, #444444 0%, #2f2f2f 100%);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    box-shadow: 0 1px 0 #fff inset;
+    box-shadow: 0 1px 0 #232323 inset;
     border-top: 1px solid #ccc;
     padding: 5px 10px;
-    font-size: 0.9em
+    font-size: 0.9em;
 }
 
 .add_comment textarea {
-    background-color: #fff;
+    background-color: #232323;
     padding: 10px;
     border: none;
     width: 100%;
@@ -18640,11 +18640,11 @@ div.add_comment_toolbar {
     font-family: "Open Sans",Arial,Sans-serif;
     font-size: 14px;
     line-height: 1.8em;
-    color: #555;
+    color: #d8d8d8;
     display: block;
     min-height: 200px;
     height: 50vh;
-    resize: vertical
+    resize: vertical;
 }
 
 @media all and (min-width: 701px) {
@@ -21090,13 +21090,13 @@ div.list_boxes ul.list .character_icon:hover {
 .format-toolbar {
     white-space: pre;
     background: #fff;
-    box-shadow: 0 1px #fff inset;
-    color: #333;
+    box-shadow: 0 1px #292626 inset;
+    color: #c3c3c3;
     text-shadow: 1px 1px rgba(255,255,255,0.15);
     padding: .3125rem;
     border-bottom: 1px solid rgba(0,0,0,0.2);
     line-height: 0;
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 
 .format-toolbar .button-group {
@@ -21173,14 +21173,14 @@ div.list_boxes ul.list .character_icon:hover {
 .format-toolbar .emoji-selector .emoji-selector__list>li.emoji-selector__header {
     font-weight: 600;
     line-height: 2.5em;
-    background: #eee;
+    background: #232222;
     text-align: center;
     text-transform: capitalize;
     display: block;
     margin: 14px -8px;
     width: auto;
-    border-bottom: 1px solid #ddd;
-    border-top: 1px solid #ddd
+    border-bottom: 1px solid #171616;
+    border-top: 1px solid #2b2b2b;
 }
 
 .format-toolbar .emoji-selector .emoji-selector__list>li.emoji-selector__header:hover {
@@ -21193,9 +21193,9 @@ div.list_boxes ul.list .character_icon:hover {
 }
 
 .format-toolbar .emoji-selector .emoji-selector__list>li:hover {
-    background: #eee;
+    background: #212121;
     border-radius: 4px;
-    box-shadow: 0 0 0 3px #eee
+    box-shadow: 0 0 0 3px #191818;
 }
 
 .format-toolbar .emoji-selector .emoji-selector__list>li img.emoji {
@@ -21218,35 +21218,35 @@ div.list_boxes ul.list .character_icon:hover {
 .format-toolbar .emoji-selector .emoji-selector__search {
     padding: 0.5rem;
     border-bottom: 1px solid rgba(0,0,0,0.2);
-    background: #f8f8f8;
+    background: #464646;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f8f8f8), color-stop(100%, #eee));
     background: -webkit-linear-gradient(top, #f8f8f8 0%, #eee 100%);
-    background: linear-gradient(to bottom, #f8f8f8 0%, #eee 100%);
-    box-shadow: 0 1px 0 #fff inset,0 0 5px rgba(0,0,0,0.2)
+    background: linear-gradient(to bottom, #272727 0%, #212121 100%);
+    box-shadow: 0 1px 0 #1b1b1b inset, 0 0 5px rgba(0,0,0,0.2);
 }
 
 .format-toolbar .emoji-selector .emoji-selector__tabs {
     display: flex;
     flex-direction: row;
     padding: 0;
-    border-top: 1px solid rgba(0,0,0,0.2);
-    background: #f8f8f8;
-    box-shadow: 0 0 5px rgba(0,0,0,0.2);
-    line-height: 1
+    /* border-top: 1px solid rgba(0,0,0,0.2); */
+    background: black !important;
+    /* box-shadow: 0 0 5px rgba(0,0,0,0.2); */
+    line-height: 1;
 }
 
 .format-toolbar .emoji-selector .emoji-selector__tabs li {
-    background: #f8f8f8;
+    background: #505050;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f8f8f8), color-stop(100%, #eee));
     background: -webkit-linear-gradient(top, #f8f8f8 0%, #eee 100%);
-    background: linear-gradient(to bottom, #f8f8f8 0%, #eee 100%);
-    box-shadow: 0 1px 0 #fff inset;
+    background: linear-gradient(to bottom, #333333 0%, #212121 100%);
+    box-shadow: 0 1px 0 #3c3c3c inset;
     border-right: 1px solid rgba(0,0,0,0.15);
     padding: 10px 0;
     flex-grow: 1;
     text-align: center;
     font-size: 20px;
-    transition: box-shadow 0.15s, background 0.15s
+    transition: box-shadow 0.15s, background 0.15s;
 }
 
 .format-toolbar .emoji-selector .emoji-selector__tabs li img {
@@ -21256,16 +21256,16 @@ div.list_boxes ul.list .character_icon:hover {
 }
 
 .format-toolbar .emoji-selector .emoji-selector__tabs li:hover {
-    background: #eee;
+    background: #2f2f2f;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eee), color-stop(100%, #ddd));
     background: -webkit-linear-gradient(top, #eee 0%, #ddd 100%);
-    background: linear-gradient(to bottom, #eee 0%, #ddd 100%);
-    cursor: pointer
+    background: linear-gradient(to bottom, #252525 0%, #191818 100%);
+    cursor: pointer;
 }
 
 .format-toolbar .emoji-selector .emoji-selector__tabs li.selected {
     box-shadow: 0 2px 4px 0px rgba(0,0,0,0.3) inset;
-    background: #555
+    background: #212121;
 }
 
 .format-toolbar .emoji-selector .emoji-selector__tabs li:first-child {
@@ -21331,7 +21331,8 @@ div.list_boxes ul.list .character_icon:hover {
     line-height: 0;
     position: relative;
     padding: 0;
-    font-size: 14px
+    /* color: white !important; */
+    font-size: 14px;
 }
 
 .format-toolbar .toolbar_buttons .toolbar_buttons {
@@ -21383,8 +21384,8 @@ div.list_boxes ul.list .character_icon:hover {
 .format-toolbar .toolbar_buttons>li>a:hover,.format-toolbar .toolbar_buttons>li>button:hover {
     border: 1px solid rgba(0,0,0,0.2);
     background-clip: padding-box;
-    background: #eee;
-    box-shadow: 0 0 0 1px #fff inset
+    background: #232222;
+    box-shadow: 0 0 0 1px #1f1f1f inset;
 }
 
 @media all and (max-width: 700px) {
