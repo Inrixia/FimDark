@@ -11718,7 +11718,8 @@ div.staff_page h1 {
 
 .story_container .chapters>li {
     position: relative;
-    background-color: #f6f6f6
+    background-color: #1b1b1b;
+    border-bottom: 1px solid  #353535;
 }
 
 .story_container .chapters>li .read-progress {
@@ -11735,8 +11736,8 @@ div.staff_page h1 {
     padding: 10px;
     padding-left: 16px;
     padding-right: 100px;
-    color: #888;
-    border-bottom: 1px solid rgba(0,0,0,0.15);
+    color: #9c9c9c;
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .story_container .chapters>li.dragging {
