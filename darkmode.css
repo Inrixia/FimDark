@@ -5631,13 +5631,13 @@ code {
     line-height: 30px;
     border-radius: 4px;
     overflow: hidden;
-    background: #fff;
+    background: #2f2f2f;
     text-align: center;
     font-size: 1.45em;
     display: inline-block;
     vertical-align: middle;
     text-shadow: none;
-    margin-right: 6px
+    margin-right: 6px;
 }
 
 .bookshelves-popup-list object {
@@ -5871,12 +5871,12 @@ div.browse_page tr.story_item span.info img.character_icon {
 }
 
 .aggregate-tags {
-    border: 1px solid #ccc;
+    border: 1px solid #060606;
     padding: 2px;
     border-radius: 3px;
     margin-bottom: 10px;
-    background: #f8f8f8;
-    font-size: .8125rem
+    background: #1b1b1b;
+    font-size: .8125rem;
 }
 
 .aggregate-tags:empty {
@@ -5884,7 +5884,7 @@ div.browse_page tr.story_item span.info img.character_icon {
 }
 
 .aggregate-tags li {
-    color: rgba(0,0,0,0.75);
+    color: rgba(214, 214, 214, 0.75);
     font-weight: 600;
     vertical-align: top;
     margin-right: 0;
@@ -5892,7 +5892,7 @@ div.browse_page tr.story_item span.info img.character_icon {
     border-bottom: 1px solid rgba(0,0,0,0.15);
     position: relative;
     padding-right: 32px;
-    padding-left: 6px
+    padding-left: 6px;
 }
 
 .aggregate-tags li:last-child {
@@ -5966,9 +5966,9 @@ div.browse_page tr.story_item span.info img.character_icon {
 }
 
 .aggregate-tags li .include {
-    color: #649546;
+    color: #66a93c;
     background-color: #d8e8ce;
-    border: 1px solid #b8c5af
+    border: 1px solid #b8c5af;
 }
 
 .aggregate-tags li .include:before {
@@ -17519,8 +17519,8 @@ u {
 
 @media all and (min-width: 701px) {
     body * ::-webkit-scrollbar-track {
-        background-color:#eee;
-        box-shadow: 0 0 5px rgba(0,0,0,0.3) inset
+        background-color: #868585;
+        box-shadow: 0 0 5px rgba(0,0,0,0.3) inset;
     }
 
     body * ::-webkit-scrollbar {
@@ -17530,7 +17530,7 @@ u {
     }
 
     body * ::-webkit-scrollbar-thumb {
-        background-color: #aaa
+        background-color: #4c4c4c;
     }
 
     body * ::-webkit-scrollbar-thumb:hover {
@@ -17571,7 +17571,7 @@ body {
     font-size: 100%;
     height: 100%;
     background-color: #eee9e2;
-    text-decoration-skip: ink
+    text-decoration-skip: ink;
 }
 
 span.dataspan {
@@ -18928,7 +18928,7 @@ div.add_comment_toolbar {
     color: #303030;
     /* text-shadow: 1px 1px #000000; */
     background: #191818;
-    color: #cacaca;
+    color: #d4d4d4;
 }
 
 .styled_button.styled_button_white .fa {
@@ -18937,22 +18937,22 @@ div.add_comment_toolbar {
 
 .styled_button.styled_button_white:HOVER {
     color: #303030;
-    box-shadow: 0 1px #fff inset;
-    border-color: #e6e6e6;
+    /* box-shadow: 0 1px #fff inset; */
+    /* border-color: #e6e6e6; */
     border-bottom-color: #d9d9d9;
     border-top-color: #f2f2f2;
     text-shadow: 1px 1px #fff;
-    background: #fff
+    background: #fff;
 }
 
 .styled_button.styled_button_white:ACTIVE {
-    box-shadow: 0 3px 5px #d6d6d6 inset;
-    border-color: #d6d6d6;
+    /* box-shadow: 0 3px 5px #d6d6d6 inset; */
+    /* border-color: #d6d6d6; */
     border-bottom-color: #e2e2e2;
     border-top-color: #cacaca;
     text-shadow: -1px -1px #d6d6d6;
     text-shadow: 1px 1px #fafafa;
-    background: #eee
+    background: #eee;
 }
 
 .styled_button.styled_button_dark_red {
@@ -20599,13 +20599,13 @@ div.list_boxes ul.list .character_icon:hover {
 }
 
 .drop-down-pop-up-container .drop-down-pop-up {
-    background: #fff;
+    background: #1f1e1e;
     border: 1px solid rgba(0,0,0,0.3);
     background-clip: padding-box;
-    color: #555;
+    color: #d0d0d0;
     width: 200px;
     border-top-left-radius: 6px;
-    border-top-right-radius: 6px
+    border-top-right-radius: 6px;
 }
 
 .drop-down-pop-up-container .drop-down-pop-up>h1 {
@@ -20655,7 +20655,7 @@ div.list_boxes ul.list .character_icon:hover {
 .drop-down-pop-up-container .drop-down-pop-up .std label {
     padding: 0.5em;
     display: block;
-    border-bottom: 1px solid #ddd
+    border-bottom: 1px solid #ddd;
 }
 
 .drop-down-pop-up-container .drop-down-pop-up .std label i,.drop-down-pop-up-container .drop-down-pop-up .std label img {
@@ -20672,20 +20672,20 @@ div.list_boxes ul.list .character_icon:hover {
     padding: 0.5em;
     width: 100%;
     border: 1px solid rgba(0,0,0,0.2);
-    background: #f8f8f8;
+    background: #2d2d2d;
     outline: none;
-    color: #333;
+    color: #a2a2a2;
     border-radius: 3px;
     vertical-align: middle;
-    font-size: inherit
+    font-size: inherit;
 }
 
 .drop-down-pop-up-container .drop-down-pop-up .std input[type="text"]:FOCUS,.drop-down-pop-up-container .drop-down-pop-up .std input[type="url"]:FOCUS,.drop-down-pop-up-container .drop-down-pop-up .std input[type="email"]:FOCUS,.drop-down-pop-up-container .drop-down-pop-up .std select:FOCUS {
-    background-color: #FFECB2;
+    background-color: #1f1f1f;
     border-color: rgba(0,0,0,0.2);
     text-shadow: none;
-    color: #4d4735;
-    box-shadow: 1px 1px 2px rgba(0,0,0,0.1) inset
+    color: #a9a9a9;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.1) inset;
 }
 
 .drop-down-pop-up-container .drop-down-pop-up .std input[type="text"]:disabled,.drop-down-pop-up-container .drop-down-pop-up .std input[type="url"]:disabled,.drop-down-pop-up-container .drop-down-pop-up .std input[type="email"]:disabled,.drop-down-pop-up-container .drop-down-pop-up .std select:disabled {
@@ -20707,7 +20707,7 @@ div.list_boxes ul.list .character_icon:hover {
 .drop-down-pop-up-container .drop-down-pop-up .std ul li {
     display: block;
     text-shadow: none;
-    border-bottom: 1px solid #ddd
+    border-bottom: 1px solid #5d5d5d;
 }
 
 .drop-down-pop-up-container .drop-down-pop-up .std ul li:last-child {
@@ -20730,8 +20730,8 @@ div.list_boxes ul.list .character_icon:hover {
 }
 
 .drop-down-pop-up-container .drop-down-pop-up .std ul li a:hover {
-    background-color: #fffdd8;
-    color: #33332b
+    background-color: #252525;
+    color: #f3f3e9;
 }
 
 @media all and (max-height: 700px) {
@@ -20783,12 +20783,12 @@ div.list_boxes ul.list .character_icon:hover {
 }
 
 .drop-down-pop-up-container .drop-down-pop-up .drop-down-pop-up-footer,.drop-down-pop-up-container .drop-down-pop-up .drop-down-pop-up-footer-right {
-    background: #d8d8d8;
+    background: #1f1f1f;
     border-top: 1px solid rgba(0,0,0,0.2);
     font-size: 13px;
     line-height: 1.5em;
-    color: #555;
-    padding: 10px
+    color: #c1c1c1;
+    padding: 10px;
 }
 
 .drop-down-pop-up-container .drop-down-pop-up .drop-down-pop-up-footer .styled_button,.drop-down-pop-up-container .drop-down-pop-up .drop-down-pop-up-footer-right .styled_button {
