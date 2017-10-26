@@ -13,9 +13,6 @@
 .user_toolbar > ul > li:hover{background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 50%); 
 .user_toolbar > ul > li{text-shadow: 1px 1px rgba(0,0,0,0.3);}}
 
-html,body{background-color: #151515;} .content_box, .user-cp-content-box, .bookshelf-card, .user-card, .list_boxes .groups ul li a, .list_boxes .blog_posts>ul>li, .api-content-box, .list_boxes .bookshelves li.selected, .list_boxes .bookshelves .bookshelf-icon, div.search_results_count, .comment .data, .comment .avatar, .feed>li, .feed>li .avatar, .front_page .featured_box, .group_list .icon, .thread_list table td .avatar, .thread_list table td .group-icon, .member_list table td img.avatar, .group-card, .private-message-list .avatar, .statistics .graph, .story_content_box, .story_container img.story_avatar, .story-card, .thumbnail-story-list li .item, .properties .characters label div, .tag-page .related-characters li a, .tag-header, .tag-header .image img, .user_cp .tabs img, .user_cp .tabs .tab-collection, div.user_cp .message_table img.avatar, .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar, .story-page-header .image-container img, .user-page-header .avatar-container img, .page_list, .page_list_info, .adsbygoogle, .hfksjdhfksjd, .pw-ad-box table, .private_messages .previous_message .avatar{background-color: #212121; border: none;} .content_box, .user-cp-content-box, .bookshelf-card, .user-card, .list_boxes .groups ul li a, .list_boxes .blog_posts>ul>li, .api-content-box, .list_boxes .bookshelves li.selected, .list_boxes .bookshelves .bookshelf-icon, div.search_results_count, .comment .data, .comment .avatar, .feed>li, .feed>li .avatar, .front_page .featured_box, .group_list .icon, .thread_list table td .avatar, .thread_list table td .group-icon, .member_list table td img.avatar, .group-card, .private-message-list .avatar, .statistics .graph, .story_content_box, .story_container img.story_avatar, .story-card, .thumbnail-story-list li .item, .properties .characters label div, .tag-page .related-characters li a, .tag-header, .tag-header .image img, .user_cp .tabs img, .user_cp .tabs .tab-collection, div.user_cp .message_table img.avatar, .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar, .story-page-header .image-container img, .user-page-header .avatar-container img, .page_list, .page_list_info, .adsbygoogle, .hfksjdhfksjd, .pw-ad-box table, .private_messages .previous_message .avatar{color:bbb;} .story_container .chapters>li{background-color: #2d2d2d; !important} .story_container .chapters{border:none;} .story_container .story_container__story_image img{background-color: #525252;} .story-page-header>.inner h1, .user-page-header>.inner h1{color:#ececec;} .story_container, .title, .story_name{color: #e4e4e4 !important;} .story_container .chapters-footer{background-color: #353535;} .user_toolbar>ul{padding-left:19rem;}.user_toolbar>ul>li:after{background:linear-gradient(to bottom, rgba(71,125,210,0) 0%, rgba(191, 191, 191, 0.32) 50%, rgba(71,125,210,0) 100%);} .user_toolbar>ul>li:before{background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0) 100%);} .user_toolbar > ul > li:hover{background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 50%); .user_toolbar > ul > li{text-shadow: 1px 1px rgba(0,0,0,0.3);}}
-
-
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dd,dl,dt,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,bdi,details,dialog,figcaption,figure,footer,header,main,mark,nav,section,summary,time,wbr {
     margin: 0;
     padding: 0;
@@ -3583,8 +3580,8 @@ code {
     font-weight: normal;
     border: 1px solid #565d63;
     padding: 0.5em 1.0em;
-    background: #373c42;
-    color: #fff;
+    background: #292b2d;
+    color: #e4e4e4;
     box-shadow: 0 1px 0 #79838c inset;
     text-shadow: -1px -1px rgba(0,0,0,0.2);
     border-radius: .25rem;
@@ -10059,7 +10056,7 @@ img.group_member_modify_level.group_member_level_selected {
     overflow: hidden;
     font-size: 0.9em;
     line-height: 1.6em;
-    color: #a7a7a7;
+    color: #9c9c9c;
 }
 
 .group-card .group-card-founder a {
@@ -10097,7 +10094,7 @@ img.group_member_modify_level.group_member_level_selected {
     font-family: "Open Sans Condensed",Arial,Sans-serif;
     font-weight: 700;
     font-size: 1.5em;
-    color: #cecece;
+    color: #c5c5c5;
 }
 
 .group-card .group-name a {
@@ -10166,7 +10163,7 @@ img.group_member_modify_level.group_member_level_selected {
     display: block;
     font-size: 1.1em;
     font-weight: 600;
-    color: #b1b1b1;
+    color: #bdbdbd;
 }
 
 .group-card .bottom-links a .annotation {
