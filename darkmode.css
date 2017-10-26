@@ -1,8 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
+    /* box-sizing: border-box; */
+    box-shadow: none;
+    text-shadow: none!important;
     -ms-box-sizing: border-box;
     -o-box-sizing: border-box;
 }
@@ -3138,7 +3139,7 @@ code {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     border-bottom: 1px solid rgba(0,0,0,0.1);
-    background-color: #444;
+    background-color: #191919 !important;
 }
 
 .bookshelf-card .top-info .button-group,.user-card .top-info .button-group {
@@ -3207,13 +3208,13 @@ code {
     box-sizing: content-box;
     width: 96px;
     padding: 3px;
-    background: #fff;
+    background: transparent;
     border-right: 1px solid rgba(0,0,0,0.2);
     border-bottom: 1px solid rgba(0,0,0,0.2);
     background-clip: padding-box;
     left: 10px;
     transition: transform .15s;
-    transition-delay: .15s
+    transition-delay: .15s;
 }
 
 .bookshelf-card .card-content,.user-card .card-content {
@@ -3322,10 +3323,10 @@ code {
 }
 
 .story-page-header .mini-info-box,.user-page-header .mini-info-box {
-    background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,0.3);
-    border-top-color: rgba(0,0,0,0.2);
-    border-left-color: rgba(0,0,0,0.2);
+    /* background-clip: padding-box; */
+    /* border: 1px solid rgba(0,0,0,0.3); */
+    /* border-top-color: rgba(0,0,0,0.2); */
+    /* border-left-color: rgba(0,0,0,0.2); */
     background: #313131;
     font-size: 12px;
     line-height: 1.3em;
@@ -9128,6 +9129,7 @@ li.chapter_publishing span.chapter_publish {
     font-size: 14px;
     font-family: "open sans";
     /* text-shadow: 0px 1px #fff, 0px -1px #fff, 1px 0px #fff, -1px 0px #fff */
+    text-shadow: none !important;
 }
 
 .amcharts-graph-label {
@@ -12590,7 +12592,8 @@ div.staff_page h1 {
     padding: 5px;
     background: #2b2b2b;
     border: 1px solid #ccc;
-    /* box-shadow: 0 0 0 1px #fff inset; */
+    box-shadow: 0 0 0 1px #fff inset;
+    box-shadow: none !important;
 }
 
 .story-stats h1 .button-group {
