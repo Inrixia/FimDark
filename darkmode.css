@@ -25920,15 +25920,15 @@ code {
 
 .list_boxes .blog_posts .blog_post_link {
     font-weight: 600;
-    color: #555;
-    font-size: 1.2em
+    color: #a9a9a9;
+    font-size: 1.2em;
 }
 
 .list_boxes .blog_posts .blog_post_preview {
-    color: #555;
+    color: #9e9e9e;
     overflow: hidden;
     font-size: 0.9em;
-    position: relative
+    position: relative;
 }
 
 .list_boxes .blog_posts .blog_post_preview.has-more:after {
