@@ -3214,10 +3214,11 @@ code {
     font-weight: 600;
     /* text-shadow: 1px 1px rgba(255,255,255,0.15); */
     background: rgba(0,0,0,0.5);
-    /* border-color: rgba(64, 63, 63, 0.1); */
+    border-color: rgba(19, 19, 19, 0.92);
     font-size: .875rem;
     padding: .4375rem .625rem;
     background-color: #3e3e3e;
+    /* border-left: 1px solid black !important; */
     background-clip: padding-box;
     border-bottom: 1px solid rgba(0,0,0,0.2);
     display: inline-block;
@@ -3234,7 +3235,7 @@ code {
     top: 0;
     bottom: 0;
     width: 1px;
-    background: #ddd
+    background: #272727;
 }
 
 .bookshelf-card .top-info .button:hover,.user-card .top-info .button:hover {
@@ -3243,7 +3244,8 @@ code {
 }
 
 .bookshelf-card .top-info .button:first-child,.user-card .top-info .button:first-child {
-    border-left: 1px solid rgba(62, 60, 60, 0.2);
+    /* border-right: 1px solid black !important; */
+    border-left: 1px solid rgba(62, 62, 62, 0.93);
     border-bottom-left-radius: 5px;
     position: relative;
 }
@@ -3253,7 +3255,7 @@ code {
 }
 
 .bookshelf-card .top-info .button i,.user-card .top-info .button i {
-    color: inherit !important
+    color: inherit !important;
 }
 
 .bookshelf-card .avatar,.user-card .avatar {
@@ -3285,14 +3287,14 @@ code {
 
 .bookshelf-card h2,.user-card h2 {
     text-align: left;
-    color: #444;
+    color: #a5a5a5;
     font-family: "Open Sans Condensed",Arial,Sans-serif;
     font-weight: 700;
     font-size: 1.5em;
     border-bottom: 1px solid #ddd;
     display: block;
     padding-bottom: 10px;
-    padding-left: 5px
+    padding-left: 5px;
 }
 
 .bookshelf-card h2 .fa,.user-card h2 .fa {
@@ -4531,7 +4533,7 @@ code {
     font-size: 1.7em;
     line-height: 1.0em;
     border-bottom: 1px solid #ddd;
-    padding-bottom: 0.5em
+    padding-bottom: 0.5em;
 }
 
 .bbcode h2,.article h2 {
@@ -4707,7 +4709,7 @@ code {
 }
 
 .bbcode .story-card .story-card__info,.article .story-card .story-card__info {
-    background: #eee
+    background: #333333;
 }
 
 .bbcode img.emoji,.article img.emoji {
@@ -5178,14 +5180,14 @@ code {
 
 .bookshelf-card .stories i {
     margin-right: 5px;
-    color: #777
+    color: #9a9a9a;
 }
 
 .bookshelf-card .stories li {
-    background: #eee;
-    border-bottom: 1px solid #ddd;
+    background: #272727;
+    border-bottom: 1px solid #4e4e4e;
     padding: 3px 8px;
-    line-height: 1.8em
+    line-height: 1.8em;
 }
 
 .bookshelf-card .stories li a {
@@ -6114,10 +6116,10 @@ div.browse_page tr.story_item span.info img.character_icon {
 div.search_results_count {
     float: right;
     font-size: 0.9em;
-    color: rgba(0,0,0,0.8);
+    color: rgba(185, 185, 185, 0.8);
     margin: 5px 0;
     padding: 8px 12px;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 .content_format_wob .paragraph-options {
@@ -11718,8 +11720,7 @@ div.staff_page h1 {
 
 .story_container .chapters>li {
     position: relative;
-    background-color: #1b1b1b;
-    border-bottom: 1px solid  #353535;
+    background-color: #f6f6f6
 }
 
 .story_container .chapters>li .read-progress {
@@ -11736,8 +11737,8 @@ div.staff_page h1 {
     padding: 10px;
     padding-left: 16px;
     padding-right: 100px;
-    color: #9c9c9c;
-    border-bottom: 1px solid rgb(255, 255, 255);
+    color: #888;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
 }
 
 .story_container .chapters>li.dragging {
@@ -13116,7 +13117,7 @@ div.staff_page h1 {
 }
 
 .properties input:disabled {
-    background-color: #e5e5e5
+    background-color: #484848;
 }
 
 .properties input[type="radio"] {
@@ -15258,9 +15259,9 @@ div.user_cp .message_table img.unread {
     border-radius: 5px;
     position: relative;
     padding: 5px;
-    background: #f8f8f8;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 0 1px #fff inset
+    background: #2b2b2b;
+    border: 1px solid #6d6d6d;
+    box-shadow: 0 0 0 1px #272727 inset;
 }
 
 .user-stats .chart:first-child {
@@ -17789,7 +17790,7 @@ body.pin_nav_bar div.pin_nav_bar_spacer {
 }
 
 .bbcode-editor textarea {
-    background-color: #fff;
+    background-color: #404040;
     background-image: linear-gradient(rgba(0,0,0,0.08), transparent 4px);
     border: none;
     padding: 1.0rem;
@@ -17799,7 +17800,7 @@ body.pin_nav_bar div.pin_nav_bar_spacer {
     width: 100%;
     outline: none;
     text-shadow: none;
-    resize: vertical
+    resize: vertical;
 }
 
 .bbcode-editor .bbcode-preview {
@@ -18388,7 +18389,7 @@ table.properties .bbcode-editor:not([data-fullscreen]) textarea {
 }
 
 .blog-post-content-box .blog_post_content {
-    color: #555
+    color: #b1b1b1;
 }
 
 @media all and (max-width: 700px) {
@@ -18407,11 +18408,11 @@ table.properties .bbcode-editor:not([data-fullscreen]) textarea {
     line-height: 1.4em;
     font-size: 0.8em;
     margin-top: 2.0em;
-    color: #5A5551;
+    color: #a0a0a0;
     display: block;
-    background: #f1f1f1;
+    background: #333333;
     padding: 0.6em 1.0em;
-    border-radius: 3px
+    border-radius: 3px;
 }
 
 .blog-post-content-box .information_box a {
@@ -19273,13 +19274,13 @@ div.add_comment_toolbar {
     text-align: center;
     font-weight: 600;
     font-size: 22px;
-    color: #333;
-    background-color: #FFF;
+    color: #bdbdbd;
+    background-color: #212121;
     padding-top: 10px;
     padding-bottom: 10px;
     border: 1px solid #cac6c0;
     border-top: none;
-    border-bottom-left-radius: 4px
+    border-bottom-left-radius: 4px;
 }
 
 .calendar .day .year {
