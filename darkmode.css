@@ -37,7 +37,7 @@ html,body{background-color: #151515 !important;}
 
 .story_container .story_container__story_image img{background-color: #525252 !important;} 
 
-.story-page-header>.inner h1, .user-page-header>.inner h1{color:#ececec !important;} 
+.story-page-header>.inner h1, .user-page-header>.inner h1{color: #d2d2d2 !important;} 
 
 .story_container, .title, .story_name{color: #b5b5b5 !important;} 
 
@@ -7848,8 +7848,8 @@ li.chapter_publishing span.chapter_publish {
 }
 
 .comment .comment_information .buttons a:hover {
-    background-color: #eee;
-    color: #333
+    background-color: #fff;
+    color: #333;
 }
 
 .comment .comment_information .buttons a span {
@@ -7948,7 +7948,7 @@ li.chapter_publishing span.chapter_publish {
         white-space: pre;
         overflow: hidden;
         text-overflow: ellipsis;
-        text-decoration: none
+        text-decoration: none;
     }
 
     .comment .author .name i {
