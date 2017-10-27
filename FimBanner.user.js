@@ -7,8 +7,8 @@
 // @match        http://tampermonkey.net/index.php?version=4.4&ext=dhdg&updated=true
 // @grant        none
 // @require http://code.jquery.com/jquery-1.12.4.min.js
-// @include http://fimfiction.net/*
-// @include https://fimfiction.net/*
+// @include http://www.fimfiction.net/*
+// @include https://www.fimfiction.net/*
 // ==/UserScript==
 
 
