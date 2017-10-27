@@ -30299,10 +30299,10 @@ li.chapter_publishing span.chapter_publish {
 
 .feed>li .feed_body {
     margin-top: .625rem;
-    color: #555;
+    color: #ababab;
     overflow: hidden;
     line-height: 1.6em;
-    font-size: .9375em
+    font-size: .9375em;
 }
 
 .feed>li .feed_body ul.group_stories {
@@ -39174,15 +39174,15 @@ body.pin_nav_bar div.page-nav-bars .pin_link {
     vertical-align: top;
     line-height: 32px;
     height: 32px;
-    color: #333;
+    color: #cacaca;
     cursor: pointer;
     text-shadow: 1px 1px rgba(255,255,255,0.5);
     border-right: 1px solid rgba(0,0,0,0.2);
 }
 
 .toggleable-radio label:hover {
-    background: #fff;
-    text-shadow: 1px 1px rgba(255,255,255,0.2)
+    background: #424242;
+    text-shadow: 1px 1px rgba(255,255,255,0.2);
 }
 
 .toggleable-radio label:first-of-type {
@@ -39198,12 +39198,12 @@ body.pin_nav_bar div.page-nav-bars .pin_link {
 }
 
 .toggleable-radio input:checked+label {
-    color: #fff;
+    color: #d0d0d0;
     text-shadow: -1px -1px rgba(0,0,0,0.1);
     font-weight: 600;
     z-index: 2;
     border-right: none;
-    border-left: none
+    border-left: none;
 }
 
 .toggleable-radio input:checked+label:hover {
@@ -40810,16 +40810,16 @@ div.add_comment_toolbar {
 }
 
 .styled_button.styled_button_brown {
-    box-shadow: 0 1px #efe7dc inset;
-    border: 1px solid #c3bdb4;
+    box-shadow: 0 1px #333333 inset;
+    border: 1px solid #191919;
     color: #2b2a28;
     text-shadow: 1px 1px #e4ddd2;
-    background: #d9d2c8;
-    color: #575450
+    background: #2d2d2d;
+    color: #bbbbbb;
 }
 
 .styled_button.styled_button_brown .fa {
-    color: #6d6964
+    color: #bbbbbb;
 }
 
 .styled_button.styled_button_brown:HOVER {
