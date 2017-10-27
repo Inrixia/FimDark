@@ -8,6 +8,8 @@
 // @grant        none
 // @require http://code.jquery.com/jquery-1.12.4.min.js
 // @run-at document-body
+// @include http://fimfiction.net/*
+// @include https://fimfiction.net/*
 // ==/UserScript==
 
 
