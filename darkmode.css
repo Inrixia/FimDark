@@ -4028,8 +4028,8 @@ code {
 
 .list_boxes .blog_posts .blog_post_link {
     font-weight: 600;
-    color: #555;
-    font-size: 1.2em
+    color: #b7b6b6;
+    font-size: 1.2em;
 }
 
 .list_boxes .blog_posts .blog_post_preview {
@@ -4084,14 +4084,14 @@ code {
 }
 
 .list_boxes .blog_posts>ul>li .info {
-    background: #EEE8E2;
+    background: #171717;
     line-height: 1.0em;
     font-size: 0.8em;
     padding: 7px 10px;
-    color: #5A5551;
+    color: #adadad;
     margin-top: 7px;
     display: block;
-    border-radius: 2px
+    border-radius: 2px;
 }
 
 .list_boxes .stories .story-card-list>li {
