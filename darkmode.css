@@ -3943,12 +3943,12 @@ code {
     display: inline-block;
     font-size: 13px;
     vertical-align: middle;
-    color: #666;
+    color: #b1b1b1;
     padding-left: 5px;
     overflow: hidden;
     max-height: 48px;
     line-height: 16px;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .list_boxes .groups ul li a img,.list_boxes .groups ul li a i {
