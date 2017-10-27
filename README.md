@@ -1,6 +1,7 @@
 # Inrixia.github.io
 A Dark Theme
 
+Important:Make sure you have tampermonkey installed on your browser to use these. 
 
 This is just a dark theme for Fim and a Banner that lets people set their own images.
 
