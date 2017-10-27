@@ -42772,13 +42772,13 @@ div.list_boxes ul.list .character_icon:hover {
 }
 
 .private_messages .previous_message {
-    background-color: #f8f8f8;
+    background-color: #313131;
     font-weight: 600;
     border-bottom: 1px solid #ddd;
     text-decoration: none;
     overflow: hidden;
     padding: 1.0em;
-    transition: background 2s
+    transition: background 2s;
 }
 
 .private_messages .previous_message.highlighted {
@@ -42787,14 +42787,14 @@ div.list_boxes ul.list .character_icon:hover {
 }
 
 .private_messages .previous_message .message_content {
-    background-color: #FFF;
+    background-color: #3e3e3e;
     font-weight: normal;
     padding: 0.8em 1.0em;
-    border: 1px solid #ccc;
+    border: 1px solid #3e3e3e;
     border-radius: 5px;
     line-height: 1.7em;
     margin-left: 90px;
-    position: relative
+    position: relative;
 }
 
 .private_messages .previous_message .message_content .message-header {
@@ -42820,11 +42820,11 @@ div.list_boxes ul.list .character_icon:hover {
     position: absolute;
     top: 10px;
     left: -10px;
-    border-right: 10px solid #ccc;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
+    border-right: 10px solid #3e3e3e;
+    border-top: 10px solid #3e3e3e;
+    border-bottom: 10px solid #3e3e3e;
     width: 0;
-    height: 0
+    height: 0;
 }
 
 .private_messages .previous_message .message_content .arrow:before {
@@ -42833,11 +42833,11 @@ div.list_boxes ul.list .character_icon:hover {
     position: absolute;
     left: 1px;
     top: -10px;
-    border-right: 10px solid #FFF;
+    border-right: 10px solid #3e3e3e;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     width: 0;
-    height: 0
+    height: 0;
 }
 
 .private_messages .previous_message .avatar {
