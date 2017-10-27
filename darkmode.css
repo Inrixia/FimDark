@@ -39,7 +39,7 @@ html,body{background-color: #151515 !important;}
 
 .story-page-header>.inner h1, .user-page-header>.inner h1{color:#ececec !important;} 
 
-.story_container, .title, .story_name{color: #e4e4e4 !important;} 
+.story_container, .title, .story_name{color: #b5b5b5 !important;} 
 
 .story_container .chapters-footer{background-color: #353535 !important;} 
 
@@ -3640,7 +3640,7 @@ code {
     border: 1px solid #565d63;
     padding: 0.5em 1.0em;
     background: #292b2d;
-    color: #e4e4e4;
+    color: #d8d8d8;
     box-shadow: 0 1px 0 #191b1d inset;
     text-shadow: -1px -1px rgba(0,0,0,0.2);
     border-radius: .25rem;
