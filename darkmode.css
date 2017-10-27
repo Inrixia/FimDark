@@ -151,7 +151,7 @@ code {
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .fa-lg {
@@ -3467,7 +3467,7 @@ code {
 }
 
 .folder_list table tr,.member_list table tr,.group_list table tr,.thread_list table tr,.private-message-list tr {
-    background-color: #fff
+    background-color: #252525;
 }
 
 .folder_list table tr.header,.member_list table tr.header,.group_list table tr.header,.thread_list table tr.header,.private-message-list tr.header,.folder_list table thead,.member_list table thead,.group_list table thead,.thread_list table thead,.private-message-list thead {
@@ -3482,13 +3482,13 @@ code {
     border: 1px solid #51575e;
     border-left: none;
     padding: .25rem .9375rem;
-    background: #656d75;
-    color: #fdffff;
-    box-shadow: 0 1px 0 #79838c inset;
+    background: #1d1d1d;
+    color: #bfbfbf;
+    box-shadow: 0 1px 0 #252525 inset;
     text-shadow: -1px -1px rgba(0,0,0,0.2);
     line-height: 2.5625rem;
     font-family: "Open Sans",Arial,Sans-serif;
-    position: relative
+    position: relative;
 }
 
 .folder_list table tr.header td:first-child,.member_list table tr.header td:first-child,.group_list table tr.header td:first-child,.thread_list table tr.header td:first-child,.private-message-list tr.header td:first-child,.folder_list table thead td:first-child,.member_list table thead td:first-child,.group_list table thead td:first-child,.thread_list table thead td:first-child,.private-message-list thead td:first-child {
@@ -3569,8 +3569,8 @@ code {
     vertical-align: middle;
     border-bottom: 1px solid rgba(0,0,0,0.15);
     border-right: 1px solid rgba(0,0,0,0.15);
-    color: #666;
-    line-height: 1.5em
+    color: #cacaca;
+    line-height: 1.5em;
 }
 
 .folder_list table tbody td a,.member_list table tbody td a,.group_list table tbody td a,.thread_list table tbody td a,.private-message-list tbody td a {
@@ -3613,12 +3613,12 @@ code {
 }
 
 .folder_list table tr,.member_list table tr,.group_list table tr {
-    background-color: #fff
+    background-color: #3c3c3c;
 }
 
 @media all and (min-width: 701px) {
     .folder_list table tr:nth-child(odd),.member_list table tr:nth-child(odd),.group_list table tr:nth-child(odd) {
-        background-color:#f8f8f8
+        background-color: #353535;
     }
 }
 
@@ -9299,7 +9299,7 @@ li.chapter_publishing span.chapter_publish {
 .group-header .group-header-base .group_name {
     font-size: 2.4em;
     font-weight: 700;
-    color: #333;
+    color: #e2e2e2;
     font-family: "Open Sans Condensed",Arial,Sans-serif;
     display: inline-block;
     text-overflow: ellipsis;
@@ -9309,7 +9309,7 @@ li.chapter_publishing span.chapter_publish {
     position: absolute;
     top: 0;
     left: 0;
-    right: 1.0em
+    right: 1.0em;
 }
 
 .group-header .menu {
@@ -9325,11 +9325,11 @@ li.chapter_publishing span.chapter_publish {
 
 .group-header .menu .buttons li {
     display: inline-block;
-    border-right: 1px solid #ddd
+    border-right: 1px solid #797979;
 }
 
 .group-header .menu .buttons li:last-child {
-    border-right: 0
+    border-right: 0;
 }
 
 .group-header .menu .buttons li a {
@@ -9341,12 +9341,12 @@ li.chapter_publishing span.chapter_publish {
     text-decoration: none;
     text-align: center;
     font-size: 1.3125rem;
-    color: #333;
-    line-height: 20px
+    color: #c7c7c7;
+    line-height: 20px;
 }
 
 .group-header .menu .buttons li a:hover {
-    background: #eee
+    background: #1b1b1b;
 }
 
 .group-header .menu .buttons li a span.small {
@@ -9574,15 +9574,15 @@ div.group select {
 }
 
 .thread_list table tr.new {
-    background-color: #fffdeb;
-    box-shadow: 7px 0px 0px #f5de20 inset,8px 0px 0px #ddc81d inset
+    background-color: #353535;
+    box-shadow: 7px 0px 0px #f5de20 inset,8px 0px 0px #ddc81d inset;
 }
 
 .thread_list table td a.thread-title {
     font-family: "Open Sans Condensed",Arial,Sans-serif;
     font-weight: 700;
-    color: #555;
-    font-size: 1.3em
+    color: #9c9c9c;
+    font-size: 1.3em;
 }
 
 @media all and (max-width: 700px) {
@@ -17965,8 +17965,8 @@ table.properties .bbcode-editor:not([data-fullscreen]) textarea {
         display: block;
         padding: 0.65em 0.7em;
         border-right: 1px solid rgba(0,0,0,0.13);
-        color: #666;
-        text-decoration: none
+        color: #c7c7c7;
+        text-decoration: none;
     }
 
     .page_list>ul>li.last>a,.page_list>ul>li:last-child>a,.page_list_info>ul>li.last>a,.page_list_info>ul>li:last-child>a {
@@ -18352,13 +18352,13 @@ table.properties .bbcode-editor:not([data-fullscreen]) textarea {
 
 .content-box-footer {
     border-top: 1px solid #ddd;
-    background: #eee;
+    background: #333;
     padding: 0.5em 1.0em;
     color: #555;
     font-size: .875rem;
     line-height: 1.7em;
     border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px
+    border-bottom-right-radius: 5px;
 }
 
 .blog-post-content-box {
@@ -21042,7 +21042,7 @@ div.list_boxes ul.list .character_icon:hover {
 
 .breadcrumbs li {
     display: inline;
-    color: rgba(0,0,0,0.7)
+    color: rgba(224, 224, 224, 0.7);
 }
 
 .breadcrumbs li:after {
@@ -21052,7 +21052,7 @@ div.list_boxes ul.list .character_icon:hover {
     margin-right: 4px;
     font-size: 0.6em;
     vertical-align: middle;
-    color: rgba(0,0,0,0.3)
+    color: rgba(214, 214, 214, 0.3);
 }
 
 .breadcrumbs li:last-child:after {
