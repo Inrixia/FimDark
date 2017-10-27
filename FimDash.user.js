@@ -16,7 +16,7 @@
 
     // Only center on the homepage. Everything else left aligns
     //if (window.location.pathname != '/'){
-    //    $('.user_toolbar>ul').css('padding-left','7.5rem !important');
+    //    $('.user_toolbar>ul').css('padding-left','7.5rem','!important');
     //}
 
     // Change the background of the nav bar to whatever you want just replace red.
