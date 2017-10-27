@@ -14929,12 +14929,12 @@ ul.user-card-header-selection-list .user-card {
     border: 1px solid #434549;
     padding: 0 1.0em;
     background: #4f5156;
-    color: #edf3ff;
+    color: #ececec;
     line-height: 2.5625rem;
     font-family: "Open Sans",Arial,Sans-serif;
     position: relative;
     border-top-left-radius: 5px;
-    border-top-right-radius: 5px
+    border-top-right-radius: 5px;
 }
 
 .user_cp .tabs h1 i {
