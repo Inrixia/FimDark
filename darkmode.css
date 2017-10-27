@@ -11174,9 +11174,9 @@ img.group_member_modify_level.group_member_level_selected {
     border-radius: 5px;
     position: relative;
     padding: 5px;
-    background: #f8f8f8;
+    background: #252525;
     border: 1px solid #ccc;
-    box-shadow: 0 0 0 1px #fff inset
+    box-shadow: 0 0 0 1px #1d1d1d inset;
 }
 
 .site-stats .chart>div {
@@ -11720,7 +11720,8 @@ div.staff_page h1 {
 
 .story_container .chapters>li {
     position: relative;
-    background-color: #f6f6f6
+    background-color: #252525;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 .story_container .chapters>li .read-progress {
@@ -18996,13 +18997,13 @@ div.add_comment_toolbar {
 }
 
 .styled_button.styled_button_white:HOVER {
-    color: #303030;
+    color: #3c3c3c;
     /* box-shadow: 0 1px #fff inset; */
     /* border-color: #e6e6e6; */
     border-bottom-color: #d9d9d9;
-    border-top-color: #f2f2f2;
+    border-top-color: #464646;
     text-shadow: 1px 1px #fff;
-    background: #fff;
+    background: #ffffff;
 }
 
 .styled_button.styled_button_white:ACTIVE {
@@ -19977,7 +19978,8 @@ a.userlink {
     top: 0;
     bottom: 0;
     width: 40px;
-    overflow: hidden
+    overflow: hidden;
+    display: none;
 }
 
 .sidebar-shadow div.light-gradient,.sidebar-shadow div.dark-gradient {
@@ -19998,7 +20000,7 @@ a.userlink {
 
 .sidebar-shadow div.light-gradient {
     left: 0;
-    background: rgba(255,255,255,0);
+    background: rgba(255, 255, 255, 0);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(80px, #fff));
     background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, #fff 80px);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #565656 80px);
@@ -20013,17 +20015,17 @@ a.userlink {
 
 .sidebar-shadow div.dark-gradient {
     left: 1px;
-    background: transparent;
+    background: rgba(0, 0, 0, 0.54);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, transparent), color-stop(80px, rgba(0,0,0,0.25)));
-    background: -webkit-linear-gradient(top, transparent 0%, rgba(0,0,0,0.25) 80px);
-    background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.25) 80px);
+    /* background: -webkit-linear-gradient(top, transparent 0%, rgba(0,0,0,0.25) 80px); */
+    /* background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.25) 80px); */
 }
 
 .sidebar-shadow div.dark-gradient:before {
-    background: rgba(0,0,0,0.25);
+    background: rgba(199, 199, 199, 0.25);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,0,0,0.25)), color-stop(80px, transparent));
     background: -webkit-linear-gradient(top, rgba(0,0,0,0.25) 0%, transparent 80px);
-    background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, transparent 80px)
+    background: linear-gradient(to bottom, rgba(173, 173, 173, 0.25) 0%, rgba(255, 255, 255, 0) 80px);
 }
 
 .sidebar-shadow:before {
@@ -20332,21 +20334,22 @@ div.list_boxes ul.list .character_icon:hover {
 
 .site-post-tags.generic_content_box_content a {
     display: inline-block;
-    color: #555;
-    background: #eee;
+    color: #929292;
+    background: #272727;
     padding: 5px 10px;
     font-weight: 600;
     font-size: 0.9em;
     width: 100%;
-    border-bottom: 1px solid #ddd
+    border-bottom: 1px solid #ddd;
 }
 
 .site-post-tags.generic_content_box_content a:hover {
-    background: #ddd;
+    background: #1f1f1f;
     border-top: 1px solid;
     border-color: #ccc;
     text-decoration: none;
-    margin-top: -1px
+    margin-top: -1px;
+    color: #cacaca;
 }
 
 .site-post-tags.generic_content_box_content a:last-child {
@@ -20585,7 +20588,7 @@ div.list_boxes ul.list .character_icon:hover {
 }
 
 .search_options label.focus {
-    border-color: #D5C162
+    border-color: #D5C162;
 }
 
 .search_options label.focus>span:first-child,.search_options label.focus>span:last-child {
@@ -20595,7 +20598,7 @@ div.list_boxes ul.list .character_icon:hover {
 }
 
 .search_options label.focus>div {
-    background: #3e3e3e;
+    background: #353535;
     color: #dedede;
 }
 
