@@ -17,7 +17,7 @@
     //Uncomment lines 18 and 27 to Only show banner on the homepage. Everything else is default
     //if (window.location.pathname == '/'){
     //-------------------------------------------------------------------------------------------vv Here is the url that you need to change to change the picture!
-    $(".page-nav-bars").append('<div><a href="/" class="home_link" style="background-image: url(https://github.com/Inrixia/Inrixia.github.io/raw/master/MiPpYJx.jpg);width: 100%;position: absolute;height: 300px;background-position: center top;background-size: cover;"></a><div style="height: 260px;"></div></div>');
+    $(".page-nav-bars").append('<div><a href="/" class="home_link" style="background-image: url(https://github.com/Inrixia/Inrixia.github.io/raw/master/REPLACE_THIS_URL.png);width: 100%;position: absolute;height: 300px;background-position: center top;background-size: cover;"></a><div style="height: 260px;"></div></div>');
     //-------------------------------------------------------------------------------------------^^ Here is the url that you need to change to change the picture!
     
     
