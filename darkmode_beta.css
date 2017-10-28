@@ -1435,6 +1435,6 @@ box-shadow: none;
 	
 background: #131313;
 }
-.properties .password-quality-meter-container{
-	background: #272727;
+.generic_content_box_content{
+	color: #adadad;
 }
