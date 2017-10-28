@@ -19,7 +19,7 @@ body
     background-color: #36393d;
 }
 
-.add_comment textarea, .content_box>h1, .user-cp-content-box>h1, .content_box, .user-cp-content-box, .bookshelf-card, .user-card, .list_boxes .groups ul li a, .list_boxes .blog_posts>ul>li, .api-content-box, .list_boxes .bookshelves li.selected, .list_boxes .bookshelves .bookshelf-icon, div.search_results_count, .comment .data, .comment .avatar, .feed>li, .feed>li .avatar, .front_page .featured_box, .group_list .icon, .thread_list table td .avatar, .thread_list table td .group-icon, .member_list table td img.avatar, .group-card, .private-message-list .avatar, .statistics .graph, .story_content_box, .story_container img.story_avatar, .story-card, .thumbnail-story-list li .item, .properties .characters label div, .tag-page .related-characters li a, .tag-header, .tag-header .image img, .user_cp .tabs img, .user_cp .tabs .tab-collection, div.user_cp .message_table img.avatar, .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar, .story-page-header .image-container img, .user-page-header .avatar-container img, .page_list, .page_list_info, .adsbygoogle, .hfksjdhfksjd, .pw-ad-box table, .private_messages .previous_message .avatar, .front_page .featured_box .description, .front_page .featured_box .left ul li, .currently-reading-list .title, .front_page .featured_box .title a, .styled_button.styled_button_blue, .story-page-header, .user-page-header, .story-page-header>.inner h1, .user-page-header>.inner h1
+.add_comment textarea, .content_box>h1, .user-cp-content-box>h1, .content_box, .user-cp-content-box, .bookshelf-card, .user-card, .list_boxes .groups ul li a, .list_boxes .blog_posts>ul>li, .api-content-box, .list_boxes .bookshelves li.selected, .list_boxes .bookshelves .bookshelf-icon, div.search_results_count, .comment .data, .comment .avatar, .feed>li, .feed>li .avatar, .front_page .featured_box, .group_list .icon, .thread_list table td .avatar, .thread_list table td .group-icon, .member_list table td img.avatar, .group-card, .private-message-list .avatar, .statistics .graph, .story_content_box, .story_container img.story_avatar, .story-card, .thumbnail-story-list li .item, .user-page-header .tabs li a, .user-page-header .tabs li a .number, .properties .characters label div, .tag-page .related-characters li a, .tag-header, .tag-header .image img, .user_cp .tabs img, .user_cp .tabs .tab-collection, div.user_cp .message_table img.avatar, .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar, .story-page-header .image-container img, .user-page-header .avatar-container img, .page_list, .page_list_info, .adsbygoogle, .hfksjdhfksjd, .pw-ad-box table, .private_messages .previous_message .avatar, .front_page .featured_box .description, .front_page .featured_box .left ul li, .currently-reading-list .title, .front_page .featured_box .title a, .styled_button.styled_button_blue, .story-page-header, .user-page-header, .story-page-header>.inner h1, .user-page-header>.inner h1
 {
     color: #c5c6c7;
 }
@@ -91,7 +91,7 @@ div.add_comment_toolbar
 
 .sidebar-shadow div.light-gradient, .topbar-shadow div.light-gradient
 {
-        background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #292b2e 80px);
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #292b2e 80px);
 }
 
 .sidebar-shadow div.light-gradient:before
@@ -104,6 +104,13 @@ div.add_comment_toolbar
     background: #36393d;
     text-shadow: 0px 0px rgba(255,255,255,0.3);
     border-bottom: 2px solid #292b2e;
+    box-shadow: 0px -1px 0 #292b2e inset;
+}
+
+.story-page-header>.inner hr, .user-page-header>.inner hr
+{
+    border-bottom: 2px solid #3d4045;
+    border-top: 0px solid #a29e96;
 }
 
 .styled_button.styled_button_blue
@@ -145,4 +152,16 @@ div.add_comment_toolbar
 {
     background: #2a2b2e;
     text-shadow: -1px -1px #292b2e;
+}
+
+.user-page-header .tabs li a
+{
+    background: #51575e;
+    text-shadow: 0px 0px rgba(255,255,255,0.4);
+    border: 1px solid #2a2c30;
+}
+
+.story-card .story-card__info
+{
+    color: #55575c
 }
