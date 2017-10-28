@@ -10030,7 +10030,7 @@ img.group_member_modify_level.group_member_level_selected {
     color: #dad9d9;
     border: 1px solid #212121;
     background-color: #3e3e3e;
-    text-shadow: none;
+    text-shadow: 1px 1px rgba(255,255,255,0.8);
 }
 .properties input:focus,.properties select:focus {
     background-color: #2f2f2f;
@@ -10042,7 +10042,6 @@ img.group_member_modify_level.group_member_level_selected {
 .properties input[type="text"] {
     background-image: none;
     background-repeat: no-repeat;
-    text-shadow: none;
 }
 .properties input.invalid,.properties input:invalid:not(.empty) {
     background-color: #f3dbdb;
@@ -10498,7 +10497,7 @@ ul.user-card-header-selection-list label:hover .user-card {
     box-shadow: 0 0 0 8px #fcfbf9
 }
 ul.user-card-header-selection-list input:checked+.user-card {
-    box-shadow: 0 0 0 8px #eee9e2
+    box-shadow: 0 0 0 8px #2b2b2b;
 }
 .user_cp {
     color: #514d43
