@@ -1,6 +1,6 @@
 # A Dark Theme
 
-![The Theme](https://camo.derpicdn.net/035bf41541cc8c83bb27eeb45abba77ecccc9007?url=https%3A%2F%2Fi.imgur.com%2FWyRb4Ax.png)
+![The Theme](https://i.gyazo.com/94ea3ad1034eed9cfa2781c9f453474b.png)
 
 ### Basic Useful Info:
 
