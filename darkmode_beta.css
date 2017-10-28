@@ -25,9 +25,6 @@ html,body{background-color: #151515 !important;}
 a {
     color: #4f8822;
 }
-* {
-    text-shadow: none !important;
-}
 .writing_guide .golden {
     background-color: #191919 !important;
 }
@@ -2367,13 +2364,8 @@ img.group_member_modify_level.group_member_level_selected {
     background: #fff
 }
 @media all and (min-width: 701px) {
-        .group-card-list {
-        }
-        .group-card-list>li {
-        }
-        .group-card-list>li .group-card {
-            max-width: none;
-        }
+    .group-card-list>li .group-card {
+        max-width: none;
     }
 }
 .group-card-mobile {
@@ -2509,7 +2501,6 @@ img.group_member_modify_level.group_member_level_selected {
 .navigation-drawer-container {
     background: transparent;
 }
-}
 .navigation-drawer {
     min-width: 280px;
     max-width: 340px;
@@ -2527,7 +2518,7 @@ img.group_member_modify_level.group_member_level_selected {
     background: #1da1ff;
 }
 .navigation-drawer .profile .avatar {
-    border: 2px solid #fff
+    border: 2px solid #fff;
 }
 .navigation-drawer .profile .sub-header {
     color: #fff;
@@ -2938,7 +2929,6 @@ img.group_member_modify_level.group_member_level_selected {
 .story_container .chapters>li .word_count a {
     color: inherit
 }
-}
 .story_container .story_container__story_image .source {
     background-color: #fff;
     color: #333;
@@ -3059,9 +3049,8 @@ img.group_member_modify_level.group_member_level_selected {
         background-color: #eee
     }
 }
-}
 .story-list {
-    color: #555
+    color: #555;
 }
 .story-list>li {
     background: #fff;
@@ -3395,27 +3384,6 @@ img.group_member_modify_level.group_member_level_selected {
     border: 1px solid rgba(0,0,0,0.15);
     box-shadow: 0 1px 0 rgba(255,255,255,0.1) inset;
     text-shadow: -1px -1px rgba(0,0,0,0.3);
-}
-    border: 1px solid rgba(0,0,0,0.2);
-    background: #fff;
-}
-    border: 1px solid rgba(0,0,0,0.2);
-    visibility: hidden
-}
-    background: #f00;
-    visibility: visible
-}
-    background: #F97B21;
-    visibility: visible
-}
-    background: #F3C41B;
-    visibility: visible
-}
-    background: #b7b74d;
-    visibility: visible
-}
-    background: #01B903;
-    visibility: visible
 }
 .trending-tags li {
     color: #fff;
@@ -3917,9 +3885,7 @@ div.user_cp .message_table tr.unread td {
     color: #777;
 }
 .user-cp-page-tabs>.right input {
-    :
-    background-color: #464646
-    border:;
+    background-color: #464646;
     background-color: #484848;
     border: 1px solid #2d2d2d;
     color: #bbbbbb;
@@ -4164,7 +4130,6 @@ div.user_cp .message_table tr.unread td {
         background: -webkit-linear-gradient(top, rgba(0,0,0,0.1) 0%, transparent 100%);
         background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, transparent 100%)
     }
-    }
     .story-page-mobile .comment_content_box {
         border-top: 1px solid rgba(0,0,0,0.15)
     }
@@ -4200,11 +4165,6 @@ div.user_cp .message_table tr.unread td {
     }
     .story-page-mobile .story_container .story-top-toolbar .bookshelves li.unselected {
         background: transparent !important
-    }
-        .story-page-mobile .story_container .story-top-toolbar .bookshelves {
-        }
-        .story-page-mobile .story_container .story-top-toolbar .bookshelves li {
-        }
     }
     .story-page-mobile .story_container .story-top-toolbar .right {
         background: #fff;
@@ -4405,7 +4365,6 @@ body.pin_nav_bar div.page-nav-bars {
     .nav_bar .nav-bar-list>li>a {
         color: #fff
     }
-}
 }
 .story-page-header .image-container img {
     background: #fff;
@@ -4656,8 +4615,6 @@ body.pin_nav_bar div.page-nav-bars {
 code[class*="language-"],pre[class*="language-"] {
     color: #657b83;
 }
-    background: #073642
-}
 pre[class*="language-"]::selection,pre[class*="language-"] ::selection,code[class*="language-"]::selection,code[class*="language-"] ::selection {
     background: #073642
 }
@@ -4710,10 +4667,6 @@ u {
         background-color: #777
     }
 }
-@media all and (max-width: 700px) {
-        -webkit-text-size-adjust:none
-    }
-}
 body {
     background-color: #eee9e2;
     text-decoration-skip: ink;
@@ -4721,7 +4674,7 @@ body {
 .user_image {
     max-width: 100%;
     max-height: 600px;
-    border: 0
+    border: 0;
 }
 .user_image[data-expanded=true] {
     max-width: 100% !important;
@@ -7307,11 +7260,6 @@ div.list_boxes div.content_box div.main,div.list_boxes div.user-cp-content-box d
 .story-top-toolbar .bookshelves li.loading {
     background: none;
 }
-.story-top-toolbar .bookshelves li span {
-    :
-    font-variant:
-    font-size:;
-}
 .story-top-toolbar .bookshelves li span:before {
     color: #adacac;
 }
@@ -8145,7 +8093,6 @@ select[name=colour_scheme] option[value=solarized_dark] {
 .chapter .message,.chapter .error-message,.chapter .success-message {
     color: #333
 }
-}
 .chapter p.reading,.chapter pre.reading {
     background-color: #ffff88
 }
@@ -8758,9 +8705,6 @@ select[name=colour_scheme] option[value=solarized_dark] {
     text-shadow: 1px 1px #FDE8E4;
     border-color: #ba867d
 }
-    border-left: none;
-    border-right: 1px solid #a19881
-}
 .front_page div.story {
     background-color: #FFF;
     color: #555;
@@ -9104,15 +9048,8 @@ img.group_member_modify_level.group_member_level_selected {
     background: #fff
 }
 @media all and (min-width: 701px) {
-        .group-card-list {
-        }
-        .group-card-list>li {
-        }
-        .group-card-list>li .group-card {
-            max-width: none;
-        }
-        .group-card-list>li .group-card .group-card-content {
-        }
+    .group-card-list>li .group-card {
+        max-width: none;
     }
 }
 .group-card-mobile {
@@ -9307,7 +9244,6 @@ img.group_member_modify_level.group_member_level_selected {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,0,0,0.1)), color-stop(100%, transparent));
     background: -webkit-linear-gradient(top, rgba(0,0,0,0.1) 0%, transparent 100%);
     background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, transparent 100%)
-}
 }
 .notifications-list>li.expanded .notification-primary:after {
     background: rgba(0,0,0,0.1);
@@ -9623,9 +9559,8 @@ img.group_member_modify_level.group_member_level_selected {
 .story_container .title .story_name {
     color: #333
 }
-}
 .story_container .description_full {
-    max-height: none !important
+    max-height: none !important;
 }
 .story_container .more_button {
     background: #555;
@@ -9677,7 +9612,6 @@ img.group_member_modify_level.group_member_level_selected {
 }
 .story_container .chapters>li .word_count a {
     color: inherit
-}
 }
 .story_container .story_container__story_image .source {
     background-color: #fff;
@@ -9798,7 +9732,6 @@ img.group_member_modify_level.group_member_level_selected {
     .story-card-list .story-card .story-card__info {
         background-color: #eee
     }
-}
 }
 .story-list {
     color: #555
@@ -10066,7 +9999,6 @@ img.group_member_modify_level.group_member_level_selected {
 .properties td.info_box div {
     max-height: 400px;
     overflow-y: scroll
-}
 }
 .properties .characters {
     color: #555;
@@ -10879,7 +10811,6 @@ div.user_cp .message_table tr.unread td {
         background: -webkit-linear-gradient(top, rgba(0,0,0,0.1) 0%, transparent 100%);
         background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, transparent 100%)
     }
-    }
     .story-page-mobile .comment_content_box {
         border-top: 1px solid rgba(0,0,0,0.15)
     }
@@ -10915,11 +10846,6 @@ div.user_cp .message_table tr.unread td {
     }
     .story-page-mobile .story_container .story-top-toolbar .bookshelves li.unselected {
         background: transparent !important
-    }
-        .story-page-mobile .story_container .story-top-toolbar .bookshelves {
-        }
-        .story-page-mobile .story_container .story-top-toolbar .bookshelves li {
-        }
     }
     .story-page-mobile .story_container .story-top-toolbar .right {
         background: #fff;
@@ -11120,7 +11046,6 @@ body.pin_nav_bar div.page-nav-bars {
     .nav_bar .nav-bar-list>li>a {
         color: #fff
     }
-}
 }
 .story-page-header .image-container img {
     background: #fff;
@@ -11372,10 +11297,8 @@ body.pin_nav_bar div.page-nav-bars {
 code[class*="language-"],pre[class*="language-"] {
     color: #657b83;
 }
-    background: #073642
-}
 pre[class*="language-"]::selection,pre[class*="language-"] ::selection,code[class*="language-"]::selection,code[class*="language-"] ::selection {
-    background: #073642
+    background: #073642;
 }
 :not(pre)>code[class*="language-"],pre[class*="language-"] {
     background-color: #1b1b1b;
@@ -11426,10 +11349,6 @@ u {
         background-color: #777
     }
 }
-@media all and (max-width: 700px) {
-        -webkit-text-size-adjust:none
-    }
-}
 body {
     background-color: #eee9e2;
     text-decoration-skip: ink;
@@ -11437,15 +11356,14 @@ body {
 .user_image {
     max-width: 100%;
     max-height: 600px;
-    border: 0
+    border: 0;
 }
 .user_image[data-expanded=true] {
     max-width: 100% !important;
-    max-height: none !important
+    max-height: none !important;
 }
 .body-layout {
     min-height: 100vh;
-}
 }
 a:HOVER {
     color: #609735;
@@ -11501,10 +11419,9 @@ table.properties .bbcode-editor:not([data-fullscreen]) textarea {
 .content {
     max-width: 81.25rem;
 }
-}
 @media all and (max-width: 700px) {
     .page_list,.page_list_info {
-        border-color:rgba(0,0,0,0.15)
+        border-color:rgba(0,0,0,0.15);
     }
 }
 @media all and (min-width: 0) {
@@ -11539,7 +11456,7 @@ table.properties .bbcode-editor:not([data-fullscreen]) textarea {
         border: 1px solid rgba(0,0,0,0.3);
     }
     .page_list>ul>li.selected>a:hover,.page_list_info>ul>li.selected>a:hover {
-        background: #444
+        background: #444;
     }
 }
 @media all and (max-width: 700px) {
@@ -12092,6 +12009,7 @@ div.add_comment_toolbar {
 }
 .styled_button.styled_button_white .fa {
     color: #b5b5b5;
+    text-shadow: none;
 }
 .styled_button.styled_button_white:HOVER {
     color: #3c3c3c;
@@ -12240,7 +12158,8 @@ div.add_comment_toolbar {
 }
 .button-group a.styled_button:first-of-type,.button-group button.styled_button:first-of-type {
     border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px
+    border-bottom-left-radius: 3px;
+    text-shadow: none;
 }
 .button-group-vertical a.styled_button,.button-group-vertical button.styled_button {
     border-bottom-width: 0;
