@@ -1399,8 +1399,7 @@ div.user_page_content_box {
 .faq .answers>li .question .question-text {
 	color: #adadad;
 }
-table tr:nth-child(odd){
-	
+tr:nth-child(odd){
 background-color: #292929 !important;
 }
 .styled_button.styled_button_grey{
@@ -1428,4 +1427,7 @@ box-shadow: none;
 }
 .search_options label>span:first-child{
 	background: #151515;
+}
+.properties>tr:nth-child(odd) td.label, .properties>tbody>tr:nth-child(odd) td.label{
+	background: #272727;
 }
