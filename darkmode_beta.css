@@ -24,6 +24,7 @@ html,body{background-color: #151515 !important;}
 }
 a {
     color: #4f8822;
+    text-shadow: none;
 }
 .writing_guide .golden {
     background-color: #191919 !important;
