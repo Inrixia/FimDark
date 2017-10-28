@@ -1399,3 +1399,7 @@ div.user_page_content_box {
 .faq .answers>li .question .question-text {
 	color: #adadad;
 }
+table tr:nth-child(odd){
+	
+background-color: #292929 !important;
+}
