@@ -9575,7 +9575,7 @@ img.group_member_modify_level.group_member_level_selected {
 }
 .story_container .chapters-footer {
     background-color: #efefef;
-    color: #a9a8a8;
+    color: #555;
     border-bottom: 1px solid rgba(0,0,0,0.15);
 }
 .story_container .chapters-footer .word_count a {
@@ -12977,7 +12977,7 @@ div.list_boxes div.content_box div.main,div.list_boxes div.user-cp-content-box d
     max-width: 65rem;
 }
 .faq nav,.tags_information nav,.rules nav {
-    color: #828282;
+    color: #a0a0a0;
     text-shadow: none;
 }
 .faq nav input,.tags_information nav input,.rules nav input {
