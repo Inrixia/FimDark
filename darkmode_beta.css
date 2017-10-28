@@ -10349,13 +10349,13 @@ div.user_page div.right_column div.bio_followers ul.names li {
     max-width: 100%;
 }
 .user_page .left_column .story_gallery .story_link {
-    color: #444;
+    color: #adadad;
     border-bottom: 1px solid #eee;
 }
 .user_page .left_column .story_gallery li {
-    color: #444;
+    color: #adadad;
     border-top: 1px solid #ccc;
-    border-right: 1px solid #ccc
+    border-right: 1px solid #ccc;
 }
 .user_page .left_column .story_gallery li:last-child {
     border-right: none
@@ -10423,7 +10423,7 @@ div.user_page ul.list li img.avatar {
     border: 1px solid #CCC;
 }
 div.user_page ul.list li span.info {
-    color: #666
+    color: #9a9a9a;
 }
 div.module_editing {
     border: 1px dashed rgba(0,0,0,0.4)
