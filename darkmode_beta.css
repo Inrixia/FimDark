@@ -1437,3 +1437,6 @@ box-shadow: none;
 .user-page-header .tabs li a:hover{
 	background: #1d1d1d;
 }
+.properties input:disabled{
+	background: #272727;
+}
