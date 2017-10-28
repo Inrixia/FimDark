@@ -7043,7 +7043,7 @@ div.list_boxes div.content_box div.main,div.list_boxes div.user-cp-content-box d
 }
 .embed-container .placeholder {
     border: 1px solid #ccc;
-    box-shadow: 1px 1px 3px #eee
+    box-shadow: 1px 1px 3px #171616;
 }
 .embed-container .placeholder:before {
     color: #fff;
@@ -7051,7 +7051,7 @@ div.list_boxes div.content_box div.main,div.list_boxes div.user-cp-content-box d
 }
 .embed-container .overlay {
     box-shadow: 0 0 0 rgba(0,0,0,0.5) inset;
-    border: 1px solid rgba(0,0,0,0.1)
+    border: 1px solid rgba(0,0,0,0.1);
 }
 .embed-container .overlay:before {
     background: #f8f8f8;
@@ -9575,7 +9575,7 @@ img.group_member_modify_level.group_member_level_selected {
 }
 .story_container .chapters-footer {
     background-color: #efefef;
-    color: #b1b1b1;
+    color: #555;
     border-bottom: 1px solid rgba(0,0,0,0.15);
 }
 .story_container .chapters-footer .word_count a {
