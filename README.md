@@ -1,6 +1,6 @@
 # A Dark Theme
 
-![The Theme](https://i.gyazo.com/94ea3ad1034eed9cfa2781c9f453474b.png)
+![The Theme](https://camo.derpicdn.net/035bf41541cc8c83bb27eeb45abba77ecccc9007?url=https%3A%2F%2Fi.imgur.com%2FWyRb4Ax.png)
 
 ### Basic Useful Info:
 
@@ -10,14 +10,24 @@
 
 I will be maintaining the styles and fixing things as I browse. You dont need to update to get these as the script automagically works off the latest stuff.
 
-#### Downloading the script:
-For the **Banner** click this:
-https://github.com/Inrixia/Inrixia.github.io/raw/master/FimBanner.user.js
+---
 
+### Downloading the script:
 For the **Dark Theme** click this:
 https://github.com/Inrixia/Inrixia.github.io/raw/master/FimDash.user.js
 
-==========================================================
+For the **Banner** click this:
+https://github.com/Inrixia/Inrixia.github.io/raw/master/FimBanner.user.js
+
+**Important Note**: The banner is modified and heavily cut down from **[FimFiction Advanced](https://sta.sh/01pfv954kl8r)** by **[Sollace](https://www.fimfiction.net/user/138711/Sollace)**. Please do go check it out its quite good.
+
+---
+
+### Screenshots:
+ - **[Landscape Screenshots](https://imgur.com/a/0XpWx)**
+
+ - **[Portrait Screenshots](https://imgur.com/a/PeF0y)**
+
 
 ## Other Links
 
