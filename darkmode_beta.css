@@ -9362,7 +9362,7 @@ img.group_member_modify_level.group_member_level_selected {
     color: #666
 }
 .private-message-list .title {
-    color: #555;
+    color: #cacaca;
 }
 .private-message-list .short_message {
     color: #888
@@ -10590,7 +10590,7 @@ div.user_cp .message_table tr.unread td {
 }
 .user-cp-page-tabs ul li a {
     color: inherit;
-    text-shadow: 1px 1px rgba(255,255,255,0.4)
+    text-shadow: none;
 }
 .user-cp-page-tabs ul li a i {
     color: #999;
@@ -10599,7 +10599,8 @@ div.user_cp .message_table tr.unread td {
     border-top: 1px solid #d67068;
 }
 .user-cp-page-tabs ul li a.pm_tab_selected {
-    background-color: #FFF
+    background-color: #FFF;
+    text-shadow: none;
 }
 .user-cp-page-tabs ul li a.pm_tab_selected:hover {
     border-top-color: #d83c30
