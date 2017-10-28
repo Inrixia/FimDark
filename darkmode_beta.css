@@ -9311,10 +9311,10 @@ img.group_member_modify_level.group_member_level_selected {
 }
 .post_table thead td {
     background-color: #444;
-    color: #fff;
+    color: #e2e2e2;
     border-bottom: 1px solid #333;
     border-right: 1px solid #333;
-    border-top: 1px solid #333
+    border-top: 1px solid #333;
 }
 .post_table thead td input {
     border: 1px solid #3a3a3a;
@@ -11788,7 +11788,7 @@ table.properties .bbcode-editor:not([data-fullscreen]) textarea {
     border-bottom: 1px solid #ddd;
 }
 .content_box .content_box_header h2,.user-cp-content-box .content_box_header h2 {
-    color: #cccccc;
+    color: #e8e8e8;
 }
 .content_box .content_box_header h2 a,.user-cp-content-box .content_box_header h2 a {
     color: #555;
