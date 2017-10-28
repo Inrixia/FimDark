@@ -504,352 +504,61 @@ html,body{background-color: #151515 !important;}
 }
 
 .bbcode blockquote[data-who]:before,.article blockquote[data-who]:before {
-    content: attr(data-who);
-    font-weight: bold;
-    display: block;
-    position: absolute;
-    top: -20px;
-    left: 0;
     background: #2f2f2f;
-    padding: 0.5em 1.0rem;
-    line-height: 1;
-    border-radius: 5px;
-}
-
-.bbcode p,.bbcode .bbcode-center,.bbcode .bbcode-embed,.bbcode .embed-container,.bbcode blockquote,.bbcode hr,.bbcode ul,.bbcode ol,.bbcode h1,.bbcode h2,.bbcode h3,.bbcode h4,.bbcode h5,.bbcode h6,.bbcode pre,.bbcode .imgur-embed-iframe-pub,.bbcode .oembed,.bbcode .story-embed,.bbcode .bbcode__block,.bbcode .bbcode-right,.bbcode .excerpt,.bbcode .plaque,.bbcode figure,.bbcode .bbcode-pre-line,.bbcode .bbcode-indent-1,.bbcode .bbcode-indent-2,.bbcode .bbcode-indent-3,.bbcode .bbcode-indent-4,.article p,.article .bbcode-center,.article .bbcode-embed,.article .embed-container,.article blockquote,.article hr,.article ul,.article ol,.article h1,.article h2,.article h3,.article h4,.article h5,.article h6,.article pre,.article .imgur-embed-iframe-pub,.article .oembed,.article .story-embed,.article .bbcode__block,.article .bbcode-right,.article .excerpt,.article .plaque,.article figure,.article .bbcode-pre-line,.article .bbcode-indent-1,.article .bbcode-indent-2,.article .bbcode-indent-3,.article .bbcode-indent-4 {
-    margin-top: 1.5em
-}
-
-.bbcode p:first-child,.bbcode .bbcode-center:first-child,.bbcode .bbcode-embed:first-child,.bbcode .embed-container:first-child,.bbcode blockquote:first-child,.bbcode hr:first-child,.bbcode ul:first-child,.bbcode ol:first-child,.bbcode h1:first-child,.bbcode h2:first-child,.bbcode h3:first-child,.bbcode h4:first-child,.bbcode h5:first-child,.bbcode h6:first-child,.bbcode pre:first-child,.bbcode .imgur-embed-iframe-pub:first-child,.bbcode .oembed:first-child,.bbcode .story-embed:first-child,.bbcode .bbcode__block:first-child,.bbcode .bbcode-right:first-child,.bbcode .excerpt:first-child,.bbcode .plaque:first-child,.bbcode figure:first-child,.bbcode .bbcode-pre-line:first-child,.bbcode .bbcode-indent-1:first-child,.bbcode .bbcode-indent-2:first-child,.bbcode .bbcode-indent-3:first-child,.bbcode .bbcode-indent-4:first-child,.article p:first-child,.article .bbcode-center:first-child,.article .bbcode-embed:first-child,.article .embed-container:first-child,.article blockquote:first-child,.article hr:first-child,.article ul:first-child,.article ol:first-child,.article h1:first-child,.article h2:first-child,.article h3:first-child,.article h4:first-child,.article h5:first-child,.article h6:first-child,.article pre:first-child,.article .imgur-embed-iframe-pub:first-child,.article .oembed:first-child,.article .story-embed:first-child,.article .bbcode__block:first-child,.article .bbcode-right:first-child,.article .excerpt:first-child,.article .plaque:first-child,.article figure:first-child,.article .bbcode-pre-line:first-child,.article .bbcode-indent-1:first-child,.article .bbcode-indent-2:first-child,.article .bbcode-indent-3:first-child,.article .bbcode-indent-4:first-child {
-    margin-top: 0
-}
-
-.bbcode .bbcode-indent-1,.article .bbcode-indent-1 {
-    margin-left: 4ex
-}
-
-@media all and (max-width: 700px) {
-    .bbcode .bbcode-indent-1,.article .bbcode-indent-1 {
-        margin-left:2ex
-    }
-}
-
-.bbcode .bbcode-indent-2,.article .bbcode-indent-2 {
-    margin-left: 8ex
-}
-
-@media all and (max-width: 700px) {
-    .bbcode .bbcode-indent-2,.article .bbcode-indent-2 {
-        margin-left:4ex
-    }
-}
-
-.bbcode .bbcode-indent-3,.article .bbcode-indent-3 {
-    margin-left: 12ex
-}
-
-@media all and (max-width: 700px) {
-    .bbcode .bbcode-indent-3,.article .bbcode-indent-3 {
-        margin-left:6ex
-    }
-}
-
-.bbcode .bbcode-indent-4,.article .bbcode-indent-4 {
-    margin-left: 16ex
-}
-
-@media all and (max-width: 700px) {
-    .bbcode .bbcode-indent-4,.article .bbcode-indent-4 {
-        margin-left:8ex
-    }
-}
-
-.bbcode .bbcode-pre-line p,.bbcode .bbcode-center p,.bbcode .bbcode-right p,.article .bbcode-pre-line p,.article .bbcode-center p,.article .bbcode-right p {
-    margin-top: 1.5em !important;
-    text-indent: 0 !important
-}
-
-.bbcode .bbcode-center .bbcode-embed,.article .bbcode-center .bbcode-embed {
-    margin-left: auto;
-    margin-right: auto
 }
 
 .bbcode .plaque,.article .plaque {
-    padding: 1em 2.5em;
-    position: relative;
-    border-radius: 0;
-    border-top: 4px double currentColor;
-    border-bottom: 4px double currentColor;
     background: #fff;
-    font-variant: small-caps;
-    text-align: center;
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    display: table
 }
 
 .bbcode .plaque:before,.article .plaque:before {
-    content: "\274A";
-    display: inline-block;
-    position: absolute;
-    top: -0.7em;
-    font-size: 1.25em;
-    padding: 0.1em 0.2em;
     background: white;
-    line-height: 1.0em;
-    left: -0.7em;
-    left: 50%;
-    margin-left: -0.5em
 }
 
 .bbcode .plaque:after,.article .plaque:after {
-    content: "\274A";
-    display: inline-block;
-    position: absolute;
-    bottom: -0.7em;
-    font-size: 1.25em;
-    padding: 0.1em 0.2em;
     background: white;
-    line-height: 1.0em;
-    right: -0.7em;
-    left: 50%;
-    margin-left: -0.5em;
-    right: auto
-}
-
-.bbcode blockquote,.article blockquote {
-    margin-top: 1.5em
-}
-
-.bbcode blockquote[data-who],.article blockquote[data-who] {
-    margin-top: 2.0em
-}
-
-.bbcode blockquote:first-child,.article blockquote:first-child {
-    margin-top: 0
-}
-
-.bbcode blockquote:first-child[data-who],.article blockquote:first-child[data-who] {
-    margin-top: 1.0em
-}
-
-.bbcode sub,.bbcode sup,.article sub,.article sup {
-    font-size: smaller
-}
-
-.bbcode ol,.article ol {
-    padding-left: 16px
-}
-
-.bbcode ul,.article ul {
-    list-style-type: disc;
-    padding-left: 16px
-}
-
-.bbcode ul ul,.article ul ul {
-    list-style-type: circle
-}
-
-.bbcode ul ul ul,.article ul ul ul {
-    list-style-type: square
 }
 
 .bbcode code,.article code {
-    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
     background: #1d1d1d;
-    padding: .1875rem;
-    border-radius: .3125rem;
-}
-
-.bbcode pre,.article pre {
-    font-family: monospace;
-    word-wrap: break-word;
-    word-break: break-word;
-    white-space: pre-wrap
 }
 
 .bbcode pre code,.article pre code {
     background: #191919;
-    padding: 1rem;
-    tab-size: 4;
     color: #c1c1c1;
-    display: block;
-    position: relative;
-    word-wrap: break-word;
-    word-break: break-word;
-    white-space: pre-wrap;
 }
 
 .bbcode pre code:before,.article pre code:before {
-    font-weight: bold;
-    display: block;
-    position: absolute;
-    top: -12px;
-    right: 0;
-    font-size: .75rem;
     background: #252525;
-    padding: 0.5em 1.0em;
-    line-height: 1;
-    border-radius: 5px;
-    content: "Code";
-}
-
-.bbcode pre code.language-bbcode:before,.article pre code.language-bbcode:before {
-    content: "BBCode"
-}
-
-.bbcode pre code.language-c:before,.article pre code.language-c:before {
-    content: "C"
-}
-
-.bbcode pre code.language-cpp:before,.article pre code.language-cpp:before {
-    content: "C++"
-}
-
-.bbcode pre code.language-csharp:before,.article pre code.language-csharp:before {
-    content: "C#"
-}
-
-.bbcode pre code.language-css:before,.article pre code.language-css:before {
-    content: "CSS"
-}
-
-.bbcode pre code.language-go:before,.article pre code.language-go:before {
-    content: "Go"
-}
-
-.bbcode pre code.language-java:before,.article pre code.language-java:before {
-    content: "Java"
-}
-
-.bbcode pre code.language-javascript:before,.article pre code.language-javascript:before {
-    content: "Javascript"
-}
-
-.bbcode pre code.language-json:before,.article pre code.language-json:before {
-    content: "JSON"
-}
-
-.bbcode pre code.language-php:before,.article pre code.language-php:before {
-    content: "PHP"
-}
-
-.bbcode pre code.language-ruby:before,.article pre code.language-ruby:before {
-    content: "Ruby"
-}
-
-.bbcode pre code.language-rust:before,.article pre code.language-rust:before {
-    content: "Rust"
-}
-
-.bbcode pre code.language-sass:before,.article pre code.language-sass:before {
-    content: "SASS"
-}
-
-.bbcode pre code.language-scss:before,.article pre code.language-scss:before {
-    content: "SCSS"
 }
 
 .bbcode h1,.bbcode h2,.bbcode h3,.article h1,.article h2,.article h3 {
-    font-family: "Open Sans Condensed",Arial,Sans-serif;
-    font-weight: 700;
     color: #ccc9c9;
 }
 
-.bbcode h1 .fa,.bbcode h2 .fa,.bbcode h3 .fa,.article h1 .fa,.article h2 .fa,.article h3 .fa {
-    margin-right: 0.3em
-}
-
 .bbcode h1,.article h1 {
-    margin-top: 1.0em;
-    font-size: 1.7em;
-    line-height: 1.0em;
     border-bottom: 1px solid #ddd;
-    padding-bottom: 0.5em;
-}
-
-.bbcode h2,.article h2 {
-    margin-top: 1.0em;
-    font-size: 1.4em;
-    line-height: 1.0em
-}
-
-.bbcode h3,.article h3 {
-    margin-top: 1.3em;
-    font-size: 1.2em;
-    line-height: 1.0em
 }
 
 .bbcode>h2,.bbcode>h3,.article>h2,.article>h3 {
     border-left: 5px solid #2b85e2;
-    padding: 0.1em 0.5em
-}
-
-.bbcode b,.article b {
-    font-weight: 600
-}
-
-.bbcode strong,.article strong {
-    font-weight: bolder
-}
-
-.bbcode em,.article em {
-    font-style: italic
-}
-
-.bbcode em em,.article em em {
-    font-style: normal
-}
-
-.bbcode em em em,.article em em em {
-    font-style: italic
-}
-
-.bbcode em em em em,.article em em em em {
-    font-style: normal
-}
-
-.bbcode em em em em em,.article em em em em em {
-    font-style: italic
 }
 
 .bbcode .oembed,.article .oembed {
-    padding: .3125rem .625rem;
     border: 1px solid #ccc;
     outline: 3px solid #eee
 }
 
 .bbcode .oembed .link,.article .oembed .link {
-    font-weight: bold;
-    font-family: "Open Sans Condensed",Arial,Sans-serif;
-    font-size: 1.0rem;
     color: #555;
-    vertical-align: middle
 }
 
 .bbcode .oembed .button,.article .oembed .button {
-    float: right;
     color: #aaa;
-    text-decoration: none;
-    font-size: 20px;
-    margin-top: 2px
 }
 
 .bbcode .oembed .button:hover,.article .oembed .button:hover {
     color: #333
-}
-
-.bbcode .oembed .button:before,.article .oembed .button:before {
-    content: "\f00d";
-    display: block;
-    font-family: FontAwesome
-}
-
-.bbcode .oembed .fa,.article .oembed .fa {
-    font-size: 32px;
-    vertical-align: middle;
-    margin-right: 0.25em
 }
 
 .bbcode .oembed[data-provider="soundcloud"] .fa,.article .oembed[data-provider="soundcloud"] .fa {
@@ -859,81 +568,32 @@ html,body{background-color: #151515 !important;}
 .bbcode .spoiler,.article .spoiler {
     background-color: #333;
     color: transparent;
-    text-shadow: none
-}
-
-.bbcode .spoiler:HOVER,.article .spoiler:HOVER {
-    background-color: inherit;
-    color: inherit;
-    text-shadow: inherit
 }
 
 .bbcode hr,.article hr {
-    margin: 1.5rem 0;
-    border: none;
-    height: 1px;
     background-color: rgba(0,0,0,0.15)
 }
 
 .bbcode hr,.article hr {
-    padding: 0;
-    border: none;
-    border-top: 1px solid #bbb;
-    text-align: center;
-    height: 0;
     background: transparent;
-    margin: 2em auto;
-    line-height: 0
 }
 
 .bbcode hr:after,.article hr:after {
     color: #333;
-    content: "\274A   \274A   \274A";
-    display: inline-block;
-    position: relative;
-    top: -0.5em;
-    font-size: 1.0em;
-    padding: 0 0.5em;
     background: white;
-    line-height: 1.0em
 }
 
 .bbcode .story-embed,.article .story-embed {
     border: 1px solid #ddd;
-    font-size: 1.0rem;
-    padding: .9375rem;
-    border-radius: 5px;
-    overflow: hidden;
     background: #f8f8f8;
-    max-width: 400px
 }
 
 .bbcode .story-embed .info,.article .story-embed .info {
-    display: block;
-    font-size: 0.8em;
     border-top: 1px solid #ddd
 }
 
 .bbcode .story-embed .cover-image,.article .story-embed .cover-image {
-    float: left;
-    max-height: 100px;
-    margin-right: 1.0em;
-    line-height: 1;
-    padding: 2px;
     border: 1px solid #ddd;
-    border-radius: 3px
-}
-
-.bbcode .story-embed .story-embed__title,.article .story-embed .story-embed__title {
-    font-family: "Open Sans Condensed",Arial,Sans-serif;
-    font-weight: 700;
-    font-size: 1.3em;
-    color: inherit
-}
-
-.bbcode .story-embed .story-embed__description,.article .story-embed .story-embed__description {
-    line-height: 1.5em;
-    font-size: 0.9em
 }
 
 .bbcode .story-card,.article .story-card {
@@ -945,233 +605,39 @@ html,body{background-color: #151515 !important;}
     background: #333333;
 }
 
-.bbcode img.emoji,.article img.emoji {
-    height: 1.5em !important;
-    width: 1.5em !important;
-    vertical-align: -0.3em !important
-}
-
-@media all and (min-width: 701px) {
-    .bbcode figure.bbcode-figure-left,.article figure.bbcode-figure-left {
-        max-width:40%;
-        float: left;
-        margin-right: 1.5rem;
-        margin-bottom: 0.5rem
-    }
-
-    .bbcode figure.bbcode-figure-right,.article figure.bbcode-figure-right {
-        max-width: 40%;
-        float: right;
-        margin-left: 1.5rem;
-        margin-bottom: 0.5rem
-    }
-
-    .bbcode figure.bbcode-figure-left:first-child+*,.bbcode figure.bbcode-figure-right:first-child+*,.article figure.bbcode-figure-left:first-child+*,.article figure.bbcode-figure-right:first-child+* {
-        margin-top: 0
-    }
-}
-
-.bbcode figure blockquote,.article figure blockquote {
-    width: auto;
-    max-width: 100%
-}
-
-.bbcode figure img,.article figure img {
-    max-width: 100%;
-    border-radius: 5px;
-    max-height: 400px
-}
-
 .bbcode figure figcaption,.article figure figcaption {
     background: #eee;
-    padding: 0.5em 1em;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 0.9em
-}
-
-.embed-container {
-    display: block;
-    position: relative;
-    line-height: 0
-}
-
-.embed-container img {
-    transition: filter 0.2s;
-    width: 320px;
-    max-width: 100%
-}
-
-.embed-container .link {
-    display: none
 }
 
 .embed-container .url {
-    display: block;
-    line-height: 1;
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    z-index: 2;
     color: #fff;
-    font-weight: bold
-}
-
-.embed-container.expanded .url {
-    display: none
 }
 
 .embed-container iframe {
-    width: 560px;
-    height: 315px;
-    max-width: 100%;
-    overflow: hidden;
-    padding: 5px;
     border: 1px solid #ccc;
-    border-radius: 5px;
     box-shadow: 1px 1px 3px #eee
 }
 
-.embed-container[data-origin='YouTube'] .placeholder:before {
-    content: "\f167"
-}
-
-.embed-container[data-origin='Twitch'] .placeholder {
-    max-width: 330px;
-    width: 100%
-}
-
 .embed-container[data-origin='Twitch'] .placeholder .spacer {
-    width: 100%;
-    padding-bottom: calc(100% * 9/16);
     background: #6441A4
 }
 
-.embed-container[data-origin='Twitch'] .placeholder:before {
-    content: "\f1e8"
-}
-
-.embed-container[data-origin='Gfycat'] .placeholder:before {
-    content: " ";
-    width: 126px;
-    height: 40px;
-    background-image: url(/images/embed/gfycat.png);
-    background-size: cover;
-    right: 0;
-    bottom: 5px
-}
-
-.embed-container.expanded[data-origin='Gfycat'] {
-    width: 100%;
-    padding-bottom: calc(100% * 9/16);
-    position: relative
-}
-
-.embed-container.expanded[data-origin='Gfycat'] iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%
-}
-
-.embed-container.expanded[data-origin='YouTube'] {
-    max-width: 100%;
-    display: block
-}
-
-.embed-container.expanded[data-origin='YouTube'] .video {
-    width: 100%;
-    padding-bottom: calc(100% * 9/16);
-    position: relative
-}
-
-.embed-container.expanded[data-origin='YouTube'] iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%
-}
-
-.embed-container.expanded[data-origin='Twitch'] {
-    max-width: 100%;
-    display: block
-}
-
-.embed-container.expanded[data-origin='Twitch'] .video {
-    width: 100%;
-    padding-bottom: calc(100% * 9/16);
-    position: relative
-}
-
-.embed-container.expanded[data-origin='Twitch'] iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%
-}
-
-@media all and (max-width: 700px) {
-    .embed-container .link {
-        display:block
-    }
-
-    .embed-container iframe {
-        width: 360px;
-        height: 215px
-    }
-}
-
 .embed-container .placeholder {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
-    padding: 5px;
     border: 1px solid #ccc;
-    border-radius: 5px;
     box-shadow: 1px 1px 3px #eee
 }
 
 .embed-container .placeholder:before {
-    display: block;
     color: #fff;
-    font-size: 3rem;
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-    font-weight: normal;
     text-shadow: 1px 1px rgba(0,0,0,0.4);
-    line-height: 1;
-    font-family: FontAwesome
 }
 
 .embed-container .overlay {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    bottom: 5px;
-    left: 5px;
     box-shadow: 0 0 0 rgba(0,0,0,0.5) inset;
-    transition: box-shadow 0.2s;
     border: 1px solid rgba(0,0,0,0.1)
 }
 
 .embed-container .overlay:before {
-    content: " ";
-    position: absolute;
-    top: 50%;
-    margin-top: -25px;
-    height: 50px;
-    left: 50%;
-    margin-left: -25px;
-    width: 50px;
-    display: block;
-    transform: scale(1);
-    transition: transform 0.1s;
-    border-radius: 50%;
     background: #f8f8f8;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f8f8f8), color-stop(100%, #ddd));
     background: -webkit-linear-gradient(top, #f8f8f8 0%, #ddd 100%);
@@ -1180,200 +646,49 @@ html,body{background-color: #151515 !important;}
 }
 
 .embed-container .overlay:after {
-    content: "\f04b";
-    font-family: "fontawesome";
-    position: absolute;
-    top: 50%;
-    left: 7px;
-    right: 0;
-    font-size: 28px;
-    text-align: center;
     color: #444;
     text-shadow: 1px 1px 0 #fff;
-    transform: scale(1);
-    transition: transform 0.1s, color 0.1s
-}
-
-.embed-container:hover .overlay:after,.embed-container:hover .overlay:before {
-    transform: scale(1.25)
-}
-
-.bookshelf-card-list>li {
-    vertical-align: top;
-    padding-top: 10px;
-    width: 350px
 }
 
 .bookshelf-card-list>li.ordering {
     box-shadow: 0 0 30px rgba(0,0,0,0.1) inset,0 0 2px rgba(0,0,0,0.2) inset;
     background: rgba(0,0,0,0.1);
-    border-radius: 5px
-}
-
-.bookshelf-card-list>li.ordering .bookshelf-card {
-    position: relative;
-    transition: none;
-    z-index: 1
 }
 
 @media all and (max-width: 700px) {
-    .bookshelf-card-list {
-        display:block;
-        margin-left: 0;
-        margin-right: 0
-    }
-
-    .bookshelf-card-list>li {
-        padding: 0;
-        display: block;
-        width: auto
-    }
-
     .bookshelf-card-list .bookshelf-card {
-        margin: 0;
-        border-radius: 0;
-        border: none;
         border-bottom: 1px solid #ddd;
-        padding: .9375rem;
-        overflow: hidden
-    }
-
-    .bookshelf-card-list .bookshelf-card .bookshelf-icon {
-        line-height: 48px;
-        font-size: 32px
-    }
-
-    .bookshelf-card-list .bookshelf-card .bookshelf-icon .fa {
-        line-height: 48px
     }
 
     .bookshelf-card-list .bookshelf-card .styled_button.dark {
-        padding: 7px 0;
-        width: 28px;
-        text-align: center;
         background: #f8f8f8;
         color: #555 !important;
-        text-shadow: none
-    }
-
-    .bookshelf-card-list .bookshelf-card .top-info {
-        display: none
-    }
-
-    .bookshelf-card-list .bookshelf-card h2 {
-        border-bottom: none;
-        padding: 0;
-        margin: 0;
-        font-size: 1.3em;
-        margin-bottom: 0.1em
     }
 
     .bookshelf-card-list .bookshelf-card .sub-info {
-        display: block;
-        font-size: .75rem;
-        font-weight: normal;
-        font-family: "Open Sans",Arial,Sans-serif;
         color: #aaa
     }
 
     .bookshelf-card-list .bookshelf-card .avatar {
-        width: 48px;
-        height: 48px;
-        padding: 1px;
         border: 1px solid #ddd;
-        position: static;
-        float: left
-    }
-
-    .bookshelf-card-list .bookshelf-card .card-content {
-        padding: 0;
-        margin-left: 64px
-    }
-
-    .bookshelf-card-list .bookshelf-card .info-container {
-        padding: 0;
-        margin: 0
-    }
-
-    .bookshelf-card-list .bookshelf-card .info {
-        background: none;
-        padding: 0;
-        height: auto;
-        line-height: 1.3em
     }
 
     .bookshelf-card-list .bookshelf-card .sub-info {
-        display: block;
-        font-size: .75rem;
-        font-weight: normal;
-        font-family: "Open Sans",Arial,Sans-serif;
         color: #aaa
     }
-}
-
-.bookshelf-card {
-    margin-top: 10px
-}
-
-.bookshelf-card .sub-info {
-    display: none
-}
-
-.bookshelf-card .avatar {
-    width: 64px;
-    height: 64px;
-    top: 10px
-}
-
-.bookshelf-card h2 {
-    margin-bottom: 5px
-}
-
-.bookshelf-card h2 .unread-info {
-    display: inline;
-    margin-left: 5px;
-    font-size: 0.6em;
-    font-weight: normal;
-    font-family: "Open Sans",Arial,Sans-serif
 }
 
 .bookshelf-card h2 a.unread {
     color: #C73A1F
 }
 
-.bookshelf-card .top-info {
-    margin-bottom: 10px;
-    height: 70px;
-    background-image: none
-}
-
-.bookshelf-card .top-info .draggable-handle {
-    cursor: move
-}
-
 .bookshelf-card .bookshelf-icon {
-    margin-right: 10px;
-    border-radius: 5%;
     background: #FFF;
     text-align: center;
-    width: 100%;
-    height: 100%;
-    line-height: 64px;
-    box-sizing: content-box;
-    font-size: 40px;
-    overflow: hidden;
     text-shadow: -1px -1px rgba(0,0,0,0.2)
 }
 
-.bookshelf-card .bookshelf-icon object {
-    width: 32px;
-    height: 32px
-}
-
 .bookshelf-card .bookshelf-icon a {
-    text-decoration: none;
-    display: block;
-    line-height: 64px;
     color: #fff
 }
 
@@ -1382,109 +697,27 @@ html,body{background-color: #151515 !important;}
     text-shadow: 1px 1px rgba(255,255,255,0.2)
 }
 
-.bookshelf-card .bookshelf-icon .fa {
-    display: block;
-    vertical-align: middle;
-    line-height: 64px
-}
-
-.bookshelf-card .bookshelf-icon .fa :before {
-    display: block;
-    vertical-align: middle
-}
-
-.bookshelf-card .info-container {
-    display: table-cell;
-    padding-left: 10px;
-    width: 50%;
-    vertical-align: top
-}
-
-.bookshelf-card .info {
-    margin-top: 0;
-    height: auto
-}
-
-.bookshelf-card .stories {
-    display: table-cell;
-    vertical-align: top;
-    font-size: 0.9em
-}
-
 .bookshelf-card .stories i {
-    margin-right: 5px;
     color: #9a9a9a;
 }
 
 .bookshelf-card .stories li {
     background: #272727;
     border-bottom: 1px solid #4e4e4e;
-    padding: 3px 8px;
-    line-height: 1.8em;
-}
-
-.bookshelf-card .stories li a {
-    color: inherit
-}
-
-.bookshelf-card .stories li:first-child {
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px
-}
-
-.bookshelf-card .stories li:last-child {
-    border-bottom: none;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px
-}
-
-.bookshelf-card .no-description .info-container {
-    display: none
-}
-
-.bookshelf-card .no-description .stories {
-    display: block
 }
 
 .list_boxes .bookshelf-header {
-    font-weight: 600;
-    margin-bottom: 15px;
     color: #49443C;
-    font-family: Arial;
     background: #C4BDAE;
-    padding: 10px;
-    border-radius: 5px
-}
-
-.list_boxes .bookshelves {
-    position: relative;
-    margin-bottom: 20px;
-    text-align: left
 }
 
 .list_boxes .bookshelves .unread {
-    font-weight: 600;
     color: #C73A1F;
-    text-decoration: none;
     border-bottom: 1px dotted #C73A1F
 }
 
-.list_boxes .bookshelves .unread:hover {
-    text-decoration: none
-}
-
 .list_boxes .bookshelves li {
-    list-style: none;
     border-bottom: 1px solid #5d5d5d;
-    position: relative;
-}
-
-.list_boxes .bookshelves li:last-child {
-    border-bottom-width: 0
-}
-
-.list_boxes .bookshelves li:last-child.selected {
-    border-bottom-width: 1px
 }
 
 .list_boxes .bookshelves li.ordering {
@@ -1492,103 +725,36 @@ html,body{background-color: #151515 !important;}
     box-shadow: 0 0 10px rgba(0,0,0,0.05) inset
 }
 
-.list_boxes .bookshelves li.selected {
-    padding: 10px;
-    border-radius: 5px
-}
-
 .list_boxes .bookshelves li.selected .avatar {
-    height: 38px;
-    vertical-align: middle;
     border: 1px solid #ddd;
-    padding: 2px;
-    margin-right: 10px;
-    float: left
 }
 
 .list_boxes .bookshelves li.selected .created_details {
-    font-size: 0.8em;
     color: #555;
     display: inline-block;
     vertical-align: middle
 }
 
 .list_boxes .bookshelves li.selected .arrow {
-    position: absolute;
-    left: -10px;
-    width: 0;
-    height: 0;
     border-right: 10px solid #54524d;
     border-top: 10px solid rgba(97, 72, 72, 0);
     border-bottom: 10px solid transparent;
 }
 
 .list_boxes .bookshelves li.selected .arrow:before {
-    content: " ";
-    display: block;
-    position: absolute;
-    left: 1px;
-    top: -9px;
-    width: 0;
-    height: 0;
     border-right: 9px solid #696969;
     border-top: 9px solid transparent;
     border-bottom: 9px solid transparent;
 }
 
 .list_boxes .bookshelves .draggable {
-    padding: 15px 0;
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
-    transition: none;
-    padding-right: 15px
-}
-
-@media all and (max-width: 700px) {
-    .list_boxes .bookshelves .draggable {
-        padding-right:30px
-    }
 }
 
 .list_boxes .bookshelves .draggable .draggable-handle {
-    cursor: pointer;
-    width: 30px;
     background: #fff;
     border: 1px solid #d4cdc3;
-    font-weight: 600;
-    line-height: 10px;
-    position: absolute;
-    right: 0;
-    top: -1px;
-    bottom: -1px;
-    text-align: center
-}
-
-.list_boxes .bookshelves .draggable .draggable-handle span {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    margin-top: -15px;
-    display: block
-}
-
-@media all and (min-width: 701px) {
-    .list_boxes .bookshelves .draggable .draggable-handle {
-        display:none;
-        width: 15px
-    }
-}
-
-@media all and (max-width: 700px) {
-    .list_boxes .bookshelves .draggable .draggable-handle {
-        opacity:0.3
-    }
-}
-
-.list_boxes .bookshelves .draggable.dragging .draggable-handle {
-    display: block;
-    opacity: 1
 }
 
 .list_boxes .bookshelves .draggable.dragging {
@@ -1603,148 +769,37 @@ html,body{background-color: #151515 !important;}
 }
 
 .list_boxes .bookshelves .bookshelf-icon {
-    margin-right: 10px;
-    border-radius: 4px;
     background: #FFF;
-    text-align: center;
-    float: left;
-    width: 44px;
-    height: 44px;
-    line-height: 42px;
-    font-size: 30px;
-    overflow: hidden
-}
-
-.list_boxes .bookshelves .bookshelf-icon object {
-    width: 32px;
-    height: 32px
-}
-
-.list_boxes .bookshelves .bookshelf-icon a {
-    text-decoration: none
-}
-
-.list_boxes .bookshelves .bookshelf-icon .fa {
-    vertical-align: 0
-}
-
-.list_boxes .bookshelves .bookshelf-icon .fa :before {
-    display: block;
-    vertical-align: middle
 }
 
 .list_boxes .bookshelves .bookshelf-name {
-    font-weight: 700;
-    display: block;
     color: #ababab;
-    line-height: 1.5em;
-    font-family: "Open Sans Condensed",Arial,Sans-serif;
-    font-size: 1.1em;
 }
 
 .list_boxes .bookshelves .bookshelf-name .fa-lock,.list_boxes .bookshelves .bookshelf-name .fa-unlock,.list_boxes .bookshelves .bookshelf-name .fa-eye-slash {
-    font-size: 0.8em;
     color: #9f9f9f
 }
 
-.list_boxes .bookshelves .bookshelf-name a {
-    color: inherit;
-    text-decoration: none
-}
-
-.list_boxes .bookshelves .bookshelf-name a:hover {
-    text-decoration: underline
-}
-
 .list_boxes .bookshelves .bookshelf-info {
-    display: block;
-    line-height: 1.5em;
-    font-size: 0.9em;
     color: #8f8c88
 }
 
 .list_boxes .bookshelves .bookshelf-description {
-    display: block;
-    line-height: 1.5em;
-    font-size: 0.9em;
     color: #555;
-    margin-left: 54px;
-    margin-top: 5px;
-    padding-top: 5px;
     border-top: 1px solid rgba(0,0,0,0.1)
 }
 
-.list_boxes .bookshelves .orderable .draggable:hover .draggable-handle {
-    display: block
-}
-
 .bookshelf-edit-popup .bookshelf-icon-preview {
-    display: inline-block;
     background: #fff;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    line-height: 98px;
     border: 1px solid #ccc;
-    font-size: 70px;
-    overflow: hidden
-}
-
-.bookshelf-edit-popup .bookshelf-icon-preview object {
-    pointer-events: none;
-    width: 100px;
-    height: 100px
-}
-
-@media all and (max-height: 750px) {
-    .bookshelf-edit-popup.properties hr {
-        margin:5px 0 !important
-    }
 }
 
 .bookshelf-edit-popup .bookshelf-icons {
     color: #555;
-    max-height: 250px;
-    overflow: auto
-}
-
-@media all and (max-height: 750px) {
-    .bookshelf-edit-popup .bookshelf-icons {
-        max-height:150px
-    }
 }
 
 .bookshelf-edit-popup .bookshelf-icons label {
-    display: inline-block;
-    font-size: 24px;
-    width: 40px;
-    text-align: center;
-    color: inherit;
-    background: none;
-    border: none;
-    cursor: pointer;
-    text-shadow: none;
     border: 1px solid transparent;
-    border-radius: 0;
-    padding: 0;
-    line-height: 38px;
-    vertical-align: top;
-    margin: 3px
-}
-
-.bookshelf-edit-popup .bookshelf-icons label object {
-    pointer-events: none;
-    width: 32px;
-    height: 32px;
-    vertical-align: middle
-}
-
-.bookshelf-edit-popup .bookshelf-icons label div {
-    display: inline-block
-}
-
-.bookshelf-edit-popup .bookshelf-icons label span {
-    vertical-align: middle
 }
 
 .bookshelf-edit-popup .bookshelf-icons label:hover {
@@ -1755,34 +810,16 @@ html,body{background-color: #151515 !important;}
     background: #f8f8f8;
     border: 1px solid #ccc;
     outline: 5px solid #eee;
-    cursor: default
 }
 
 .bookshelf-edit-popup .bookshelf-colours .category {
-    margin: 0.5em 0;
     color: #333;
-    font-weight: bold
 }
 
 .bookshelf-edit-popup .bookshelf-colours label {
-    display: inline-block;
-    box-sizing: content-box;
-    padding: 0;
-    width: 20px;
-    height: 20px;
     border: 1px solid rgba(0,0,0,0.2);
     text-shadow: -1px -1px rgba(0,0,0,0.2);
-    margin: 2px 0;
-    border-radius: 3px;
-    cursor: pointer;
-    text-align: center;
-    line-height: 20px;
-    vertical-align: top;
     box-shadow: 0 1px 0 0px rgba(255,255,255,0.3) inset
-}
-
-.bookshelf-edit-popup .bookshelf-colours label input {
-    display: none
 }
 
 .bookshelf-edit-popup .bookshelf-colours label.selected {
@@ -1791,78 +828,15 @@ html,body{background-color: #151515 !important;}
 }
 
 .bookshelf-edit-popup .bookshelf-colours label.selected:before {
-    font-family: "FontAwesome";
-    content: "\f00c";
     color: #fff;
-    font-size: 14px
-}
-
-.story-top-toolbar .bookshelves {
-    display: block;
-    padding: 0;
-    border: none;
-    vertical-align: middle;
-    text-decoration: none;
-    line-height: 0;
-    text-align: left;
-    margin-bottom: -1px
 }
 
 .story-top-toolbar .bookshelves li {
-    display: inline-block;
-    width: 2.3125rem;
-    height: 2.3125rem;
-    margin-right: -1px;
-    overflow: hidden;
-    padding: 0;
-    font-size: 1.575rem;
     border: 1px solid rgba(0,0,0,0.15);
     text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-.story-top-toolbar .bookshelves li:first-child {
-    border-top-left-radius: 5px
-}
-
-.story-top-toolbar .bookshelves li:last-child {
-    border-top-right-radius: 5px
-}
-
-.story-top-toolbar .bookshelves li span.loading {
-    display: none
-}
-
-.story-top-toolbar .bookshelves li.loading {
-    background: none;
-    cursor: wait
-}
-
-.story-top-toolbar .bookshelves li.loading span {
-    display: none
-}
-
-.story-top-toolbar .bookshelves li.loading span.loading {
-    display: block
-}
-
-.story-top-toolbar .bookshelves li object {
-    width: 32px;
-    height: 32px
 }
 
 .story-top-toolbar .bookshelves li span {
-    display: block;
-    line-height: 2.3125rem;
-    text-align: center;
-    -webkit-transition: color .2s;
-    transition: color .2s;
     /* background:rgba(255,255,255,0.05); */
     /* background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,0.05)), color-stop(100%, rgba(0,0,0,0.03))); */
     /* background:-webkit-linear-gradient(top, rgba(255,255,255,0.05) 0%, rgba(0,0,0,0.03) 100%); */
@@ -1871,8 +845,6 @@ html,body{background-color: #151515 !important;}
 
 .story-top-toolbar .bookshelves li span:before {
     color: #adacac;
-    -webkit-transition: color .2s;
-    transition: color .2s;
 }
 
 .story-top-toolbar .bookshelves li:hover span {
@@ -1882,17 +854,11 @@ html,body{background-color: #151515 !important;}
     background: linear-gradient(to bottom, rgba(0,0,0,0.03) 0%, rgba(255,255,255,0.05) 100%)
 }
 
-.story-top-toolbar .bookshelves li:hover span:before,.story-top-toolbar .bookshelves li:hover span span {
-    color: inherit
-}
-
 .story-top-toolbar .bookshelves li.unselected {
     background: #2f2f2f !important;
 }
 
 .story-top-toolbar .bookshelves li.selected {
-    position: relative;
-    z-index: 2;
     text-shadow: -1px -1px rgba(0,0,0,0.15)
 }
 
@@ -1901,105 +867,27 @@ html,body{background-color: #151515 !important;}
 }
 
 .mobile-header .bookshelf-icon {
-    width: 48px;
-    height: 48px;
-    line-height: 48px;
-    border-radius: 4px;
-    overflow: hidden;
     background: #fff;
-    text-align: center;
-    font-size: 36px;
-    display: inline-block;
-    vertical-align: middle;
-    text-shadow: none
-}
-
-.bookshelves-popup-list {
-    max-height: 250px !important
 }
 
 .bookshelves-popup-list .icon {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 4px;
-    overflow: hidden;
     background: #2f2f2f;
-    text-align: center;
-    font-size: 1.45em;
-    display: inline-block;
-    vertical-align: middle;
-    text-shadow: none;
-    margin-right: 6px;
-}
-
-.bookshelves-popup-list object {
-    width: 24px;
-    height: 24px;
-    margin-top: 3px
 }
 
 .bookshelves-popup-list .privacy-icon {
     color: #888;
-    margin: 0 4px
-}
-
-.bookshelves-popup-list .bookshelf .add-status {
-    float: right;
-    font-size: 20px
 }
 
 .bookshelves-popup-list .bookshelf .add-status span {
-    line-height: 32px;
-    margin-right: 6px;
     color: #777
 }
 
-.bookshelves-popup-list .bookshelf .add-status .loading {
-    display: none
-}
-
 .bookshelves-popup-list .bookshelf .add-status .added {
-    display: none;
     color: #4c941c
-}
-
-.bookshelves-popup-list .bookshelf .add-status .not-added {
-    display: none
-}
-
-.bookshelves-popup-list .bookshelf.selected .add-status .added {
-    display: block
-}
-
-.bookshelves-popup-list .bookshelf.unselected .add-status .not-added {
-    display: block
-}
-
-.bookshelves-popup-list .bookshelf.loading .add-status .loading {
-    display: block
-}
-
-.bookshelves-popup-list .bookshelf.loading .add-status .added,.bookshelves-popup-list .bookshelf.loading .add-status .not-added {
-    display: none !important
-}
-
-div.browse_page table.browse_stories {
-    width: 100%;
-    border-spacing: 0;
-    border-collapse: separate
 }
 
 div.browse_page tr.story_item {
     background-color: #FFF;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    overflow: hidden;
-    vertical-align: top;
-    position: relative
 }
 
 div.browse_page tr.story_item td {
@@ -2009,23 +897,11 @@ div.browse_page tr.story_item td {
 div.browse_page tr.story_item td.author {
     border-right: 1px solid #CCC;
     background-color: #EEE;
-    padding: 10px;
-    max-width: 170px;
-    min-width: 150px;
-    text-align: right
 }
 
 div.browse_page tr.story_item td.author div.name {
-    border-radius: 4px;
     background-color: #f8f8f8;
     color: #fff;
-    font-family: Helvetica, Arial;
-    font-weight: 600;
-    text-align: center;
-    padding: 6px 8px;
-    font-size: 0.8em;
-    display: inline-block;
-    margin-bottom: 4px
 }
 
 div.browse_page tr.story_item td.author div.name a {
@@ -2033,219 +909,69 @@ div.browse_page tr.story_item td.author div.name a {
 }
 
 div.browse_page tr.story_item td.author img.avatar {
-    padding: 1px;
     background-color: #FFF;
     border: 1px solid #CCC;
-    display: none
-}
-
-div.browse_page tr.story_item td.story_data {
-    padding: 10px
 }
 
 div.browse_page tr.story_item td.category_cell {
-    padding: 3px;
     background-color: #EEE;
     border-left: 1px solid #CCC;
-    width: 200px;
-    text-align: center
 }
 
 div.browse_page thead tr.story_item td {
-    font-size: 0.9em;
-    font-weight: 600;
     background-color: #DDD !important;
-    padding: 10px !important
-}
-
-div.browse_page tr.story_item a.story_category {
-    display: inline-block;
-    font-size: 0.7em;
-    font-weight: 600;
-    padding: 2px 5px;
-    opacity: 1;
-    overflow: hidden;
-    margin-right: 3px;
-    vertical-align: middle;
-    line-height: 1.5em
 }
 
 div.browse_page tr.story_item img.story_image {
-    float: left;
-    margin-right: 10px;
-    padding: 1px;
     border: 1px solid #ccc;
-    max-height: 64px
-}
-
-div.browse_page tr.story_item a.title {
-    font-size: 1.0em;
-    font-weight: 600
 }
 
 div.browse_page tr.story_item span.description {
-    font-size: 0.8em;
     color: #444
 }
 
 div.browse_page tr.story_item span.by {
     color: #666;
-    font-size: 0.8em
 }
 
 div.browse_page tr.story_item span.info {
     color: #666;
-    font-size: 0.7em
-}
-
-div.browse_page tr.story_item span.info img {
-    vertical-align: -1px
-}
-
-div.browse_page tr.story_item span.info img.character_icon {
-    vertical-align: -3px;
-    margin-right: 2px;
-    width: 16px;
-    height: 16px;
-    opacity: 0.75;
-    border-radius: 3px
 }
 
 .tags-dropdown {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 100%;
-    z-index: 20000;
-    max-height: 300px;
     background-color: #fff;
     border: 1px solid rgba(0,0,0,0.2);
-    border-top: none;
-    overflow: auto;
-    background-clip: padding-box;
     box-shadow: 1px 2px 3px rgba(0,0,0,0.1);
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px
 }
 
 .tags-dropdown li {
-    padding: 0 10px;
-    cursor: pointer;
     border-bottom: 1px solid rgba(0,0,0,0.1);
-    line-height: 24px
-}
-
-.tags-dropdown li i {
-    margin-right: 5px
-}
-
-.tags-dropdown li img {
-    display: block;
-    width: 24px;
-    margin-right: 10px;
-    border-radius: 3px
-}
-
-.tags-dropdown li span {
-    font-size: 0.9em;
-    font-weight: 600;
-    line-height: 32px
 }
 
 .tags-dropdown li.selected {
     background-color: #FFF7CF;
     border-top: 1px solid rgba(0,0,0,0.1);
-    margin-top: -1px;
     color: #394858
-}
-
-.tags-dropdown li.hidden {
-    display: none
 }
 
 .aggregate-tags {
     border: 1px solid #060606;
-    padding: 2px;
-    border-radius: 3px;
-    margin-bottom: 10px;
     background: #1b1b1b;
-    font-size: .8125rem;
-}
-
-.aggregate-tags:empty {
-    display: none
 }
 
 .aggregate-tags li {
     color: rgba(214, 214, 214, 0.75);
-    font-weight: 600;
-    vertical-align: top;
-    margin-right: 0;
-    display: block;
     border-bottom: 1px solid rgba(0,0,0,0.15);
-    position: relative;
-    padding-right: 32px;
-    padding-left: 6px;
-}
-
-.aggregate-tags li:last-child {
-    border-bottom: none
-}
-
-.aggregate-tags li span {
-    line-height: 32px;
-    vertical-align: middle
-}
-
-.aggregate-tags li .icon {
-    display: inline-block;
-    vertical-align: middle;
-    width: 28px
-}
-
-.aggregate-tags li img {
-    display: block;
-    width: 24px;
-    margin-right: 10px;
-    border-radius: 3px
 }
 
 .aggregate-tags li .count {
-    font-size: 0.8em;
     color: #777;
-    padding-left: 8px
-}
-
-.aggregate-tags li .buttons {
-    font-size: 1rem;
-    text-decoration: none;
-    font-family: FontAwesome;
-    position: absolute;
-    right: 3px;
-    top: 50%;
-    margin-top: -10px
 }
 
 .aggregate-tags li .remove,.aggregate-tags li .include,.aggregate-tags li .exclude {
-    display: inline-block;
-    font-size: 12px;
-    text-decoration: none;
-    font-family: FontAwesome;
-    vertical-align: middle;
-    width: 20px;
-    height: 20px;
-    text-align: center;
-    border-radius: 2px;
-    margin-left: 5px;
-    background-clip: padding-box;
     color: rgba(0,0,0,0.7);
     background-color: #fff;
     border: 1px solid rgba(0,0,0,0.15)
-}
-
-.aggregate-tags li .remove:before,.aggregate-tags li .include:before,.aggregate-tags li .exclude:before {
-    content: "\f00d";
-    line-height: 20px
 }
 
 .aggregate-tags li .exclude {
@@ -2254,52 +980,16 @@ div.browse_page tr.story_item span.info img.character_icon {
     border: 1px solid #cfbdbd
 }
 
-.aggregate-tags li .exclude:before {
-    content: "\f068"
-}
-
 .aggregate-tags li .include {
     color: #66a93c;
     background-color: #d8e8ce;
     border: 1px solid #b8c5af;
 }
 
-.aggregate-tags li .include:before {
-    content: "\f067"
-}
-
-.aggregate-tags {
-    margin: 0;
-    overflow: auto;
-    max-height: 399px
-}
-
-.aggregate-tags li {
-    padding-right: 60px
-}
-
 .selected-tags li {
-    display: inline-block;
-    cursor: pointer;
     background: #DBEAA4;
     border: 1px solid rgba(0,0,0,0.1);
-    border-radius: 3px;
-    margin: 3px;
-    padding: 0.4em 0.7em;
-    padding-right: 1.25rem;
-    font-size: 0.8rem;
-    font-weight: 600;
     color: #748a24;
-    position: relative
-}
-
-.selected-tags li .exclude {
-    opacity: 0.3;
-    display: none
-}
-
-.selected-tags li .include {
-    display: none
 }
 
 .selected-tags li.excluded {
@@ -2307,52 +997,8 @@ div.browse_page tr.story_item span.info img.character_icon {
     background: #eaa4a4
 }
 
-.selected-tags li.excluded span:before {
-    content: "-"
-}
-
-.selected-tags li .buttons {
-    font-size: 1rem;
-    text-decoration: none;
-    font-family: FontAwesome;
-    position: absolute;
-    right: .1875rem;
-    top: 50%;
-    margin-top: -.625rem
-}
-
-.selected-tags li .remove {
-    color: inherit;
-    display: inline-block;
-    font-size: .75rem;
-    text-decoration: none;
-    font-family: FontAwesome;
-    vertical-align: middle;
-    width: .9375rem;
-    height: 1.25rem;
-    text-align: center;
-    border-radius: 2px;
-    background-clip: padding-box;
-    opacity: 0.8;
-    font-weight: normal
-}
-
-.selected-tags li .remove:hover {
-    opacity: 1.0
-}
-
-.selected-tags li .remove:before {
-    content: "\f00d";
-    line-height: 1.25rem
-}
-
 div.search_results_count {
-    float: right;
-    font-size: 0.9em;
     color: rgba(185, 185, 185, 0.8);
-    margin: 5px 0;
-    padding: 8px 12px;
-    border-radius: 5px;
 }
 
 .content_format_wob .paragraph-options {
@@ -2406,7 +1052,6 @@ div.search_results_count {
 
 .content_format_wob .chapter .bbcode blockquote.plaque {
     background: transparent;
-    text-shadow: none
 }
 
 .content_format_wob .chapter .bbcode blockquote.plaque:before,.content_format_wob .chapter .bbcode blockquote.plaque:after {
@@ -2450,7 +1095,6 @@ select[name=colour_scheme] option[value=wob] {
 .content_format_bow .chapter .bbcode hr:after {
     background: #fff;
     color: #999;
-    color: currentColor
 }
 
 .content_format_bow .chapter .bbcode h1,.content_format_bow .chapter .bbcode h2,.content_format_bow .chapter .bbcode h3 {
@@ -2459,7 +1103,6 @@ select[name=colour_scheme] option[value=wob] {
 
 .content_format_bow .chapter .bbcode blockquote.plaque {
     background: transparent;
-    text-shadow: none
 }
 
 .content_format_bow .chapter .bbcode blockquote.plaque:before,.content_format_bow .chapter .bbcode blockquote.plaque:after {
@@ -2483,7 +1126,6 @@ select[name=colour_scheme] option[value=bow] {
 .content_format_medium_dark .chapter {
     background-color: #333;
     color: #999;
-    text-shadow: -1px -1px rgba(0,0,0,0.3)
 }
 
 .content_format_medium_dark .chapter .chapter-title {
@@ -2513,7 +1155,6 @@ select[name=colour_scheme] option[value=bow] {
 .content_format_medium_dark .chapter .bbcode hr:after {
     background: #333;
     color: #848484;
-    color: currentColor
 }
 
 .content_format_medium_dark .chapter .bbcode h1,.content_format_medium_dark .chapter .bbcode h2,.content_format_medium_dark .chapter .bbcode h3 {
@@ -2522,7 +1163,6 @@ select[name=colour_scheme] option[value=bow] {
 
 .content_format_medium_dark .chapter .bbcode blockquote.plaque {
     background: transparent;
-    text-shadow: none
 }
 
 .content_format_medium_dark .chapter .bbcode blockquote.plaque:before,.content_format_medium_dark .chapter .bbcode blockquote.plaque:after {
@@ -2566,7 +1206,6 @@ select[name=colour_scheme] option[value=medium_dark] {
 .content_format_medium_light .chapter .bbcode hr:after {
     background: #ddd;
     color: #777;
-    color: currentColor
 }
 
 .content_format_medium_light .chapter .bbcode h1,.content_format_medium_light .chapter .bbcode h2,.content_format_medium_light .chapter .bbcode h3 {
@@ -2575,7 +1214,6 @@ select[name=colour_scheme] option[value=medium_dark] {
 
 .content_format_medium_light .chapter .bbcode blockquote.plaque {
     background: transparent;
-    text-shadow: none
 }
 
 .content_format_medium_light .chapter .bbcode blockquote.plaque:before,.content_format_medium_light .chapter .bbcode blockquote.plaque:after {
@@ -2629,7 +1267,6 @@ select[name=colour_scheme] option[value=medium_light] {
 .content_format_dark_red .chapter .bbcode hr:after {
     background: #551010;
     color: #c67d7d;
-    color: currentColor
 }
 
 .content_format_dark_red .chapter .bbcode h1,.content_format_dark_red .chapter .bbcode h2,.content_format_dark_red .chapter .bbcode h3 {
@@ -2638,7 +1275,6 @@ select[name=colour_scheme] option[value=medium_light] {
 
 .content_format_dark_red .chapter .bbcode blockquote.plaque {
     background: transparent;
-    text-shadow: none
 }
 
 .content_format_dark_red .chapter .bbcode blockquote.plaque:before,.content_format_dark_red .chapter .bbcode blockquote.plaque:after {
@@ -2662,7 +1298,6 @@ select[name=colour_scheme] option[value=dark_red] {
 .content_format_dark_blue .chapter {
     background-color: #102355;
     color: #9EADDD;
-    text-shadow: -1px -1px rgba(0,0,0,0.3)
 }
 
 .content_format_dark_blue .chapter .chapter-title {
