@@ -8,7 +8,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
 }
 html, body {
-	background-color: #151515 !important;
+	background-color: #131313 !important;
 }
 .content_box, .user-cp-content-box, .bookshelf-card, .user-card, .list_boxes .groups ul li a, .list_boxes .blog_posts>ul>li, .api-content-box, .list_boxes .bookshelves li.selected, .list_boxes .bookshelves .bookshelf-icon, div.search_results_count, .comment .data, .comment .avatar, .feed>li, .feed>li .avatar, .front_page .featured_box, .group_list .icon, .thread_list table td .avatar, .thread_list table td .group-icon, .member_list table td img.avatar, .group-card, .private-message-list .avatar, .statistics .graph, .story_content_box, .story_container img.story_avatar, .story-card, .thumbnail-story-list li .item, .properties .characters label div, .tag-page .related-characters li a, .tag-header, .tag-header .image img, .user_cp .tabs img, .user_cp .tabs .tab-collection, div.user_cp .message_table img.avatar, .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar, .story-page-header .image-container img, .user-page-header .avatar-container img, .page_list, .page_list_info, .adsbygoogle, .hfksjdhfksjd, .pw-ad-box table, .private_messages .previous_message .avatar {
 	background-color: #212121 !important;
@@ -1437,7 +1437,6 @@ box-shadow: none;
 .user-page-header .tabs li a:hover{
 	background: #1d1d1d;
 }
-.quote_container .comment{
-	
-background-color: #2d2d2d;
+.properties input:disabled{
+	background: #272727;
 }
