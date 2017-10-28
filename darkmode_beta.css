@@ -22,6 +22,18 @@ html,body{background-color: #151515 !important;}
 .writing_guide .contents li.h1 a {
     color: #cccccc !important;
 }
+.writing_guide code, .writing_guide kbd {
+    background-color: #080808;
+}
+.writing_guide .backtop a:hover {
+    color: #c3c3c3;
+}
+.writing_guide .timestamp {
+    color: #8a8a8a;
+}
+.writing_guide blockquote {
+    color: #9a9a9a;
+}
 a {
     color: #4f8822;
     text-shadow: none;
