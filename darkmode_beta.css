@@ -6938,10 +6938,9 @@ div.list_boxes div.content_box div.main,div.list_boxes div.user-cp-content-box d
 }
 .bbcode .oembed,.article .oembed {
     border: 1px solid #ccc;
-    outline: none;
 }
 .bbcode .oembed .link,.article .oembed .link {
-    color: #9e9e9e;
+    color: #555;
 }
 .bbcode .oembed .button,.article .oembed .button {
     color: #aaa;
@@ -13009,7 +13008,7 @@ div.list_boxes div.content_box div.main,div.list_boxes div.user-cp-content-box d
     color: #989898;
 }
 .faq main h3,.tags_information main h3,.rules main h3 {
-    color: #333;
+    color: #a5a5a5;
 }
 .faq p .tag,.tags_information p .tag,.rules p .tag {
     color: #3180e6;
