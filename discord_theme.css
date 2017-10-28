@@ -24,7 +24,7 @@ body
     color: #c5c6c7;
 }
 
-.content_box.content_box>h1, .format-toolbar .toolbar_buttons.user-cp-content-box>h1, .user-cp-content-box, .bookshelf-card, .user-card, .list_boxes .groups ul li a, .list_boxes .blog_posts>ul>li, .api-content-box, .list_boxes .bookshelves li.selected, .list_boxes .bookshelves .bookshelf-icon, div.search_results_count, .comment .data, .comment .avatar, .feed>li, .feed>li .avatar, .group_list .icon, .thread_list table td .avatar, .thread_list table td .group-icon, .member_list table td img.avatar, .module_container .user-cp-content-box, .group-card, .private-message-list .avatar, .statistics .graph, .story_content_box, .story_container img.story_avatar, .story-card, .thumbnail-story-list li .item, .properties .characters label div, .tag-page .related-characters li a, .tag-header, .tag-header .image img, .user_cp .tabs img, .user_cp .tabs .tab-collection, div.user_cp .message_table img.avatar, .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar, .story-page-header .image-container img, .page_list, .page_list_info, .adsbygoogle, .hfksjdhfksjd, .pw-ad-box table, .private_messages .previous_message .avatar, .story-card .story-image img, .front_page .featured_box, .story-card .story-card__title .drop-down-expander, .front_page .featured_box, .front_page .featured_box .featured_story, .story-card .story-card__title .drop-down-expander, .story-page-header .mini-info-box, .user-page-header .mini-info-box, .story-card .story-card__title .drop-down-expander:hover
+.content_box, .content_box.content_box>h1, .format-toolbar .toolbar_buttons.user-cp-content-box>h1, .user-cp-content-box, .bookshelf-card, .user-card, .list_boxes .groups ul li a, .list_boxes .blog_posts>ul>li, .api-content-box, .list_boxes .bookshelves li.selected, .list_boxes .bookshelves .bookshelf-icon, div.search_results_count, .comment .data, .comment .avatar, .feed>li, .feed>li .avatar, .group_list .icon, .thread_list table td .avatar, .thread_list table td .group-icon, .member_list table td img.avatar, .module_container .user-cp-content-box, .group-card, .private-message-list .avatar, .statistics .graph, .story_content_box, .story_container img.story_avatar, .story-card, .thumbnail-story-list li .item, .properties .characters label div, .tag-page .related-characters li a, .tag-header, .tag-header .image img, .user_cp .tabs img, .user_cp .tabs .tab-collection, div.user_cp .message_table img.avatar, .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar, .story-page-header .image-container img, .page_list, .page_list_info, .adsbygoogle, .hfksjdhfksjd, .pw-ad-box table, .private_messages .previous_message .avatar, .story-card .story-image img, .front_page .featured_box, .story-card .story-card__title .drop-down-expander, .front_page .featured_box, .front_page .featured_box .featured_story, .story-card .story-card__title .drop-down-expander, .story-page-header .mini-info-box, .user-page-header .mini-info-box, .story-card .story-card__title .drop-down-expander:hover
 {
     background: #2f3136;
     border: 1px solid #2f3136;
@@ -46,6 +46,11 @@ div.add_comment_toolbar
 {
     box-shadow: 0 1px #2f3136 inset;
     color: #c5c6c7;
+}
+
+.front_page .featured_box .info, .story-card .story-card__info
+{
+    color: #55575c
 }
 
 .front_page .featured_box .featured_story hr
@@ -159,9 +164,4 @@ div.add_comment_toolbar
     background: #51575e;
     text-shadow: 0px 0px rgba(255,255,255,0.4);
     border: 1px solid #2a2c30;
-}
-
-.story-card .story-card__info
-{
-    color: #55575c
 }
