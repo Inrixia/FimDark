@@ -1431,10 +1431,6 @@ box-shadow: none;
 .properties>tr:nth-child(odd) td.label, .properties>tbody>tr:nth-child(odd) td.label{
 	background: #272727;
 }
-.user_cp .tabs ul li:HOVER{
-	
-background: #131313;
-}
-.generic_content_box_content{
-	color: #adadad;
+.user_page #user_page_editing_toolbar .modules a.styled_button{
+	text-shadow: none;
 }
