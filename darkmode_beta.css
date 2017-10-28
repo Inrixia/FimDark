@@ -9575,7 +9575,7 @@ img.group_member_modify_level.group_member_level_selected {
 }
 .story_container .chapters-footer {
     background-color: #efefef;
-    color: #555;
+    color: #a9a8a8;
     border-bottom: 1px solid rgba(0,0,0,0.15);
 }
 .story_container .chapters-footer .word_count a {
