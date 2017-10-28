@@ -1403,3 +1403,23 @@ table tr:nth-child(odd){
 	
 background-color: #292929 !important;
 }
+.styled_button.styled_button_grey{
+
+background: #444444;
+
+text-shadow: none;
+
+box-shadow: none;
+}
+.group-header .menu .buttons li a:hover{
+	
+background: #171717;
+}
+.styled_button.styled_button_grey:HOVER{
+	
+background: #6f6f6f;
+	
+text-shadow: none;
+	
+box-shadow: none;
+}
