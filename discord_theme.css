@@ -1,14 +1,30 @@
+.add_comment textarea
+{
+    background: #46494f
+    
+}
+
+.bbcode-editor
+{
+    background: #36393d
+}
+
+.bbcode-editor .format-toolbar
+{
+    background: #2f3136
+}
+
 body
 {
     background-color: #36393d;
 }
 
-.content_box, .user-cp-content-box, .bookshelf-card, .user-card, .list_boxes .groups ul li a, .list_boxes .blog_posts>ul>li, .api-content-box, .list_boxes .bookshelves li.selected, .list_boxes .bookshelves .bookshelf-icon, div.search_results_count, .comment .data, .comment .avatar, .feed>li, .feed>li .avatar, .front_page .featured_box, .group_list .icon, .thread_list table td .avatar, .thread_list table td .group-icon, .member_list table td img.avatar, .group-card, .private-message-list .avatar, .statistics .graph, .story_content_box, .story_container img.story_avatar, .story-card, .thumbnail-story-list li .item, .properties .characters label div, .tag-page .related-characters li a, .tag-header, .tag-header .image img, .user_cp .tabs img, .user_cp .tabs .tab-collection, div.user_cp .message_table img.avatar, .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar, .story-page-header .image-container img, .user-page-header .avatar-container img, .page_list, .page_list_info, .adsbygoogle, .hfksjdhfksjd, .pw-ad-box table, .private_messages .previous_message .avatar, .front_page .featured_box .description, .front_page .featured_box .left ul li, .currently-reading-list .title, .front_page .featured_box .title a, .styled_button.styled_button_blue
+.add_comment textarea, .content_box>h1, .user-cp-content-box>h1, .content_box, .user-cp-content-box, .bookshelf-card, .user-card, .list_boxes .groups ul li a, .list_boxes .blog_posts>ul>li, .api-content-box, .list_boxes .bookshelves li.selected, .list_boxes .bookshelves .bookshelf-icon, div.search_results_count, .comment .data, .comment .avatar, .feed>li, .feed>li .avatar, .front_page .featured_box, .group_list .icon, .thread_list table td .avatar, .thread_list table td .group-icon, .member_list table td img.avatar, .group-card, .private-message-list .avatar, .statistics .graph, .story_content_box, .story_container img.story_avatar, .story-card, .thumbnail-story-list li .item, .properties .characters label div, .tag-page .related-characters li a, .tag-header, .tag-header .image img, .user_cp .tabs img, .user_cp .tabs .tab-collection, div.user_cp .message_table img.avatar, .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar, .story-page-header .image-container img, .user-page-header .avatar-container img, .page_list, .page_list_info, .adsbygoogle, .hfksjdhfksjd, .pw-ad-box table, .private_messages .previous_message .avatar, .front_page .featured_box .description, .front_page .featured_box .left ul li, .currently-reading-list .title, .front_page .featured_box .title a, .styled_button.styled_button_blue, .story-page-header, .user-page-header, .story-page-header>.inner h1, .user-page-header>.inner h1
 {
     color: #c5c6c7;
 }
 
-.content_box, .user-cp-content-box, .bookshelf-card, .user-card, .list_boxes .groups ul li a, .list_boxes .blog_posts>ul>li, .api-content-box, .list_boxes .bookshelves li.selected, .list_boxes .bookshelves .bookshelf-icon, div.search_results_count, .comment .data, .comment .avatar, .feed>li, .feed>li .avatar, .group_list .icon, .thread_list table td .avatar, .thread_list table td .group-icon, .member_list table td img.avatar, .group-card, .private-message-list .avatar, .statistics .graph, .story_content_box, .story_container img.story_avatar, .story-card, .thumbnail-story-list li .item, .properties .characters label div, .tag-page .related-characters li a, .tag-header, .tag-header .image img, .user_cp .tabs img, .user_cp .tabs .tab-collection, div.user_cp .message_table img.avatar, .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar, .story-page-header .image-container img, .user-page-header .avatar-container img, .page_list, .page_list_info, .adsbygoogle, .hfksjdhfksjd, .pw-ad-box table, .private_messages .previous_message .avatar, .story-card .story-image img, .front_page .featured_box, .story-card .story-card__title .drop-down-expander, .front_page .featured_box, .front_page .featured_box .featured_story, .story-card .story-card__title .drop-down-expander
+.content_box.content_box>h1, .format-toolbar .toolbar_buttons.user-cp-content-box>h1, .user-cp-content-box, .bookshelf-card, .user-card, .list_boxes .groups ul li a, .list_boxes .blog_posts>ul>li, .api-content-box, .list_boxes .bookshelves li.selected, .list_boxes .bookshelves .bookshelf-icon, div.search_results_count, .comment .data, .comment .avatar, .feed>li, .feed>li .avatar, .group_list .icon, .thread_list table td .avatar, .thread_list table td .group-icon, .member_list table td img.avatar, .module_container .user-cp-content-box, .group-card, .private-message-list .avatar, .statistics .graph, .story_content_box, .story_container img.story_avatar, .story-card, .thumbnail-story-list li .item, .properties .characters label div, .tag-page .related-characters li a, .tag-header, .tag-header .image img, .user_cp .tabs img, .user_cp .tabs .tab-collection, div.user_cp .message_table img.avatar, .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar, .story-page-header .image-container img, .page_list, .page_list_info, .adsbygoogle, .hfksjdhfksjd, .pw-ad-box table, .private_messages .previous_message .avatar, .story-card .story-image img, .front_page .featured_box, .story-card .story-card__title .drop-down-expander, .front_page .featured_box, .front_page .featured_box .featured_story, .story-card .story-card__title .drop-down-expander, .story-page-header .mini-info-box, .user-page-header .mini-info-box, .story-card .story-card__title .drop-down-expander:hover
 {
     background: #2f3136;
     border: 1px solid #2f3136;
@@ -17,6 +33,19 @@ body
 .currently-reading-list li .read-progress
 {
     background: #1f2124
+}
+
+div.add_comment_toolbar
+{
+    background: #2f3136;
+    border: 1px solid #2f3136;
+    box-shadow: 0 0 0;
+}
+
+.format-toolbar
+{
+    box-shadow: 0 1px #2f3136 inset;
+    color: #c5c6c7;
 }
 
 .front_page .featured_box .featured_story hr
@@ -54,7 +83,13 @@ body
     border: 1px solid #2f3136;
 }
 
-.sidebar-shadow div.light-gradient
+.module_container .content_box, .user-page-header .avatar-container img
+{
+    background: #2f3136;
+    border: 0px solid #36393d;
+}
+
+.sidebar-shadow div.light-gradient, .topbar-shadow div.light-gradient
 {
         background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #292b2e 80px);
 }
@@ -64,10 +99,11 @@ body
     background: linear-gradient(to bottom, #292b2e 0%, rgba(255,255,255,0) 80px);
 }
 
-.story-card .story-card__title .drop-down-expander:hover
+.story-page-header, .user-page-header
 {
-    background: #2f3136;
-    border: 1px solid #2f3136;
+    background: #36393d;
+    text-shadow: 0px 0px rgba(255,255,255,0.3);
+    border-bottom: 2px solid #292b2e;
 }
 
 .styled_button.styled_button_blue
@@ -85,6 +121,11 @@ body
     border: 0px solid #292b2e;
     text-shadow: 0px 0px #292b2e;
     background: #2f3136;
+}
+
+.topbar-shadow div.light-gradient:before
+{
+    background: linear-gradient(to right, #fff 0%, rgba(255,255,255,0) 0px);
 }
 
 .user_toolbar
