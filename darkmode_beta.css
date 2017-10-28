@@ -13,7 +13,7 @@ html,body{background-color: #151515 !important;}
 .story_container .chapters{border:none !important;} 
 .story_container .story_container__story_image img{background-color: #525252 !important;} 
 .story-page-header>.inner h1, .user-page-header>.inner h1{color: #d2d2d2 !important;} 
-.story_container, .title, .story_name{color: #b5b5b5 !important;} 
+.story_container, .title, .story_name{color: #b5b5b5;} 
 .story_container .chapters-footer{background-color: #353535 !important;} 
 .user_toolbar>ul>li:after{background:linear-gradient(to bottom, rgba(71,125,210,0) 0%, rgba(191, 191, 191, 0.32) 50%, rgba(71,125,210,0) 100%);} 
 .user_toolbar>ul>li:before{background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0) 100%) !important;} 
@@ -6734,7 +6734,7 @@ div.list_boxes div.content_box div.main,div.list_boxes div.user-cp-content-box d
     border-bottom: 0
 }
 .list_boxes .group-list .info {
-    color: #777;
+    color: #848484;
 }
 .list_boxes .group-list .icon {
     background-color: transparent;
@@ -7200,8 +7200,8 @@ div.list_boxes div.content_box div.main,div.list_boxes div.user-cp-content-box d
     color: #8f8c88
 }
 .list_boxes .bookshelves .bookshelf-description {
-    color: #555;
-    border-top: 1px solid rgba(0,0,0,0.1)
+    color: #a0a0a0;
+    border-top: 1px solid rgba(0,0,0,0.1);
 }
 .bookshelf-edit-popup .bookshelf-icon-preview {
     background: #fff;
@@ -9558,7 +9558,7 @@ img.group_member_modify_level.group_member_level_selected {
     color: #888;
 }
 .story_container .title .story_name {
-    color: #333
+    color: #b5b5b5;
 }
 .story_container .description_full {
     max-height: none !important;
@@ -11249,7 +11249,7 @@ body.pin_nav_bar div.page-nav-bars {
 }
 .toggleable-radio label {
     color: #cacaca;
-    text-shadow: none;
+    text-shadow: 1px 1px rgba(255,255,255,0.5);
     border-right: 1px solid rgba(0,0,0,0.2);
 }
 .toggleable-radio label:hover {
@@ -11947,7 +11947,7 @@ div.add_comment_toolbar {
     box-shadow: 0 1px #333333 inset;
     border: 1px solid #191919;
     color: #2b2a28;
-    text-shadow: none;
+    text-shadow: 1px 1px #e4ddd2;
     background: #2d2d2d;
     color: #bbbbbb;
 }
