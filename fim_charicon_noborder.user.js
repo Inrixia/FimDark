@@ -229,7 +229,8 @@
         $(this).css({
             'vertical-align':'middle',
             'line-height':'1.9em',
-            'padding-top':'0.13em'
+            'padding-top':'0.13em',
+            'border':'none'
         });
         if (iconArray[tag] !== undefined){
             $(this).text('');
