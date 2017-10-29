@@ -22,6 +22,13 @@ https://github.com/Inrixia/Inrixia.github.io/raw/master/FimBanner.user.js
 **Important Note**: The banner is modified and heavily cut down from **[FimFiction Advanced](https://sta.sh/01pfv954kl8r)** by **[Sollace](https://www.fimfiction.net/user/138711/Sollace)**. Please do go check it out its quite good.
 
 ---
+### New: Bring back Character Icons!
+![Example](https://i.gyazo.com/fc4d5c8170d0bc852a0183e2b813f1f2.png)
+
+For the **FimCharicon Script** click this:
+https://github.com/Inrixia/inrixia.github.io/raw/master/fim_charicon.js
+
+---
 
 ### Screenshots:
  - **[Landscape Screenshots](https://imgur.com/a/0XpWx)**
