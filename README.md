@@ -26,7 +26,10 @@ https://github.com/Inrixia/Inrixia.github.io/raw/master/FimBanner.user.js
 ![Example](https://i.gyazo.com/fc4d5c8170d0bc852a0183e2b813f1f2.png)
 
 For the **FimCharicon Script** click this:
-https://github.com/Inrixia/inrixia.github.io/raw/master/fim_charicon.js
+https://github.com/Inrixia/inrixia.github.io/raw/master/fim_charicon.user.js
+
+Without borders:
+https://github.com/Inrixia/inrixia.github.io/raw/master/fim_charicon_noborder.user.js
 
 ---
 
