@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Fim Dash
 // @namespace    http://tampermonkey.net/
-// @version      1.2
+// @version      1.3
 // @description  Time to take over FimFiction
 // @author       YourTrueOverlord
 // @match        http://tampermonkey.net/index.php?version=4.4&ext=dhdg&updated=true
