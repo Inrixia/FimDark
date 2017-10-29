@@ -11,3 +11,4 @@
 // @require https://github.com/Inrixia/inrixia.github.io/raw/master/darkmode.js
 // @include http://www.fimfiction.net/*
 // @include https://www.fimfiction.net/*
+// ==/UserScript==
