@@ -19,7 +19,7 @@ body
     background-color: #36393d;
 }
 
-.add_comment textarea, .content_box>h1, .content_format_bow .chapter .authors-note, .content_format_bow .chapter, .content_format_bow .chapter .chapter-title, .user-cp-content-box>h1, .content_box, .user-cp-content-box, .bookshelf-card, .user-card, .list_boxes .groups ul li a, .list_boxes .blog_posts>ul>li, .api-content-box, .list_boxes .bookshelves li.selected, .list_boxes .bookshelves .bookshelf-icon, div.search_results_count, .comment .data, .comment .avatar, .feed>li, .feed>li .avatar, .front_page .featured_box, .group_list .icon, .thread_list table td .avatar, .notifications-list>li.new .notification-primary, .thread_list table td .group-icon, .member_list table td img.avatar, .notifications-list>li.sub-header, .notifications-list a, .group-card, .private-message-list .avatar, .statistics .graph, .story_content_box, .story_container img.story_avatar, .story-card, .thumbnail-story-list li .item, .user-page-header .tabs li a, .user-page-header .tabs li a .number, .properties .characters label div, .tag-page .related-characters li a, .tag-header, .tag-header .image img, .user_cp .tabs img, .user_cp .tabs .tab-collection, div.user_cp .message_table img.avatar, .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar, .story-page-header .image-container img, .user-page-header .avatar-container img, .page_list, .page_list_info, .adsbygoogle, .hfksjdhfksjd, .pw-ad-box table, .private_messages .previous_message .avatar, .front_page .featured_box .description, .front_page .featured_box .left ul li, .currently-reading-list .title, .front_page .featured_box .title a, .styled_button.styled_button_blue, .story-page-header, .user-page-header, .story-page-header>.inner h1, .user-page-header>.inner h1
+.add_comment textarea, .content_box>h1, .content_format_bow .chapter .authors-note, .content_format_bow .chapter, .content_format_bow .chapter .chapter-title, .user-cp-content-box>h1, .content_box, .user-cp-content-box, .bookshelf-card, .user-card, .list_boxes .groups ul li a, .list_boxes .blog_posts>ul>li, .api-content-box, .list_boxes .bookshelves li.selected, .list_boxes .bookshelves .bookshelf-icon, div.search_results_count, .comment .data, .comment .avatar, .feed>li, .feed>li .avatar, .front_page .featured_box, .group_list .icon, .thread_list table td .avatar, .notifications-list>li.new .notification-primary, .thread_list table td .group-icon, .member_list table td img.avatar, .notifications-list>li.sub-header, .notifications-list a, .group-card, .private-message-list .avatar, .statistics .graph, .story_content_box, .story_container img.story_avatar, .story-card, .thumbnail-story-list li .item, .user-page-header .tabs li a, .user_cp .tabs ul li.tab_selected i, .user-page-header .tabs li a .number, .properties .characters label div, .tag-page .related-characters li a, .tag-header, .tag-header .image img, .user_cp .tabs img, .user_cp .tabs .tab-collection, div.user_cp .message_table img.avatar, .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar, .story-page-header .image-container img, .user-page-header .avatar-container img, .page_list, .page_list_info, .adsbygoogle, .hfksjdhfksjd, .pw-ad-box table, .private_messages .previous_message .avatar, .front_page .featured_box .description, .front_page .featured_box .left ul li, .currently-reading-list .title, .front_page .featured_box .title a, .styled_button.styled_button_blue, .story-page-header, .user-page-header, .story-page-header>.inner h1, .user-page-header>.inner h1
 {
     color: #c5c6c7;
 }
@@ -185,10 +185,16 @@ div.add_comment_toolbar
     text-shadow: -1px -1px #55575c;
 }
 
-.user_toolbar>ul>li:hover
+.user_toolbar>ul>li:hover, .user_cp .tabs ul li:HOVER
 {
     background: #2a2b2e;
     text-shadow: -1px -1px #292b2e;
+}
+
+.user_cp .tabs ul li.tab_selected
+{
+    background: #46494f;
+    color: #c5c6c7
 }
 
 .user-page-header .tabs li a
