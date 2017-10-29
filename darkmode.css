@@ -4,6 +4,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .tag-header .background{
 	background:black;
 }
+.user_cp .tabs ul li:HOVER{
+	background: #333;
+}
+.post_table thead td{
+	color:#c7c7c7;
+}
 .tag-header p{
 	color: #d2d2d2;
 }
@@ -1110,8 +1116,8 @@ div.user_page ul.list li span.info {
 	color: #9a9a9a
 }
 .user_cp .tabs h1 {
-	color: #ececec;
-	border-top-right-radius: 5px
+	color: #dcdcdc;
+	border-top-right-radius: 5px;
 }
 .user_cp .tabs ul li {
 	border-bottom: 1px solid #3c3c3c
