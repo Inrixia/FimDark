@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Fim Charicon NoBorder
 // @namespace    http://tampermonkey.net/
-// @version      2.1
+// @version      2.2
 // @description  Time to take over all the icons!
 // @author       YourTrueOverlord
 // @match        http://tampermonkey.net/index.php?version=4.4&ext=dhdg&updated=true
@@ -229,7 +229,8 @@
         $(this).css({
             'vertical-align':'middle',
             'line-height':'1.9em',
-            'padding-top':'0.13em'
+            'padding-top':'0.13em',
+            'border':'none'
         });
         if (iconArray[tag] !== undefined){
             $(this).text('');
