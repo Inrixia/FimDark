@@ -8,15 +8,6 @@
 // @grant        none
 // @run-at document-start
 // @require http://code.jquery.com/jquery-1.12.4.min.js
+// @require https://github.com/Inrixia/inrixia.github.io/raw/master/darkmode.js
 // @include http://www.fimfiction.net/*
 // @include https://www.fimfiction.net/*
-// ==/UserScript==
-
-
-(function() {
-    $("head").append('<link id="first_dark" rel="stylesheet" href="https://inrixia.github.io/darkmode.css" type="text/css">');
-    window.onload = function(){
-        $("head").append('<link rel="stylesheet" href="https://inrixia.github.io/darkmode.css" type="text/css">');
-        $("#first_dark").remove();
-    };
-})();
