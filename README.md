@@ -27,6 +27,8 @@ https://github.com/Inrixia/Inrixia.github.io/raw/master/FimBanner.user.js
 
 For the **FimCharicon Script** click this:
 https://github.com/Inrixia/inrixia.github.io/raw/master/fim_charicon.user.js
+Without borders:
+https://github.com/Inrixia/inrixia.github.io/raw/master/fim_charicon_noborder.user.js
 
 ---
 
