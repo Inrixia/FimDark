@@ -7,8 +7,23 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .user_cp .tabs ul li:HOVER{
 	background: #333;
 }
+.nav_bar .nav-bar-list>li>ul.browse-pane ul li a:HOVER, .nav_bar .nav-bar-list>li .nav-bar-drop-down.browse-pane ul li a:HOVER{
+	color:#d6d6d6;
+}
+.button-group .drop-down ul li a:hover, .button-group-vertical .drop-down ul li a:hover, .drop-down-button .drop-down ul li a:hover{
+	background: #232323;
+	color: rgba(255, 255, 255, 0.8);
+}
 .post_table thead td{
 	color:#c7c7c7;
+}
+.user_toolbar>ul>li ul li:hover>a{
+	background: #232323;
+	color: rgba(255, 255, 255, 0.8);
+}
+.user_toolbar>ul>li ul li:hover>a i, .user_toolbar>ul>li ul li:hover>a .bookshelf-icon-element{
+	background: #191919;
+	color: #fff;
 }
 .tag-header p{
 	color: #d2d2d2;
