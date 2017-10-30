@@ -11,6 +11,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .user_cp .tabs ul li:HOVER{
 	background: #333;
 }
+.nav_bar .nav-bar-list>li>ul.drop-down-notifications, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-notifications{
+	color: #a2a2a2;
+}
 .nav_bar .nav-bar-list>li>ul.browse-pane ul li a:HOVER, .nav_bar .nav-bar-list>li .nav-bar-drop-down.browse-pane ul li a:HOVER{
 	color:#d6d6d6;
 }
