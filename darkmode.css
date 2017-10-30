@@ -6,6 +6,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	background-color: #2f2f2f;
 	border-color: #252525;
 }
+.list_boxes .list .story_thumbnail, .list_boxes .list .avatar{
+	background: transparent;
+}
 .tag-header .background{
 	background:black;
 }
