@@ -1,12 +1,10 @@
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, bdi, details, dialog, figcaption, figure, footer, header, main, mark, nav, section, summary, time, wbr {
-	border: none!important
+	border: none!important;
+	text-shadow: none;
 }
 .properties input.valid, .properties input:required:valid{
 	background-color: #2f2f2f;
 	border-color: #252525;
-}
-.properties input:focus, .properties select:focus {
-	color:#d6d6d6;
 }
 .tag-header .background{
 	background:black;
