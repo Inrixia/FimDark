@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Fim Charicon
+// @name         Fim Charicon NoBorder
 // @namespace    http://tampermonkey.net/
-// @version      2.0
+// @version      2.2
 // @description  Time to take over all the icons!
 // @author       YourTrueOverlord
 // @match        http://tampermonkey.net/index.php?version=4.4&ext=dhdg&updated=true
@@ -228,14 +228,17 @@
         var tag = $(this).text();
         $(this).css({
             'vertical-align':'middle',
-            'line-height':'2.2em'
+            'line-height':'1.9em',
+            'padding-top':'0.13em',
+            'border':'none'
         });
         if (iconArray[tag] !== undefined){
             $(this).text('');
             $(this).css({
-                'padding':'0.1em 0.2em 0.1em',
+                'padding':'0em',
                 'vertical-align':'middle',
-                'line-height':'2.53em'
+                'padding-bottom':'0.2em',
+                'background':'transparent'
             });
             $(this).append('<img src="https://static.fimfiction.net/images/characters/'+iconArray[tag]+'" alt="" style="vertical-align:middle;border-radius: 0.3em;"/>');
         }
