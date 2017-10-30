@@ -6,6 +6,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	background-color: #2f2f2f;
 	border-color: #252525;
 }
+.comment .comment_information .buttons a:hover{
+	background-color: #252525; 
+}
+.comment .comment_information .buttons a{
+	background-color: #191919
+}
+.comment .comment_information .buttons a i{
+	color: #a0a0a0;
+}
+.comment .data .edit_area textarea {
+	background-color: #252525;
+	color: #afafaf;
+}
 .list_boxes .list .story_thumbnail, .list_boxes .list .avatar{
 	background: transparent;
 }
