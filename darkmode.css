@@ -17,6 +17,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .post_table thead td{
 	color:#c7c7c7;
 }
+.post_table tr {
+    background-color: #333;
+}
+.post_table td.sub-header {
+    background: #2d2d2d;
+}
 .user_toolbar>ul>li ul li:hover>a{
 	background: #232323;
 	color: rgba(255, 255, 255, 0.8);
