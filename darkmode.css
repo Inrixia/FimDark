@@ -12,6 +12,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .user_cp .tabs ul li:HOVER{
 	background: #333;
 }
+.properties input, .properties select, .properties textarea {
+	color: #dad9d9;
+	border: 1px solid #212121;
+	background-color: #3e3e3e;
+	text-shadow: none
+}
+.properties input:focus, .properties select:focus{
+	color: #dad9d9;
+	border: 1px solid #212121;
+	background-color: #696969;
+}
 .nav_bar .nav-bar-list>li>ul.drop-down-notifications, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-notifications{
 	color: #a2a2a2;
 }
@@ -1101,12 +1112,6 @@ div.search_results_count {
 	background-color: #383838;
 	color: #c7c7c7;
 	border-bottom: 1px solid #ddd
-}
-.properties input, .properties select, .properties textarea {
-	color: #dad9d9;
-	border: 1px solid #212121;
-	background-color: #3e3e3e;
-	text-shadow: none
 }
 .properties input[type="text"] {
 	text-shadow: none
