@@ -6,6 +6,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	background-color: #2f2f2f;
 	border-color: #252525;
 }
+.content_format_bow .chapter a {
+	color: #cecece !important;
+}
 .comment .comment_information .buttons a:hover{
 	background-color: #252525; 
 }
