@@ -5,6 +5,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .notifications-list a {
 	color: #2f2f2f;
 }
+.nav_bar .nav-bar-list>li>ul.drop-down-private-messages li.new, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li.new {
+	background: #4a4a4a;
+}
+.nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li.new .message-content {
+	color: #b9b9b9;
+}
 .toolbar .cell>ul>li>a:hover {
 	background: #353535;
 }
