@@ -1524,6 +1524,8 @@ tr:nth-child(odd) {
 .styled_button.styled_button_grey:HOVER {
     background: #333333;
     color: #d2d2d2;
+    box-shadow: none;
+    text-shadow: none;
 }
 .user_toolbar>ul>li:hover {
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .1) 50%)!important
