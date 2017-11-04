@@ -2,6 +2,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	border: none!important;
 	text-shadow: none;
 }
+.bio_followers ul.names li a span.name {
+	color: #cacaca;
+}
 .notifications-list a {
 	color: #2f2f2f;
 }
@@ -503,10 +506,6 @@ div.search_results_count {
 	color: #afafaf
 }
 .user-card .user-links a .number {
-	color: #bfbfbf
-}
-.bio_followers h3 {
-	background-color: #1d1d1d;
 	color: #bfbfbf
 }
 ul.simple-user-list li img {
@@ -1175,6 +1174,7 @@ div.search_results_count {
 	color: #bfbfbf
 }
 .bio_followers h3 {
+	text-shadow:none;
 	background-color: #1d1d1d;
 	color: #bfbfbf
 }
