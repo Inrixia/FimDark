@@ -2,6 +2,18 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	border: none!important;
 	text-shadow: none;
 }
+.story_container .chapters-footer .word_count {
+	color: #a7a7a7;
+}
+.story_container .completed-status-incomplete {
+    background: #e0940e;
+}
+.story_container .completed-status-complete {
+    background: #5aab3b;
+}
+.story_container .completed-status-complete, .story_container .completed-status-incomplete, .story_container .completed-status-hiatus, .story_container .completed-status-cancelled, .story_container .approved-date, .story_container .download>a, .story_container .add-to-groups {
+	color: #e4e4e4;
+}
 .bio_followers ul.names li a span.name {
 	color: #cacaca;
 }
