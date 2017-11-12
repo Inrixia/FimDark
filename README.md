@@ -10,6 +10,8 @@
 
 I will be maintaining the styles and fixing things as I browse. You dont need to update to get these as the script automagically works off the latest stuff.
 
+**Important**: If you just want the dark theme and not the banner, you should use Stylish instead: https://userstyles.org/styles/150373/fimdark
+
 ---
 
 ### Downloading the script:
