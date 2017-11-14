@@ -6,7 +6,7 @@
 
  * Make sure you have **[Tampermonkey](http://tampermonkey.net/)** installed on your browser to use these.
  * After changing a script press Ctrl+S to save it!
- * If you encounter any issues then feel free to create a issue here or just PM me on **[Discord](https://discordapp.com/)**.
+ * If you encounter any issues then feel free to create a issue here or just PM me on **[Discord](https://discordapp.com/) @Sir Inrix | <3#6950**.
 
 I will be maintaining the styles and fixing things as I browse. You dont need to update to get these as the script automagically works off the latest stuff.
 
