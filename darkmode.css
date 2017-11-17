@@ -956,8 +956,9 @@ div.user_page_content_box {
 	color: #ababab
 }
 .list_boxes .bookshelves .bookshelf-description {
+	/* text-shadow: none; */
 	color: #a0a0a0;
-	border-top: 1px solid rgba(0, 0, 0, .1)
+	border-top: 1px solid rgba(0, 0, 0, .1);
 }
 .story-top-toolbar .bookshelves li {
 	text-shadow: 1px 1px rgba(0, 0, 0, .5)
@@ -1385,9 +1386,15 @@ div.add_comment_toolbar {
 	color: #bbb
 }
 .styled_button.styled_button_white {
-	box-shadow: none;
+	text-shadow: none;
 	background: #191818;
-	color: #d4d4d4
+	color: #d4d4d4;
+}
+.styled_button.styled_button_white:HOVER {
+	box-shadow: none;
+	text-shadow: none;
+	background: #151515;
+	color: #d8d8d8;
 }
 .styled_button.styled_button_white .fa {
 	color: #b5b5b5;
