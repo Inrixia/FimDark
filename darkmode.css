@@ -1,6 +1,7 @@
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, bdi, details, dialog, figcaption, figure, footer, header, main, mark, nav, section, summary, time, wbr {
 	border: none!important;
 	text-shadow: none;
+	color: #bfbebe;
 }
 .story_container .chapters-footer .word_count {
 	color: #a7a7a7;
