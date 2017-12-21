@@ -1639,6 +1639,9 @@ div.user_page_content_box {
 .search_options .label {
 	border-color: transparent;
 }
+.properties>tr, .properties>tbody>tr {
+
+}
 .format-toolbar .emoji-selector .emoji-selector__tabs li {
 	background: #505050;
 	background: linear-gradient(to bottom, #333333 0%, #212121 100%);
@@ -1672,7 +1675,7 @@ div.user_page_content_box {
 .faq .answers>li .question .question-text {
 	color: #adadad
 }
-tr:nth-child(odd) {
+tr {
 	background-color: #292929!important
 }
 .styled_button.styled_button_grey {
