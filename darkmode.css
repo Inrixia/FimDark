@@ -5,6 +5,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .styled_button.styled_button_white{
 	border: none;
 }
+.bookshelf-card .bookshelf-icon .fa {
+	color: #e0e0e0;
+}
+.bookshelf-card .top-info .button:hover, .user-card .top-info .button:hover {
+	color: #e0e0e0;
+}
 .search_options .label.focus>span {
 	background: #3a3a3a;
 	color: #c7c7c7;
@@ -329,7 +335,8 @@ a {
 	color: #ccc
 }
 .bookshelf-card .avatar, .user-card .avatar {
-	background: transparent
+	background: transparent;
+	color: white;
 }
 .bookshelf-card h2, .user-card h2 {
 	color: #a5a5a5
@@ -950,7 +957,7 @@ div.user_page_content_box {
 	color: inherit!important
 }
 .bookshelf-card .avatar, .user-card .avatar {
-	background: transparent
+	background: transparent;
 }
 .bookshelf-card h2, .user-card h2 {
 	color: #a5a5a5
