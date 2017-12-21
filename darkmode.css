@@ -1607,6 +1607,7 @@ div.user_page_content_box {
 .format-toolbar .emoji-selector .emoji-selector__tabs {
 	background: black!important
 }
+.bookshelf-card .top-info .button:hover, .user-card .top-info .button:hover {background-color: #272727;}
 .format-toolbar .emoji-selector .emoji-selector__tabs li {
 	background: #505050;
 	background: linear-gradient(to bottom, #333333 0%, #212121 100%);
