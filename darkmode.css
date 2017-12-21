@@ -297,8 +297,8 @@ html, body {
 	color: #9a9a9a
 }
 a {
-	color: #4f8822;
-	text-shadow: none
+	color: #3073b9;
+	text-shadow: none;
 }
 .writing_guide .golden {
 	background-color: #191919!important
@@ -567,9 +567,6 @@ div.search_results_count {
 }
 .story_container .story-top-toolbar {
 	border-bottom: 1px solid rgba(0, 0, 0, .2)
-}
-.story_container .story-top-toolbar .right .drop-down-expander {
-	background: #1b1b1b
 }
 .story_container .chapters>li {
 	background-color: #252525;
@@ -1229,7 +1226,8 @@ div.search_results_count {
 	border: none;
 }
 .story_container .story-top-toolbar .right .drop-down-expander {
-	background: #1b1b1b
+	background: #1b1b1b;
+	border:  none;
 }
 .story_container .title .story_name {
 	color: #b5b5b5
