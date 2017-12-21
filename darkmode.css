@@ -3,15 +3,32 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	color: #bfbebe;
 	border-color: transparent !important;
 }
-:not(pre)>code[class*="language-"], pre[class*="language-"] {
-	background-color: transparent;
-}
-.bbcode pre code:before, .article pre code:before{
-	background-color: #3c3c3c !important;
-}
 a.sidebar-header:hover {
 	box-shadow: 0 1px 0 #383838 inset;
 	background: #212121;
+}
+.user-page .module-watching .watching-header, .user-page .module-watching .watching-footer {
+	background: #191919;
+	color: #d0d0d0;
+}
+.sidebar-user-list li>a {
+	box-shadow: 0 1px 0 #6b6b6b inset;
+}
+.sidebar-user-list .avatar {
+	border-color: transparent;
+	background: none;
+}
+.user-page .module-watching .watching-header, .user-page .module-watching .watching-footer, .user-page .module-watching .sidebar-user-list {
+	border: none;
+}
+.sidebar-user-list li>a:hover {
+	background: none;
+}
+.sidebar-header, .user-page .right .module-gallery>h1, .user-page .right .module-text>h1 {
+	color: #d0d0d0;
+}
+.user-page .left .module-groups .sidebar-group-list {
+	background: none;
 }
 .tag-drop-down li[data-selected="1"] {
 	background: #131313 !important;
