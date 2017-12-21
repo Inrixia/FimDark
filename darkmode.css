@@ -3,6 +3,34 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	text-shadow: none;
 	color: #bfbebe;
 }
+.sidebar-box .news-ticker li {
+	border-bottom: 1px solid #1b1b1b;
+}
+.content_box, .user-cp-content-box, .bookshelf-card, .user-card, .list_boxes .groups ul li a, .api-content-box, .bookshelf-sidebar-list li.selected, .bookshelf-sidebar-list .bookshelf-icon, div.search_results_count, .comment .data, .comment .avatar, .feed>li, .feed>li .avatar, .front_page .featured_box, .group_list .icon, .thread_list table td .avatar, .thread_list table td .group-icon, .member_list table td img.avatar, .group-card, .private-message-list .avatar, .sidebar-box, .sidebar-blog-post-list>li, .statistics .graph, .story_content_box, .story_container img.story_avatar, .story-card, .thumbnail-story-list li .item, .tag-page .related-characters li a, .tag-header, .user_cp .tabs img, .user_cp .tabs .tab-collection, div.user_cp .message_table img.avatar, .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar, .story-page-header .image-container img, .user-page-header .avatar-container img, .page_list, .page_list_info, .adsbygoogle, .hfksjdhfksjd, .pw-ad-box table, .private_messages .previous_message .avatar, .content_box, .user-cp-content-box, .bookshelf-card, .user-card, .list_boxes .groups ul li a, .api-content-box, .bookshelf-sidebar-list li.selected, .bookshelf-sidebar-list .bookshelf-icon, div.search_results_count, .comment .data, .comment .avatar, .feed>li, .feed>li .avatar, .front_page .featured_box, .group_list .icon, .thread_list table td .avatar, .thread_list table td .group-icon, .member_list table td img.avatar, .group-card, .private-message-list .avatar, .sidebar-box, .sidebar-blog-post-list>li, .statistics .graph, .story_content_box, .story_container img.story_avatar, .story-card, .thumbnail-story-list li .item, .tag-page .related-characters li a, .tag-header, .user_cp .tabs img, .user_cp .tabs .tab-collection, div.user_cp .message_table img.avatar, .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar, .story-page-header .image-container img, .user-page-header .avatar-container img, .page_list, .page_list_info, .adsbygoogle, .hfksjdhfksjd, .pw-ad-box table, .private_messages .previous_message .avatar {
+	background: #252525;
+    border: 1px solid #656565;
+    border-left-color: #272727;
+    border-top-color: #272727;
+}
+.sidebar-box .news-ticker li .avatar {
+	background: #252525;
+    border: 1px solid #656565;
+    border-left-color: #272727;
+    border-top-color: #272727;
+}
+.sidebar-header, .user-page .right .module-gallery>h1, .user-page .right .module-text>h1 {
+	box-shadow: 0 1px 0 #494a4c inset;
+	background: #313131;
+}
+.currently-reading-list .story_thumbnail {
+	background: #252525;
+}
+.story-card .story-card__tags li a {
+	color: #a7a7a7;
+}
+.story-card .story_link {
+	color: #bfbebe;
+}
 .story_container .chapters-footer .word_count {
 	color: #a7a7a7;
 }
