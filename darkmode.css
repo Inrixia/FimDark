@@ -2,6 +2,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	text-shadow: none;
 	color: #bfbebe;
 }
+.tag-drop-down li[data-selected="1"] {
+	background: #131313 !important;
+	cursor: pointer;
+}
+.tag-drop-down li:nth-child(odd) {
+	background: #1d1d1d;
+}
+.tag-drop-down li {
+	border: black;
+}
+.tag-drop-down li:nth-child(even) {
+	background: #252525;
+}
 .styled_button.styled_button_white{
 	border: none;
 }
@@ -297,8 +310,8 @@ html, body {
 	color: #9a9a9a
 }
 a {
-	color: #3073b9;
-	text-shadow: none;
+	color: #4f8822;
+	text-shadow: none
 }
 .writing_guide .golden {
 	background-color: #191919!important
@@ -567,6 +580,9 @@ div.search_results_count {
 }
 .story_container .story-top-toolbar {
 	border-bottom: 1px solid rgba(0, 0, 0, .2)
+}
+.story_container .story-top-toolbar .right .drop-down-expander {
+	background: #1b1b1b
 }
 .story_container .chapters>li {
 	background-color: #252525;
@@ -1226,8 +1242,7 @@ div.search_results_count {
 	border: none;
 }
 .story_container .story-top-toolbar .right .drop-down-expander {
-	background: #1b1b1b;
-	border:  none;
+	background: #1b1b1b
 }
 .story_container .title .story_name {
 	color: #b5b5b5
