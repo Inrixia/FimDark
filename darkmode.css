@@ -1,20 +1,30 @@
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, bdi, details, dialog, figcaption, figure, footer, header, main, mark, nav, section, summary, time, wbr {
-	/* border: #212121 !important; */
+	border: none!important;
 	text-shadow: none;
 	color: #bfbebe;
-}
-.bbcode hr:after, .article hr:after {
-	background: #212121;
-	color: #c1c1c1
 }
 .sidebar-box .news-ticker li {
 	border-bottom: 1px solid #1b1b1b;
 }
+.user-page .story-gallery {
+	background: #252525;
+}
+.user-page .left .module-gallery .story-gallery>li {
+	border-right: 1px solid #151515;
+    border-bottom: 1px solid #0e0e0e;
+}
+.user-page .story-gallery>li {
+	background: #191919;
+	border: none;
+}
+.user-page .story-gallery .name {
+	color: #b9b9b9;
+}
 .content_box, .user-cp-content-box, .bookshelf-card, .user-card, .list_boxes .groups ul li a, .api-content-box, .bookshelf-sidebar-list li.selected, .bookshelf-sidebar-list .bookshelf-icon, div.search_results_count, .comment .data, .comment .avatar, .feed>li, .feed>li .avatar, .front_page .featured_box, .group_list .icon, .thread_list table td .avatar, .thread_list table td .group-icon, .member_list table td img.avatar, .group-card, .private-message-list .avatar, .sidebar-box, .sidebar-blog-post-list>li, .statistics .graph, .story_content_box, .story_container img.story_avatar, .story-card, .thumbnail-story-list li .item, .tag-page .related-characters li a, .tag-header, .user_cp .tabs img, .user_cp .tabs .tab-collection, div.user_cp .message_table img.avatar, .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar, .story-page-header .image-container img, .user-page-header .avatar-container img, .page_list, .page_list_info, .adsbygoogle, .hfksjdhfksjd, .pw-ad-box table, .private_messages .previous_message .avatar, .content_box, .user-cp-content-box, .bookshelf-card, .user-card, .list_boxes .groups ul li a, .api-content-box, .bookshelf-sidebar-list li.selected, .bookshelf-sidebar-list .bookshelf-icon, div.search_results_count, .comment .data, .comment .avatar, .feed>li, .feed>li .avatar, .front_page .featured_box, .group_list .icon, .thread_list table td .avatar, .thread_list table td .group-icon, .member_list table td img.avatar, .group-card, .private-message-list .avatar, .sidebar-box, .sidebar-blog-post-list>li, .statistics .graph, .story_content_box, .story_container img.story_avatar, .story-card, .thumbnail-story-list li .item, .tag-page .related-characters li a, .tag-header, .user_cp .tabs img, .user_cp .tabs .tab-collection, div.user_cp .message_table img.avatar, .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar, .story-page-header .image-container img, .user-page-header .avatar-container img, .page_list, .page_list_info, .adsbygoogle, .hfksjdhfksjd, .pw-ad-box table, .private_messages .previous_message .avatar {
 	background: #252525;
-	border: 1px solid #151515;
-	border-left-color: #272727;
-	border-top-color: #272727;
+    border: 1px solid #656565;
+    border-left-color: #272727;
+    border-top-color: #272727;
 }
 .sidebar-box .news-ticker li .avatar {
 	background: #252525;
@@ -179,6 +189,7 @@ li.selected a {
 }
 .content_box, .user-cp-content-box, .bookshelf-card, .user-card, .list_boxes .groups ul li a, .list_boxes .blog_posts>ul>li, .api-content-box, .list_boxes .bookshelves li.selected, .list_boxes .bookshelves .bookshelf-icon, div.search_results_count, .comment .data, .comment .avatar, .feed>li, .feed>li .avatar, .front_page .featured_box, .group_list .icon, .thread_list table td .avatar, .thread_list table td .group-icon, .member_list table td img.avatar, .group-card, .private-message-list .avatar, .statistics .graph, .story_content_box, .story_container img.story_avatar, .story-card, .thumbnail-story-list li .item, .properties .characters label div, .tag-page .related-characters li a, .tag-header, .tag-header .image img, .user_cp .tabs img, .user_cp .tabs .tab-collection, div.user_cp .message_table img.avatar, .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar, .story-page-header .image-container img, .user-page-header .avatar-container img, .page_list, .page_list_info, .adsbygoogle, .hfksjdhfksjd, .pw-ad-box table, .private_messages .previous_message .avatar {
 	background-color: #212121 !important;
+	border: none!important;
 }
 .story_container .chapters>li {
 	background-color: #2d2d2d!important
@@ -241,7 +252,7 @@ a {
 .content_box, .user-cp-content-box, .bookshelf-card, .user-card, .list_boxes .groups ul li a, .list_boxes .blog_posts>ul>li, .api-content-box, .list_boxes .bookshelves li.selected, .list_boxes .bookshelves .bookshelf-icon, div.search_results_count, .comment .data, .comment .avatar, .feed>li, .feed>li .avatar, .front_page .featured_box, .group_list .icon, .thread_list table td .avatar, .thread_list table td .group-icon, .member_list table td img.avatar, .group-card, .private-message-list .avatar, .statistics .graph, .story_content_box, .story_container img.story_avatar, .story-card, .thumbnail-story-list li .item, .properties .characters label div, .tag-page .related-characters li a, .tag-header, .tag-header .image img, .user_cp .tabs img, .user_cp .tabs .tab-collection, div.user_cp .message_table img.avatar, .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar, .story-page-header .image-container img, .user-page-header .avatar-container img, .page_list, .page_list_info, .adsbygoogle, .hfksjdhfksjd, .pw-ad-box table, .private_messages .previous_message .avatar {
 	color: #b1b1b1;
 	/* background: #464646; */
-	/* border-top-color: #d6d2cb; */
+	border-top-color: #d6d2cb;
 }
 .content_box hr, .user-cp-content-box hr {
 	background-color: #484848
@@ -850,7 +861,7 @@ div.user_page_content_box {
 .content_box, .user-cp-content-box, .bookshelf-card, .user-card, .list_boxes .groups ul li a, .list_boxes .blog_posts>ul>li, .api-content-box, .list_boxes .bookshelves li.selected, .list_boxes .bookshelves .bookshelf-icon, div.search_results_count, .comment .data, .comment .avatar, .feed>li, .feed>li .avatar, .front_page .featured_box, .group_list .icon, .thread_list table td .avatar, .thread_list table td .group-icon, .member_list table td img.avatar, .group-card, .private-message-list .avatar, .statistics .graph, .story_content_box, .story_container img.story_avatar, .story-card, .thumbnail-story-list li .item, .properties .characters label div, .tag-page .related-characters li a, .tag-header, .tag-header .image img, .user_cp .tabs img, .user_cp .tabs .tab-collection, div.user_cp .message_table img.avatar, .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar, .story-page-header .image-container img, .user-page-header .avatar-container img, .page_list, .page_list_info, .adsbygoogle, .hfksjdhfksjd, .pw-ad-box table, .private_messages .previous_message .avatar {
 	color: #b1b1b1;
 	background: #464646;
-	border-top-color: #444444;
+	border-top-color: #d6d2cb;
 }
 @font-face {
 	src: url(https://static.fimfiction.net/fonts/ponyemoji.ttf)
@@ -1317,8 +1328,7 @@ div.user_page ul.list li span.info {
 	background: #272727;
 	text-shadow: none;
 	box-shadow: none;
-	border: 1px solid #171717;
-	color: #b7b7b7;
+	color: #b7b7b7
 }
 .toggleable-radio label:hover {
 	background: #232323;
@@ -1444,8 +1454,7 @@ div.add_comment_toolbar {
 .calendar .day {
 	color: #bdbdbd;
 	background-color: #212121;
-	border-bottom-left-radius: 4px;
-	border: 1px solid #191919;
+	border-bottom-left-radius: 4px
 }
 .message, .error-message, .success-message {
 	background-color: #313131;
@@ -1601,8 +1610,7 @@ tr:nth-child(odd) {
 	text-shadow: none
 }
 .user-page-header .tabs li a:hover {
-	background: #1d1d1d;
-	/* border: 1px solid #212121; */
+	background: #1d1d1d
 }
 .properties input:disabled {
 	background: #272727
