@@ -3,6 +3,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	text-shadow: none;
 	color: #bfbebe;
 }
+.styled_button.styled_button_white{
+	border: none;
+}
+.search_options .label.focus>span {
+	background: #3a3a3a;
+	color: #c7c7c7;
+}
+.drop-down-pop-up-container .drop-down-pop-up .std ul li a:hover {
+	background: #3a3a3a;
+	color: #c7c7c7;
+}
 .search_options input, .search_options select {
 	background: #252525;
 }
@@ -1484,8 +1495,9 @@ div.add_comment_toolbar {
 .styled_button.styled_button_white:HOVER {
 	box-shadow: none;
 	text-shadow: none;
-	background: #151515;
+	background: #353535;
 	color: #d8d8d8;
+	border: none;
 }
 .styled_button.styled_button_white .fa {
 	color: #b5b5b5;
@@ -1649,7 +1661,7 @@ tr:nth-child(odd) {
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .1) 50%)!important
 }
 .search_options label>span:first-child {
-	background: #151515
+	background: #3a3a3a;
 }
 .properties>tr:nth-child(odd) td.label, .properties>tbody>tr:nth-child(odd) td.label {
 	background: #272727
