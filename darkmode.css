@@ -1,6 +1,11 @@
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, bdi, details, dialog, figcaption, figure, footer, header, main, mark, nav, section, summary, time, wbr {
 	text-shadow: none;
 	color: #bfbebe;
+	border: none !important;
+}
+a.sidebar-header:hover {
+	box-shadow: 0 1px 0 #383838 inset;
+	background: #212121;
 }
 .tag-drop-down li[data-selected="1"] {
 	background: #131313 !important;
@@ -79,7 +84,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 .aggregate-tags li .include {
 	background: #212121;
-	color: #438edc;
+	color: #66a93c;
 }
 .aggregate-tags li .exclude {
 	background: #212121;
@@ -482,9 +487,6 @@ div.search_results_count {
 }
 .front_page .featured_box .featured_story {
 	background: #212121
-}
-.front_page .featured_box .featured_story hr {
-	background: #9e9e9e
 }
 .front_page .featured_box .description {
 	color: #bdbdbd
@@ -1131,7 +1133,8 @@ div.search_results_count {
 	background: #212121
 }
 .front_page .featured_box .featured_story hr {
-	background: #9e9e9e
+	background: #9e9e9e;
+	overflow: hidden;
 }
 .front_page .featured_box .description {
 	color: #bdbdbd
