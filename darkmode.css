@@ -3,6 +3,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	text-shadow: none;
 	color: #bfbebe;
 }
+a.sidebar-header:hover {
+	background: #252525;
+}
 .styled_button.styled_button_white{
 	border: none;
 }
