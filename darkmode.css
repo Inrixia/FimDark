@@ -3,6 +3,54 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	text-shadow: none;
 	color: #bfbebe;
 }
+.search_options input, .search_options select {
+	background: #252525;
+}
+.sidebar-group-list {
+	border: none !important;
+}
+.search_options .label>span {
+	background: #3a3a3a;
+}
+.bbcode hr:after, .article hr:after {
+	color: #cccccc !important;
+	background: #212121 !important;
+}
+.sidebar-group-list .group-name {
+    color: #b9b9b9;
+}
+.sidebar-group-list li>a {
+    background: #191919;
+	box-shadow: 0 1px 0 #2f2f2f inset;
+}
+.sidebar-group-list li>a:hover {
+   background: #232323;
+}
+.aggregate-tags li {
+	box-shadow: 0 1px 0 #383838 inset;
+	border-bottom: 1px solid #444444;
+}
+.aggregate-tags li .exclude:hover {
+	background: #383838;
+	color: #bfbebe;
+}
+.aggregate-tags li .include:hover {
+	background: #2f2f2f;
+}
+.aggregate-tags li .include {
+	background: #212121;
+}
+.aggregate-tags li .exclude {
+	background: #212121;
+	color: #bfbebe;
+}
+.styled_button.styled_button_grey {
+	border: black
+}
+.search_options input:focus, .search_options select:focus {
+	background: #212121;
+	color: #bfbfbf;
+}
 .sidebar-box .news-ticker li {
 	border-bottom: 1px solid #1b1b1b;
 }
@@ -1013,8 +1061,8 @@ div.user_page_content_box {
 	background: #2f2f2f
 }
 .aggregate-tags {
-	border: 1px solid #060606;
-	background: #1b1b1b
+	border: 1px solid #272727;
+	background: #1b1b1b;
 }
 .aggregate-tags li {
 	color: rgba(214, 214, 214, .75)
