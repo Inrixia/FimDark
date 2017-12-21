@@ -8,12 +8,22 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .bookshelf-card .bookshelf-icon .fa {
 	color: #e0e0e0;
 }
+.bookshelf-sidebar-list .bookshelf-icon {
+	border: none !important;
+}
+.bookshelf-sidebar-list .bookshelf-name a {
+	color: #b9b9b9;
+}
 .bookshelf-card .top-info .button:hover, .user-card .top-info .button:hover {
 	color: #e0e0e0;
+}
+.bookshelf-sidebar-list .bookshelf-description {
+	color: #bdbdbd;
 }
 .search_options .label.focus>span {
 	background: #3a3a3a;
 	color: #c7c7c7;
+	border: none;
 }
 .drop-down-pop-up-container .drop-down-pop-up .std ul li a:hover {
 	background: #3a3a3a;
@@ -21,6 +31,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 .search_options input, .search_options select {
 	background: #252525;
+	border: none;
 }
 .sidebar-group-list {
 	border: none !important;
@@ -55,6 +66,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 .aggregate-tags li .include {
 	background: #212121;
+	color: #66a93c;
 }
 .aggregate-tags li .exclude {
 	background: #212121;
@@ -248,9 +260,6 @@ html, body {
 .chapter-selector .drop-down ul li {
 	border-bottom: 1px solid #909090;
 }
-li.selected a {
-	background-color: #212121 !important;
-}
 .content_box, .user-cp-content-box, .bookshelf-card, .user-card, .list_boxes .groups ul li a, .list_boxes .blog_posts>ul>li, .api-content-box, .list_boxes .bookshelves li.selected, .list_boxes .bookshelves .bookshelf-icon, div.search_results_count, .comment .data, .comment .avatar, .feed>li, .feed>li .avatar, .front_page .featured_box, .group_list .icon, .thread_list table td .avatar, .thread_list table td .group-icon, .member_list table td img.avatar, .group-card, .private-message-list .avatar, .statistics .graph, .story_content_box, .story_container img.story_avatar, .story-card, .thumbnail-story-list li .item, .properties .characters label div, .tag-page .related-characters li a, .tag-header, .tag-header .image img, .user_cp .tabs img, .user_cp .tabs .tab-collection, div.user_cp .message_table img.avatar, .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar, .story-page-header .image-container img, .user-page-header .avatar-container img, .page_list, .page_list_info, .adsbygoogle, .hfksjdhfksjd, .pw-ad-box table, .private_messages .previous_message .avatar {
 	background-color: #212121 !important;
 }
@@ -434,10 +443,6 @@ a {
 .aggregate-tags li {
 	color: rgba(214, 214, 214, .75)
 }
-.aggregate-tags li .include {
-	color: #66a93c;
-	border: 1px solid #b8c5af
-}
 div.search_results_count {
 	color: rgba(185, 185, 185, .8)
 }
@@ -525,11 +530,18 @@ div.search_results_count {
 .private-message-list tr td {
 	border-bottom: 1px solid #fff
 }
+.search_options .label.focus>div {
+	background: transparent;
+    color: transparent;
+}
+.search_options .label.focus {
+	border: none;
+}
 .rating_container {
-	color: #b7b5b5
+	color: #b7b5b5;
 }
 .rating_container .like_button, .rating_container .dislike_button {
-	color: #d0d0d0
+	color: #d0d0d0;
 }
 .site-stats .chart {
 	background: #252525;
@@ -555,9 +567,6 @@ div.search_results_count {
 }
 .story_container .story-top-toolbar {
 	border-bottom: 1px solid rgba(0, 0, 0, .2)
-}
-.story_container .story-top-toolbar .right {
-	background: #333
 }
 .story_container .story-top-toolbar .right .drop-down-expander {
 	background: #1b1b1b
@@ -809,9 +818,6 @@ div.user_page_content_box {
 }
 .search_options label {
 	color: #848484
-}
-.search_options label.focus {
-	border-color: #D5C162
 }
 .search_options label.focus>div {
 	background: #353535;
@@ -1084,10 +1090,6 @@ div.user_page_content_box {
 .aggregate-tags li {
 	color: rgba(214, 214, 214, .75)
 }
-.aggregate-tags li .include {
-	color: #66a93c;
-	border: 1px solid #b8c5af
-}
 div.search_results_count {
 	color: rgba(185, 185, 185, .8)
 }
@@ -1223,7 +1225,8 @@ div.search_results_count {
 }
 .story_container .story-top-toolbar .right {
 	background: #333;
-	color: #555
+	color: #555;
+	border: none;
 }
 .story_container .story-top-toolbar .right .drop-down-expander {
 	background: #1b1b1b
@@ -1552,11 +1555,12 @@ div.user_page_content_box {
 	color: #848484
 }
 .search_options label.focus {
-	border-color: #D5C162
+	border: none !important;
 }
 .search_options label.focus>div {
-	background: #353535;
-	color: #dedede
+	background: #353535 !important;
+	color: #dedede !important;
+	border:  none;
 }
 .search_options select option {
 	color: #c7c7c7;
