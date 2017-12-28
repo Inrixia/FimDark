@@ -3,6 +3,20 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	color: #bfbebe;
 	border-color: transparent !important;
 }
+.sidebar-blog-post-list .blog_post_link {
+	color: #bfbfbf;
+}
+.bbcode-editor .bbcode-editor__footer {
+	background-color: #2f2f2f;
+	box-shadow: none;
+}
+.styled_button.styled_button_blue span {
+	color: #e4e4e4;
+}
+.sidebar-blog-post-list>li .info {
+	background-color: #2f2f2f;
+	color: #c5c5c5;
+}
 .user_toolbar>ul>li a span, i {
 	color: #e2e2e2;
 }
@@ -119,9 +133,7 @@ a.sidebar-header:hover {
 }
 .content_box, .user-cp-content-box, .bookshelf-card, .user-card, .list_boxes .groups ul li a, .api-content-box, .bookshelf-sidebar-list li.selected, .bookshelf-sidebar-list .bookshelf-icon, div.search_results_count, .comment .data, .comment .avatar, .feed>li, .feed>li .avatar, .front_page .featured_box, .group_list .icon, .thread_list table td .avatar, .thread_list table td .group-icon, .member_list table td img.avatar, .group-card, .private-message-list .avatar, .sidebar-box, .sidebar-blog-post-list>li, .statistics .graph, .story_content_box, .story_container img.story_avatar, .story-card, .thumbnail-story-list li .item, .tag-page .related-characters li a, .tag-header, .user_cp .tabs img, .user_cp .tabs .tab-collection, div.user_cp .message_table img.avatar, .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar, .story-page-header .image-container img, .user-page-header .avatar-container img, .page_list, .page_list_info, .adsbygoogle, .hfksjdhfksjd, .pw-ad-box table, .private_messages .previous_message .avatar, .content_box, .user-cp-content-box, .bookshelf-card, .user-card, .list_boxes .groups ul li a, .api-content-box, .bookshelf-sidebar-list li.selected, .bookshelf-sidebar-list .bookshelf-icon, div.search_results_count, .comment .data, .comment .avatar, .feed>li, .feed>li .avatar, .front_page .featured_box, .group_list .icon, .thread_list table td .avatar, .thread_list table td .group-icon, .member_list table td img.avatar, .group-card, .private-message-list .avatar, .sidebar-box, .sidebar-blog-post-list>li, .statistics .graph, .story_content_box, .story_container img.story_avatar, .story-card, .thumbnail-story-list li .item, .tag-page .related-characters li a, .tag-header, .user_cp .tabs img, .user_cp .tabs .tab-collection, div.user_cp .message_table img.avatar, .nav_bar .nav-bar-list>li>ul.drop-down-private-messages li .avatar, .nav_bar .nav-bar-list>li .nav-bar-drop-down.drop-down-private-messages li .avatar, .story-page-header .image-container img, .user-page-header .avatar-container img, .page_list, .page_list_info, .adsbygoogle, .hfksjdhfksjd, .pw-ad-box table, .private_messages .previous_message .avatar {
 	background: #252525;
-	border: 1px solid #656565;
-	border-left-color: #272727;
-	border-top-color: #272727;
+	border: none;
 }
 .sidebar-box .news-ticker li .avatar {
 	background: #252525;
@@ -787,9 +799,6 @@ div.add_comment_toolbar {
 	background-color: #232323;
 	color: #d8d8d8;
 	resize: vertical
-}
-.styled_button {
-	background: #75a83f
 }
 .styled_button.styled_button_white {
 	box-shadow: none;
@@ -1502,7 +1511,8 @@ div.add_comment_toolbar {
 	resize: vertical
 }
 .styled_button {
-	background: #75a83f
+	background: #75a83f;
+	color: white;
 }
 .styled_button.styled_button_brown {
 	box-shadow: 0 1px #333 inset;
@@ -1713,4 +1723,5 @@ tr {
 }
 .properties input:disabled {
 	background: #272727
+}
 }
