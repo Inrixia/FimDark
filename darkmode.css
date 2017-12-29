@@ -6,6 +6,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .sidebar-blog-post-list .blog_post_link {
 	color: #bfbfbf;
 }
+a.sidebar-header:hover {
+	color: #d6d6d6;
+}
+a.sidebar-header {
+	color: #c7c7c7;
+}
 .bbcode-editor .bbcode-editor__footer {
 	background-color: #2f2f2f;
 	box-shadow: none;
