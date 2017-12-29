@@ -3,8 +3,32 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	color: #bfbebe;
 	border-color: transparent !important;
 }
-.group .group_icon {
-	background-color:#313131
+.topbar-shadow div.light-gradient {
+    top: 0;
+    background: rgba(44,53,68,0);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(44,53,68,0)), color-stop(80px, #2c3544));
+    background: -webkit-linear-gradient(left, rgba(44,53,68,0) 0%, #2c3544 80px);
+    background: linear-gradient(to right, rgba(44,53,68,0) 0%, #2c3544 80px);
+}
+.topbar-shadow div.light-gradient:before {
+    background: #2c3544;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #2c3544), color-stop(80px, rgba(44,53,68,0)));
+    background: -webkit-linear-gradient(left, #2c3544 0%, rgba(44,53,68,0) 80px);
+    background: linear-gradient(to right, #2c3544 0%, rgba(44,53,68,0) 80px);
+}
+.comment .comment_information:after {
+	background: #354052;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #354052), color-stop(70%, rgba(53,64,82,0)));
+    background: -webkit-linear-gradient(left, #354052 0%, rgba(53,64,82,0) 70%);
+    background: linear-gradient(to right, #354052 0%, rgba(53,64,82,0) 70%);
+}
+.bookshelf-card .top-info .button:after, .user-card .top-info .button:after {
+	background-color: #3e3e3e;
+}
+.bookshelf-card .top-info .button, .user-card .top-info .button {
+	border-color: rgba(19, 19, 19, .92);
+	background-color: #3e3e3e;
+	color: #ccc;
 }
 .sidebar-blog-post-list .blog_post_link {
 	color: #bfbfbf;
@@ -21,7 +45,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	color: #c5c5c5;
 }
 .user_toolbar>ul>li a span, i {
-	color: #e2e2e2;
+	color: #b1b1b1;
 }
 a.sidebar-header:hover {
 	box-shadow: 0 1px 0 #383838 inset;
@@ -147,7 +171,6 @@ a.sidebar-header:hover {
 .sidebar-header, .user-page .right .module-gallery>h1, .user-page .right .module-text>h1 {
 	box-shadow: 0 1px 0 #494a4c inset;
 	background: #313131;
-	color: #d4d4d4;
 }
 .currently-reading-list .story_thumbnail {
 	background: #252525;
@@ -376,9 +399,9 @@ a {
 	background-color: #191919!important
 }
 .bookshelf-card .top-info .button, .user-card .top-info .button {
-	border-color: rgba(19, 19, 19, .92);
+	border-left: 1px solid #353535 !important;
 	background-color: #3e3e3e;
-	color: #ccc
+	color: #ccc;
 }
 .bookshelf-card .avatar, .user-card .avatar {
 	background: transparent;
@@ -431,9 +454,6 @@ a {
 	color: #9c9c9c
 }
 .bbcode blockquote, .article blockquote {
-	background: #1d1d1d
-}
-.bbcode code, .article code {
 	background: #1d1d1d
 }
 .bbcode pre code, .article pre code {
@@ -982,11 +1002,6 @@ div.user_page_content_box {
 .bookshelf-card .top-info, .user-card .top-info {
 	background-color: #191919!important
 }
-.bookshelf-card .top-info .button, .user-card .top-info .button {
-	border-color: rgba(19, 19, 19, .92);
-	background-color: #3e3e3e;
-	color: #ccc
-}
 .bookshelf-card .top-info .button i, .user-card .top-info .button i {
 	color: inherit!important
 }
@@ -1057,14 +1072,11 @@ div.user_page_content_box {
 	background: #1d1d1d
 }
 .bbcode code, .article code {
-	background: #1d1d1d
+	background: #1d1d1d !important;
 }
 .bbcode pre code, .article pre code {
 	background: #191919;
 	color: #c1c1c1
-}
-.group-header .banner .banner_overlay:after {
-	border: none;
 }
 .bbcode h1, .bbcode h2, .bbcode h3, .article h1, .article h2, .article h3 {
 	color: #ccc9c9
