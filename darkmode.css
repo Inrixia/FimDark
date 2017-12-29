@@ -3,6 +3,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	color: #bfbebe;
 	border-color: transparent !important;
 }
+.front_page .featured_box .story_image {
+	background-color:transparent;
+}
 .sidebar-blog-post-list .blog_post_link {
 	color: #bfbfbf;
 }
@@ -1076,7 +1079,7 @@ div.user_page_content_box {
 	background: #333
 }
 .embed-container .placeholder {
-	box-shadow: 1px 1px 3px #171616
+	background-color: transparent !important;
 }
 .embed-container .overlay {
 	border: 1px solid rgba(0, 0, 0, .1)
@@ -1108,7 +1111,8 @@ div.user_page_content_box {
 	text-shadow: 1px 1px rgba(0, 0, 0, .5)
 }
 .story-top-toolbar .bookshelves li.unselected {
-	background: #2f2f2f!important
+	background: #2f2f2f!important;
+	border-color: transparent;
 }
 .bookshelves-popup-list .icon {
 	background: #2f2f2f
