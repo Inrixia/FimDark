@@ -463,9 +463,6 @@ a {
 .story-top-toolbar .bookshelves li {
 	text-shadow: 1px 1px rgba(0, 0, 0, .5)
 }
-.story-top-toolbar .bookshelves li.unselected {
-	background: #2f2f2f!important
-}
 .bookshelves-popup-list .icon {
 	background: #2f2f2f
 }
@@ -1098,11 +1095,9 @@ div.user_page_content_box {
 	color: #a0a0a0;
 	border-top: 1px solid rgba(0, 0, 0, .1);
 }
-.story-top-toolbar .bookshelves li {
-	text-shadow: 1px 1px rgba(0, 0, 0, .5)
-}
 .story-top-toolbar .bookshelves li.unselected {
-	background: #2f2f2f!important
+	background: #2f2f2f !important;
+	border-color: #212121;
 }
 .bookshelves-popup-list .icon {
 	background: #2f2f2f
