@@ -884,9 +884,6 @@ div.user_page_content_box {
 	background: #272727;
 	border-bottom: 1px solid #ddd
 }
-.search_options label {
-	color: #848484
-}
 .search_options label.focus>div {
 	background: #353535;
 	color: #dedede
@@ -1619,7 +1616,8 @@ div.user_page_content_box {
 	border-bottom: 1px solid #ddd
 }
 .search_options label {
-	color: #848484
+	background: transparent !important;
+	color: #848484 !important;
 }
 .search_options label.focus {
 	border: none !important;
@@ -1686,7 +1684,7 @@ div.user_page_content_box {
 	border-color: transparent;
 }
 .search_options .label {
-	border-color: transparent;
+	border: none;
 }
 .properties>tr, .properties>tbody>tr {
 
