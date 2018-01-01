@@ -117,12 +117,14 @@ a.sidebar-header:hover {
 .search_options input, .search_options select {
 	background: #252525;
 	border: none;
+	color: #b5b5b5;
 }
 .sidebar-group-list {
 	border: none !important;
 }
 .search_options .label>span {
 	background: #3a3a3a;
+	color: #aaaaaa;
 }
 .bbcode hr:after, .article hr:after {
 	color: #cccccc !important;
