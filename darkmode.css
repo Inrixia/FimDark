@@ -1726,10 +1726,10 @@ tr {
 	background-color: #292929!important
 }
 .styled_button.styled_button_grey {
-	background: #444;
-	color: #d2d2d2;
+	background: #2a2a2a;
+	color: #c5c5c5 !important;
 	text-shadow: none;
-	box-shadow: none
+	box-shadow: none;
 }
 .group-header .menu .buttons li a:hover {
 	background: #171717
