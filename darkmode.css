@@ -1,10 +1,28 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, bdi, details, dialog, figcaption, figure, footer, header, main, mark, nav, section, summary, time, wbr {
+html, input, select, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, bdi, details, dialog, figcaption, figure, footer, header, main, mark, nav, section, summary, time, wbr {
 	text-shadow: none;
-	color: #bfbebe;
 	border-color: transparent !important;
+}
+html, body, applet, object, iframe, h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, bdi, details, dialog, figcaption, figure, footer, header, main, mark, nav, section, summary, time, wbr {
+	color: #bfbebe;
+}
+.quote_container .comment {
+    background-color: #2f2f2f;
+}
+.drop-down-pop-up-container .drop-down-pop-up>h1 {
+	color: #cfcfcf;
+}
+.drop-down-pop-up-container .drop-down-pop-up .std input[type="text"], .drop-down-pop-up-container .drop-down-pop-up .std input[type="url"], .drop-down-pop-up-container .drop-down-pop-up .std input[type="email"], .drop-down-pop-up-container .drop-down-pop-up .std select {
+	background: #2d2d2d !important;
+	color: #a2a2a2;
 }
 .front_page .featured_box .story_image {
 	background-color:transparent;
+}
+.drop-down-pop-up-container .drop-down-pop-up .std input[type="text"]:FOCUS, .drop-down-pop-up-container .drop-down-pop-up .std input[type="url"]:FOCUS, .drop-down-pop-up-container .drop-down-pop-up .std input[type="email"]:FOCUS, .drop-down-pop-up-container .drop-down-pop-up .std select:FOCUS {
+    background-color: #494949;
+    text-shadow: none;
+    color: #c6c6c6;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.1) inset;
 }
 .sidebar-blog-post-list .blog_post_link {
 	color: #bfbfbf;
@@ -394,8 +412,8 @@ a {
 }
 .story-page-header, .user-page-header {
 	background-color: #151515;
-	color: #d4d4d4;
-	box-shadow: 0 -1px 0 #696969 inset
+	color: #b2b2b2;
+	box-shadow: 0 -1px 0 #696969 inset;
 }
 .story-page-header .mini-info-box, .user-page-header .mini-info-box {
 	background: #313131
@@ -631,9 +649,6 @@ div.search_results_count {
 	background: #2b2b2b;
 	box-shadow: 0 0 0 1px #fff inset;
 	box-shadow: none!important
-}
-.story-tags>li a {
-	color: #f3f3f3
 }
 .properties td {
 	background-color: #1f1f1f
@@ -1001,12 +1016,6 @@ div.user_page_content_box {
 .bookshelf-card h2, .user-card h2 {
 	color: #a5a5a5
 }
-.story-page-header, .user-page-header {
-	background-color: #151515;
-	color: #d4d4d4;
-	box-shadow: 0 -1px 0 #696969 inset;
-	border: none!important
-}
 .story-page-header .mini-info-box, .user-page-header .mini-info-box {
 	background: #313131;
 	text-shadow: none
@@ -1297,7 +1306,7 @@ div.search_results_count {
 	box-shadow: none!important
 }
 .story-tags>li a {
-	color: #f3f3f3
+	color: #e7e7e7;
 }
 .properties td {
 	background-color: #1f1f1f
@@ -1613,10 +1622,6 @@ div.user_page_content_box {
 .drop-down-pop-up-container .drop-down-pop-up .std label {
 	border-bottom: 1px solid #ddd
 }
-.drop-down-pop-up-container .drop-down-pop-up .std input[type="text"], .drop-down-pop-up-container .drop-down-pop-up .std input[type="url"], .drop-down-pop-up-container .drop-down-pop-up .std input[type="email"], .drop-down-pop-up-container .drop-down-pop-up .std select {
-	background: #2d2d2d;
-	color: #a2a2a2
-}
 .drop-down-pop-up-container .drop-down-pop-up .std ul li {
 	border-bottom: 1px solid #5d5d5d
 }
@@ -1734,5 +1739,4 @@ tr {
 }
 .properties input:disabled {
 	background: #272727
-}
 }
