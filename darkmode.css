@@ -2,6 +2,32 @@ html, input, select, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5
 	text-shadow: none;
 	border-color: transparent !important;
 }
+.comment .comment_information:after {
+    background: #7b7b7b;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #7b7b7b), color-stop(70%, rgba(221,221,221,0)));
+    background: -webkit-linear-gradient(left, #7b7b7b 0%, rgba(221,221,221,0) 70%);
+    background: linear-gradient(to right, #7b7b7b 0%, rgba(221,221,221,0) 70%);
+}
+.format-toolbar>.toolbar_buttons>li.divider:before {
+    background: #258bd400;
+    background: -webkit-gradient(linear, left top, left bottom, #258bd400, #fff, #258bd400);
+    background: -webkit-linear-gradient(top, #258bd400 0%, #fff 50%, #258bd400 100%);
+    background: linear-gradient(to bottom, #258bd400 0%, #fff 50%, #258bd400 100%);
+    right: 0px;
+}
+.topbar-shadow div.light-gradient {
+    top: 0;
+    background: rgba(255,255,255,0);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(80px, #8c8c8c));
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, #8c8c8c 80px);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, #7b7b7b 80px);
+}
+.topbar-shadow div.light-gradient:before {
+    background: #fff;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #fff), color-stop(80px, rgba(255,255,255,0)));
+    background: -webkit-linear-gradient(left, #fff 0%, rgba(255,255,255,0) 80px);
+    background: linear-gradient(to right, #7b7b7b 0%, rgba(255,255,255,0) 80px);
+}
 html, body, applet, object, iframe, h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, bdi, details, dialog, figcaption, figure, footer, header, main, mark, nav, section, summary, time, wbr {
 	color: #bfbebe;
 }
@@ -213,9 +239,6 @@ a.sidebar-header:hover {
 .properties input.valid, .properties input:required:valid{
 	background-color: #2f2f2f;
 	border-color: #252525;
-}
-.content_format_bow .chapter a {
-	color: #cecece !important;
 }
 .comment .comment_information .buttons a:hover{
 	background-color: #252525;
