@@ -1680,11 +1680,9 @@ div.user_page_content_box {
 	background: black!important
 }
 .bookshelf-card .top-info .button:hover, .user-card .top-info .button:hover {background-color: #272727;}
-.search_options .label>span {
-	border-color: transparent;
-}
 .search_options .label {
 	border: none;
+	background: transparent !important;
 }
 .properties>tr, .properties>tbody>tr {
 
