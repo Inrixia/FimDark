@@ -15,6 +15,15 @@ html, input, select, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5
     background: linear-gradient(to bottom, #258bd400 0%, #fff 50%, #258bd400 100%);
     right: 0px;
 }
+.button-group .drop-down ul li.selected a, .button-group-vertical .drop-down ul li.selected a, .drop-down-button .drop-down ul li.selected a {
+    background: #292929;
+}
+.button-group .drop-down ul li.selected a:hover, .button-group-vertical .drop-down ul li.selected a:hover, .drop-down-button .drop-down ul li.selected a:hover {
+	background: #292929;
+}
+.chapter-selector .drop-down ul li {
+    border-color:#333333 !important;
+}
 .topbar-shadow div.light-gradient {
     top: 0;
     background: rgba(255,255,255,0);
@@ -1582,7 +1591,7 @@ div.add_comment_toolbar {
 .button-group .drop-down, .button-group-vertical .drop-down, .drop-down-button .drop-down {
 	background: #1b1b1b;
 	color: #a0a0a0;
-	text-shadow: none
+	text-shadow: none;
 }
 .button-group .drop-down ul li.divider, .button-group-vertical .drop-down ul li.divider, .drop-down-button .drop-down ul li.divider {
 	background: #101010
