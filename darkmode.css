@@ -1,4 +1,4 @@
-html, input, select, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, bdi, details, dialog, figcaption, figure, footer, header, main, mark, nav, section, summary, time, wbr {
+html, input, li, select, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, bdi, details, dialog, figcaption, figure, footer, header, main, mark, nav, section, summary, time, wbr {
 	text-shadow: none;
 	border-color: transparent !important;
 }
@@ -14,15 +14,6 @@ html, input, select, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5
     background: -webkit-linear-gradient(top, #258bd400 0%, #fff 50%, #258bd400 100%);
     background: linear-gradient(to bottom, #258bd400 0%, #fff 50%, #258bd400 100%);
     right: 0px;
-}
-.button-group .drop-down ul li.selected a, .button-group-vertical .drop-down ul li.selected a, .drop-down-button .drop-down ul li.selected a {
-    background: #292929;
-}
-.button-group .drop-down ul li.selected a:hover, .button-group-vertical .drop-down ul li.selected a:hover, .drop-down-button .drop-down ul li.selected a:hover {
-	background: #292929;
-}
-.chapter-selector .drop-down ul li {
-    border-color:#333333 !important;
 }
 .topbar-shadow div.light-gradient {
     top: 0;
@@ -126,14 +117,12 @@ a.sidebar-header:hover {
 .search_options input, .search_options select {
 	background: #252525;
 	border: none;
-	color: #b5b5b5;
 }
 .sidebar-group-list {
 	border: none !important;
 }
 .search_options .label>span {
 	background: #3a3a3a;
-	color: #aaaaaa;
 }
 .bbcode hr:after, .article hr:after {
 	color: #cccccc !important;
@@ -895,6 +884,9 @@ div.user_page_content_box {
 	background: #272727;
 	border-bottom: 1px solid #ddd
 }
+.search_options label {
+	color: #848484
+}
 .search_options label.focus>div {
 	background: #353535;
 	color: #dedede
@@ -1591,7 +1583,7 @@ div.add_comment_toolbar {
 .button-group .drop-down, .button-group-vertical .drop-down, .drop-down-button .drop-down {
 	background: #1b1b1b;
 	color: #a0a0a0;
-	text-shadow: none;
+	text-shadow: none
 }
 .button-group .drop-down ul li.divider, .button-group-vertical .drop-down ul li.divider, .drop-down-button .drop-down ul li.divider {
 	background: #101010
@@ -1627,8 +1619,7 @@ div.user_page_content_box {
 	border-bottom: 1px solid #ddd
 }
 .search_options label {
-	background: transparent !important;
-	color: #848484 !important;
+	color: #848484
 }
 .search_options label.focus {
 	border: none !important;
@@ -1691,9 +1682,11 @@ div.user_page_content_box {
 	background: black!important
 }
 .bookshelf-card .top-info .button:hover, .user-card .top-info .button:hover {background-color: #272727;}
+.search_options .label>span {
+	border-color: transparent;
+}
 .search_options .label {
-	border: none;
-	background: transparent !important;
+	border-color: transparent;
 }
 .properties>tr, .properties>tbody>tr {
 
@@ -1735,10 +1728,10 @@ tr {
 	background-color: #292929!important
 }
 .styled_button.styled_button_grey {
-	background: #2a2a2a;
-	color: #c5c5c5 !important;
+	background: #444;
+	color: #d2d2d2;
 	text-shadow: none;
-	box-shadow: none;
+	box-shadow: none
 }
 .group-header .menu .buttons li a:hover {
 	background: #171717
