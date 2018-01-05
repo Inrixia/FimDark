@@ -2,6 +2,20 @@ html, input, li, select, body, div, span, applet, object, iframe, h1, h2, h3, h4
 	text-shadow: none;
 	border-color: transparent !important;
 }
+button-group .drop-down ul li.selected a, .button-group-vertical .drop-down ul li.selected a, .drop-down-button .drop-down ul li.selected a {		
+    background: #2.92929;		
+}		
+.button-group .drop-down ul li.selected a:hover, .button-group-vertical .drop-down ul li.selected a:hover, .drop-down-button .drop-down ul li.selected a:hover {		
+	background: #292929;		
+}	
+.search_options label {
+ background: transparent !important;
+ color: #848484 !important;	
+}	
+.chapter-selector .drop-down ul li {		
+    border-color:#333333 !important;		
+}
+
 .comment .comment_information:after {
     background: #7b7b7b;
     background: -webkit-gradient(linear, left top, right top, color-stop(0%, #7b7b7b), color-stop(70%, rgba(221,221,221,0)));
@@ -117,12 +131,14 @@ a.sidebar-header:hover {
 .search_options input, .search_options select {
 	background: #252525;
 	border: none;
+	color: #b5b5b5;
 }
 .sidebar-group-list {
 	border: none !important;
 }
 .search_options .label>span {
 	background: #3a3a3a;
+	color: #aaaaaa;
 }
 .bbcode hr:after, .article hr:after {
 	color: #cccccc !important;
@@ -613,6 +629,7 @@ div.search_results_count {
 }
 .search_options .label.focus {
 	border: none;
+	background-color: transparent;
 }
 .rating_container {
 	color: #b7b5b5;
@@ -855,7 +872,7 @@ div.add_comment_toolbar {
 .button-group .drop-down, .button-group-vertical .drop-down, .drop-down-button .drop-down {
 	background: #1b1b1b;
 	color: #a0a0a0;
-	text-shadow: none
+	text-shadow: none;
 }
 .button-group .drop-down ul li.divider, .button-group-vertical .drop-down ul li.divider, .drop-down-button .drop-down ul li.divider {
 	background: #101010
@@ -1686,7 +1703,8 @@ div.user_page_content_box {
 	border-color: transparent;
 }
 .search_options .label {
-	border-color: transparent;
+	border-color: transparent !important;
+	background-color: transparent;
 }
 .properties>tr, .properties>tbody>tr {
 
