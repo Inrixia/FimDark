@@ -97,6 +97,7 @@ a.sidebar-header:hover {
 }
 .tag-drop-down li {
 	border: black;
+	color: #a5a5a5;
 }
 .tag-drop-down li:nth-child(even) {
 	background: #252525;
