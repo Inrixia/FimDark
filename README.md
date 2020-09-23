@@ -16,10 +16,10 @@ I will be maintaining the styles and fixing things as I browse. You dont need to
 
 ### Downloading the script:
 For the **Dark Theme** click this:
-https://github.com/Inrixia/Inrixia.github.io/raw/master/FimDash.user.js
+https://github.com/Inrixia/FimDark/raw/master/FimDash.user.js
 
 For the **Banner** click this:
-https://github.com/Inrixia/Inrixia.github.io/raw/master/FimBanner.user.js
+https://github.com/Inrixia/FimDark/raw/master/FimBanner.user.js
 
 **Important Note**: The banner is modified and heavily cut down from **[FimFiction Advanced](https://sta.sh/01pfv954kl8r)** by **[Sollace](https://www.fimfiction.net/user/138711/Sollace)**. Please do go check it out its quite good.
 
@@ -28,7 +28,7 @@ https://github.com/Inrixia/Inrixia.github.io/raw/master/FimBanner.user.js
 ![Example](https://i.gyazo.com/e6b68bde09bb09d39e9c33b0d46f8f14.png)
 
 For the **FimCharicon Script** click this:
-https://github.com/Inrixia/inrixia.github.io/raw/master/fim_charicon.user.js
+https://github.com/Inrixia/FimDark/raw/master/fim_charicon.user.js
 
 ---
 
@@ -40,7 +40,7 @@ https://github.com/Inrixia/inrixia.github.io/raw/master/fim_charicon.user.js
 
 ## Other Links
 
-#### [How to change the banner](https://github.com/Inrixia/Inrixia.github.io/blob/master/banner_change.md)
+#### [How to change the banner](https://github.com/Inrixia/FimDark/blob/master/banner_change.md)
 
 #### How to enable optional settings
 
